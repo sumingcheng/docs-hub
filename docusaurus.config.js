@@ -72,7 +72,7 @@ const config = {
       title: 'Su Mingcheng\'s Blog', // 导航栏标题
       logo: {
         alt: '素明诚', // logo的替代文本
-        src: 'img/mini.svg' // logo的路径
+        src: 'img/mini.jpg' // logo的路径
       },
       items: [
         {
