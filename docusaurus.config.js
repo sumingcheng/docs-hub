@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '素明诚的笔记本', // 网站的标题
-  tagline: '问题多多', // 网站的标语
+  tagline: '探索', // 网站的标语
   favicon: 'img/favicon.ico', // 网站的图标
 
   // 设置你的网站的生产URL
@@ -74,7 +74,7 @@ const config = {
         alt: 'My Site Logo', // logo的替代文本
         src: 'img/logo.svg' // logo的路径
       },
-      items: [ // 导航项
+      items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
@@ -82,11 +82,6 @@ const config = {
           label: 'Tutorial'
         },
         {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          to: '/test',
-          position: 'left',
-          label: 'test'
-        },
         {
           type: 'docSidebar',
           sidebarId: 'deepExplorationSidebar',
