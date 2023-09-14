@@ -10,12 +10,12 @@ const config = {
   title: 'Su Mingcheng\'s Blog', // 网站的标题
   tagline: 'sumingcheng', // 网站的标语
   favicon: 'img/favicon.ico', // 网站的图标
-
+  trailingSlash: true, // 是否在URL末尾添加斜杠
   // 设置你的网站的生产URL
   url: 'https://sumingcheng.github.io',
   // 设置网站在哪个路径名下被访问
   // 对于GitHub pages部署，通常是 '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/NoteBook/',
 
   // GitHub pages部署配置。
   // 如果你不使用GitHub pages，你不需要这些。
