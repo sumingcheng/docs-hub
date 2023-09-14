@@ -68,7 +68,7 @@ const config = {
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
       ({
         // 用你的项目的社交卡片替换
-        image: 'img/docusaurus-social-card.jpg',
+        image: 'img/mini.jpg',
         navbar: {
           title: 'My Site', // 导航栏标题
           logo: {
@@ -84,7 +84,31 @@ const config = {
             },
             {to: '/blog', label: 'Blog', position: 'left'},
             {
-              href: 'https://github.com/facebook/docusaurus',
+              type: 'docSidebar',
+              sidebarId: 'deepExplorationSidebar',
+              position: 'left',
+              label: '深度探索',
+            },
+            {
+              type: 'docSidebar',
+              sidebarId: 'thoughtsSidebar',
+              position: 'left',
+              label: '思考碎片',
+            },
+            {
+              type: 'docSidebar',
+              sidebarId: 'translationsSidebar',
+              position: 'left',
+              label: '译文集',
+            },
+            {
+              type: 'docSidebar',
+              sidebarId: 'memoSidebar',
+              position: 'left',
+              label: '备忘录',
+            },
+            {
+              href: 'https://github.com/sumingcheng',
               label: 'GitHub',
               position: 'right'
             }
