@@ -15,7 +15,7 @@ const config = {
   url: 'https://sumingcheng.github.io',
   // 设置网站在哪个路径名下被访问
   // 对于GitHub pages部署，通常是 '/<projectName>/'
-  baseUrl: '/NoteBook',
+  baseUrl: '/',
 
   // GitHub pages部署配置。
   // 如果你不使用GitHub pages，你不需要这些。
