@@ -7,8 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 // 导入Docusaurus的配置类型
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '素明诚的笔记本', // 网站的标题
-  tagline: '探索', // 网站的标语
+  title: 'Su Mingcheng\'s Blog', // 网站的标题
+  tagline: 'sumingcheng', // 网站的标语
   favicon: 'img/favicon.ico', // 网站的图标
 
   // 设置你的网站的生产URL
@@ -66,7 +66,6 @@ const config = {
   // 导入Docusaurus的经典主题配置类型
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
-    // 用你的项目的社交卡片替换
     image: 'img/mini.jpg',
     navbar: {
       title: 'Su Mingcheng\'s Blog', // 导航栏标题
@@ -75,35 +74,29 @@ const config = {
         src: 'img/mini.jpg' // logo的路径
       },
       items: [
+        // {to: '/blog', label: 'Blog', position: 'right'},
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial'
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          type: 'docSidebar',
-          sidebarId: 'deepExplorationSidebar',
-          position: 'left',
-          label: '深度探索'
+          sidebarId: 'learnSidebar',
+          position: 'right',
+          label: '学习'
         },
         {
           type: 'docSidebar',
           sidebarId: 'thoughtsSidebar',
-          position: 'left',
+          position: 'right',
           label: '思考碎片'
         },
         {
           type: 'docSidebar',
           sidebarId: 'translationsSidebar',
-          position: 'left',
+          position: 'right',
           label: '译文集'
         },
         {
           type: 'docSidebar',
           sidebarId: 'memoSidebar',
-          position: 'left',
+          position: 'right',
           label: '备忘录'
         },
         {
