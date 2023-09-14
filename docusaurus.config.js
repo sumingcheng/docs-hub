@@ -69,10 +69,10 @@ const config = {
     // 用你的项目的社交卡片替换
     image: 'img/mini.jpg',
     navbar: {
-      title: 'My Site', // 导航栏标题
+      title: 'Su Mingcheng\'s Blog', // 导航栏标题
       logo: {
-        alt: 'My Site Logo', // logo的替代文本
-        src: 'img/logo.svg' // logo的路径
+        alt: '素明诚', // logo的替代文本
+        src: 'img/mini.svg' // logo的路径
       },
       items: [
         {
