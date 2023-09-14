@@ -63,107 +63,111 @@ const config = {
   ],
 
   // 主题配置
-  themeConfig:
   // 导入Docusaurus的经典主题配置类型
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-      ({
-        // 用你的项目的社交卡片替换
-        image: 'img/mini.jpg',
-        navbar: {
-          title: 'My Site', // 导航栏标题
-          logo: {
-            alt: 'My Site Logo', // logo的替代文本
-            src: 'img/logo.svg' // logo的路径
-          },
-          items: [ // 导航项
+  themeConfig: {
+    // 用你的项目的社交卡片替换
+    image: 'img/mini.jpg',
+    navbar: {
+      title: 'My Site', // 导航栏标题
+      logo: {
+        alt: 'My Site Logo', // logo的替代文本
+        src: 'img/logo.svg' // logo的路径
+      },
+      items: [ // 导航项
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Tutorial'
+        },
+        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          to: '/test',
+          position: 'left',
+          label: 'test'
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'deepExplorationSidebar',
+          position: 'left',
+          label: '深度探索'
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'thoughtsSidebar',
+          position: 'left',
+          label: '思考碎片'
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'translationsSidebar',
+          position: 'left',
+          label: '译文集'
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'memoSidebar',
+          position: 'left',
+          label: '备忘录'
+        },
+        {
+          href: 'https://github.com/sumingcheng',
+          label: 'GitHub',
+          position: 'right'
+        }
+      ]
+    },
+    footer: { // 页脚配置
+      style: 'dark',
+      links: [
+        {
+          title: 'Docs',
+          items: [
             {
-              type: 'docSidebar',
-              sidebarId: 'tutorialSidebar',
-              position: 'left',
-              label: 'Tutorial'
-            },
-            {to: '/blog', label: 'Blog', position: 'left'},
-            {
-              type: 'docSidebar',
-              sidebarId: 'deepExplorationSidebar',
-              position: 'left',
-              label: '深度探索',
-            },
-            {
-              type: 'docSidebar',
-              sidebarId: 'thoughtsSidebar',
-              position: 'left',
-              label: '思考碎片',
-            },
-            {
-              type: 'docSidebar',
-              sidebarId: 'translationsSidebar',
-              position: 'left',
-              label: '译文集',
-            },
-            {
-              type: 'docSidebar',
-              sidebarId: 'memoSidebar',
-              position: 'left',
-              label: '备忘录',
-            },
-            {
-              href: 'https://github.com/sumingcheng',
-              label: 'GitHub',
-              position: 'right'
+              label: 'Tutorial',
+              to: '/docs/intro'
             }
           ]
         },
-        footer: { // 页脚配置
-          style: 'dark',
-          links: [
+        {
+          title: 'Community',
+          items: [
             {
-              title: 'Docs',
-              items: [
-                {
-                  label: 'Tutorial',
-                  to: '/docs/intro'
-                }
-              ]
+              label: 'Stack Overflow',
+              href: 'https://stackoverflow.com/questions/tagged/docusaurus'
             },
             {
-              title: 'Community',
-              items: [
-                {
-                  label: 'Stack Overflow',
-                  href: 'https://stackoverflow.com/questions/tagged/docusaurus'
-                },
-                {
-                  label: 'Discord',
-                  href: 'https://discordapp.com/invite/docusaurus'
-                },
-                {
-                  label: 'Twitter',
-                  href: 'https://twitter.com/docusaurus'
-                }
-              ]
+              label: 'Discord',
+              href: 'https://discordapp.com/invite/docusaurus'
             },
             {
-              title: 'More',
-              items: [
-                {
-                  label: 'Blog',
-                  to: '/blog'
-                },
-                {
-                  label: 'GitHub',
-                  href: 'https://github.com/facebook/docusaurus'
-                }
-              ]
+              label: 'Twitter',
+              href: 'https://twitter.com/docusaurus'
             }
-          ],
-          copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.` // 版权声明
+          ]
         },
-        prism: { // Prism代码高亮配置
-          theme: lightCodeTheme,
-          darkTheme: darkCodeTheme
+        {
+          title: 'More',
+          items: [
+            {
+              label: 'Blog',
+              to: '/blog'
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/facebook/docusaurus'
+            }
+          ]
         }
-      })
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.` // 版权声明
+    },
+    prism: { // Prism代码高亮配置
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme
+    }
+  }
 }
 
 module.exports = config // 导出配置
