@@ -15,23 +15,23 @@
 ## 目录结构
 
 ```perl
-my-docusaurus-project/
-├── docs/                     # 文档内容
-│   ├── intro.md              # intro.md 文件名会被转换为 /intro 路径
-│   ├── folder/               # 子目录
-│   │   ├── doc1.md           # /folder/doc1 路径
-│   │   └── doc2.md           # /folder/doc2 路径
-│   └── ...
-├── src/                      # 自定义的源代码
-│   ├── css/                  # 用于主题的自定义 CSS
-│   ├── components/           # 自定义 React 组件
-│   └── ...
-├── static/                   # 静态资源（图片、样式等）
-│   ├── img/
-│   └── ...
-├── docusaurus.config.js      # Docusaurus 的配置文件
-├── package.json              # 项目依赖和脚本
-└── sidebar.js                # 定义文档页面的侧边栏
+        my-docusaurus-project/
+        ├── docs/                     # 文档内容
+        │   ├── intro.md              # intro.md 文件名会被转换为 /intro 路径
+        │   ├── folder/               # 子目录
+        │   │   ├── doc1.md           # /folder/doc1 路径
+        │   │   └── doc2.md           # /folder/doc2 路径
+        │   └── ...
+        ├── src/                      # 自定义的源代码
+        │   ├── css/                  # 用于主题的自定义 CSS
+        │   ├── components/           # 自定义 React 组件
+        │   └── ...
+        ├── static/                   # 静态资源（图片、样式等）
+        │   ├── img/
+        │   └── ...
+        ├── docusaurus.config.js      # Docusaurus 的配置文件
+        ├── package.json              # 项目依赖和脚本
+        └── sidebar.js                # 定义文档页面的侧边栏
 ```
 
 1. **docs/**: 这个目录包含你的 Markdown 文档。每个文件或子目录都会转换为网站的一个部分。
