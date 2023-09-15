@@ -66,12 +66,12 @@ const config = {
   // 导入Docusaurus的经典主题配置类型
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
-    image: 'img/mini.jpg',
+    image: 'img/mini.svg',
     navbar: {
       title: 'Su Mingcheng\'s Blog', // 导航栏标题
       logo: {
         alt: '素明诚', // logo的替代文本
-        src: 'img/mini.jpg' // logo的路径
+        src: 'img/mini.svg' // logo的路径
       },
       items: [
         // {to: '/blog', label: 'Blog', position: 'right'},
@@ -79,7 +79,7 @@ const config = {
           type: 'docSidebar',
           sidebarId: 'learnSidebar',
           position: 'right',
-          label: '学习'
+          label: '学习资料'
         },
         {
           type: 'docSidebar',
@@ -95,9 +95,9 @@ const config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'memoSidebar',
+          sidebarId: 'resourceSidebar',
           position: 'right',
-          label: '备忘录'
+          label: '资源'
         },
         {
           href: 'https://github.com/sumingcheng',
