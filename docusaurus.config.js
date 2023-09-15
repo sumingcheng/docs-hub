@@ -66,12 +66,12 @@ const config = {
   // 导入Docusaurus的经典主题配置类型
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
-    image: 'img/mini.svg',
+    image: 'img/mini.ico',
     navbar: {
       title: 'Su Mingcheng\'s Blog', // 导航栏标题
       logo: {
         alt: '素明诚', // logo的替代文本
-        src: 'img/mini.svg' // logo的路径
+        src: 'img/mini.ico' // logo的路径
       },
       items: [
         // {to: '/blog', label: 'Blog', position: 'right'},
