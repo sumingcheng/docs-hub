@@ -1,11 +1,11 @@
 :root {
-  --ifm-color-primary: #4096ff;
-  --ifm-color-primary-dark: #1677ff;
-  --ifm-color-primary-darker: #0958d9;
-  --ifm-color-primary-darkest: #003eb3;
-  --ifm-color-primary-light: #69b1ff;
-  --ifm-color-primary-lighter: #91caff;
-  --ifm-color-primary-lightest: #bae0ff;
+  --ifm-color-primary: #597ef7;
+  --ifm-color-primary-dark: #2f54eb;
+  --ifm-color-primary-darker: #1d39c4;
+  --ifm-color-primary-darkest: #10239e;
+  --ifm-color-primary-light: #85a5ff;
+  --ifm-color-primary-lighter: #adc6ff;
+  --ifm-color-primary-lightest: #d6e4ff;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
@@ -13,13 +13,13 @@
 [data-theme='dark'] {
   --ifm-font-color-base: #ffffff; /* 纯白色 */
   --ifm-font-color-secondary: #f0f0f0; /* 接近白色的淡灰色 */
-  --ifm-color-primary: #4a90e2;
-  --ifm-color-primary-dark: #357ab7;
-  --ifm-color-primary-darker: #2a5f91;
-  --ifm-color-primary-darkest: #1e4566;
-  --ifm-color-primary-light: #5da5e6;
-  --ifm-color-primary-lighter: #72baf0;
-  --ifm-color-primary-lightest: #8dd0fa;
+  --ifm-color-primary: #597ef7;
+  --ifm-color-primary-dark: #2f54eb;
+  --ifm-color-primary-darker: #1d39c4;
+  --ifm-color-primary-darkest: #10239e;
+  --ifm-color-primary-light: #85a5ff;
+  --ifm-color-primary-lighter: #adc6ff;
+  --ifm-color-primary-lightest: #d6e4ff;
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
 }
 

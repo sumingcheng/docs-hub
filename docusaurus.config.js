@@ -27,13 +27,16 @@ const config = {
 
   // 即使你不使用国际化，你也可以使用此字段来设置有用的元数据，如html lang。
   i18n: {
-    defaultLocale: 'zh-CN', // 默认语言
-    locales: ['zh-CN'], // 所支持的语言
+    defaultLocale: 'zh-CN',
+    locales: ['zh-CN', 'en'],
     localeConfigs: {
       'zh-CN': {
-        label: '中文' // 语言的标签
-      }
-    }
+        label: '简体中文',
+      },
+      en: {
+        label: 'English',
+      },
+    },
   },
 
   // 预设配置
