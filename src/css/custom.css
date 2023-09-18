@@ -23,6 +23,28 @@
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
 }
 
+/*减轻过渡眩晕*/
 body {
   transition: background-color 1s ease-in-out, color 1s ease-in-out, border-color 1s ease-in-out;
+}
+
+/*导航粗体*/
+.navbar__item {
+  font-weight: bold;
+}
+
+/*github-icon*/
+.github-icon {
+  display: block;
+  background-image: url('/img/github-icon.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 35px;
+  height: 35px;
+  padding: 0 12px;
+  margin: 0 10px;
+}
+
+[data-theme='dark'] .github-icon {
+  background-image: url('/img/github-icon-white.svg'); /* 夜间模式的白色图标 */
 }

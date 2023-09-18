@@ -31,12 +31,12 @@ const config = {
     locales: ['zh-CN', 'en'],
     localeConfigs: {
       'zh-CN': {
-        label: '简体中文',
+        label: '简体中文'
       },
       en: {
-        label: 'English',
-      },
-    },
+        label: 'English'
+      }
+    }
   },
 
   // 预设配置
@@ -104,14 +104,16 @@ const config = {
         },
         {
           href: 'https://github.com/sumingcheng',
-          label: 'GitHub',
-          position: 'right'
+          'aria-label': 'GitHub repository',
+          position: 'right',
+          className: 'github-icon'
         }
       ]
     },
     footer: { // 页脚配置
       style: 'dark',
       links: [
+        //   好的文章
         {
           title: 'Docs',
           items: [
@@ -122,32 +124,39 @@ const config = {
           ]
         },
         {
-          title: 'Community',
+          title: 'Docs',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus'
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus'
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus'
+              label: 'Tutorial',
+              to: '/docs/intro'
             }
           ]
         },
+        //   社区的链接
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'React',
+              href: 'https://react.dev/learn'
+            },
+            {
+              label: 'Docusaurus',
+              href: 'https://docusaurus.io/zh-CN/docs/'
+            }
+          ]
+        },
+        //   相关链接
         {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog'
+              label: 'GitHub',
+              href: 'https://github.com/sumingcheng'
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus'
+              label: 'yuque',
+              href: 'https://www.yuque.com/sumingcheng'
             }
           ]
         }
