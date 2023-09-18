@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 // 导入Docusaurus的配置类型
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Su Mingcheng\'s Blog', // 网站的标题
+  title: 'SMC docs', // 网站的标题
   tagline: 'sumingcheng', // 网站的标语
   favicon: 'img/favicon.ico', // 网站的图标
   trailingSlash: true, // 是否在URL末尾添加斜杠
@@ -70,8 +70,17 @@ const config = {
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
     image: 'img/mini.ico',
+    // 搜索
+    algolia: {
+      apiKey: '4738bf597613dad54ccea9f4de048456',
+      indexName: 'sumingcheng',
+      contextualSearch: true,
+      appId: 'P783BA7DL3',
+      // 更多配置项
+      searchParameters: {}
+    },
     navbar: {
-      title: 'Su Mingcheng\'s Blog', // 导航栏标题
+      title: 'SMC docs', // 导航栏标题
       logo: {
         alt: '素明诚', // logo的替代文本
         src: 'img/mini.ico' // logo的路径
