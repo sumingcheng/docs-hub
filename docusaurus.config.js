@@ -132,15 +132,6 @@ const config = {
             }
           ]
         },
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro'
-            }
-          ]
-        },
         //   社区的链接
         {
           title: 'Community',
