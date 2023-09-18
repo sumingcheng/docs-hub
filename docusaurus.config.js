@@ -1,6 +1,3 @@
-// @ts-check
-// 注意：类型注释允许进行类型检查和IDE自动补全
-
 const lightCodeTheme = require('prism-react-renderer/themes/github')
 const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
@@ -77,7 +74,9 @@ const config = {
       contextualSearch: true,
       appId: 'P783BA7DL3',
       // 更多配置项
-      searchParameters: {}
+      searchParameters: {
+        insights: true,
+      }
     },
     navbar: {
       title: 'SMC docs', // 导航栏标题
@@ -155,7 +154,7 @@ const config = {
               href: 'https://github.com/sumingcheng'
             },
             {
-              label: 'yuque',
+              label: 'Yuque',
               href: 'https://www.yuque.com/sumingcheng'
             }
           ]
