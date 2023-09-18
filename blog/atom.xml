@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sumingcheng.github.io/NoteBook/blog</id>
-    <title>Su Mingcheng's Blog Blog</title>
+    <title>SMC docs Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sumingcheng.github.io/NoteBook/blog"/>
-    <subtitle>Su Mingcheng's Blog Blog</subtitle>
+    <subtitle>SMC docs Blog</subtitle>
     <icon>https://sumingcheng.github.io/NoteBook/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
