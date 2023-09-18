@@ -170,7 +170,7 @@ const config = {
           ]
         }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.` // 版权声明
+      copyright: `Copyright © ${new Date().getFullYear()} Su Mingcheng. Built with Docusaurus.`
     },
     prism: { // Prism代码高亮配置
       theme: lightCodeTheme,
