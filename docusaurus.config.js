@@ -1,6 +1,6 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github')
 const darkCodeTheme = require('prism-react-renderer/themes/dracula')
-
+const Config = require("config.json")
 // 导入Docusaurus的配置类型
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -69,10 +69,10 @@ const config = {
     image: 'img/mini.ico',
     // 搜索
     algolia: {
-      apiKey: '4738bf597613dad54ccea9f4de048456',
-      indexName: 'sumingcheng',
+      apiKey: Config.apiKey,
+      indexName: Config.indexName,
       contextualSearch: true,
-      appId: 'P783BA7DL3',
+      appId: Config.appId,
       // 更多配置项
       searchParameters: {
         insights: true,
