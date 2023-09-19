@@ -151,7 +151,7 @@ const config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/sumingcheng'
+              href: 'https://github.com/sumingcheng/NoteBook'
             },
             {
               label: 'Yuque',
