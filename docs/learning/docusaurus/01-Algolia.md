@@ -39,10 +39,10 @@
      themeConfig: {
        // 搜索
        algolia: {
-         apiKey: '4738bf597613dad54ccea9f4de048456',
-         indexName: 'sumingcheng',
+         apiKey: 'apiKey',
+         indexName: 'indexName',
          contextualSearch: true,
-         appId: 'P783BA7DL3',
+         appId: 'appId',
        },
      }
    ```
