@@ -19,6 +19,8 @@
 - [typora](https://typora.io/)
 - [filezilla](https://www.filezilla.cn/download/client)
 - [WARP](https://cloudflarewarp.com/)
+- [CharlesProxy](https://www.charlesproxy.com/)
+- [Clash 汉化](https://github.com/BoyceLig/Clash_Chinese_Patch)
 
 ## 办公软件
 
@@ -34,6 +36,7 @@
 - [Listary](https://www.listary.com/download)
 - [PDF工具](https://pdfcandy.com/cn/)
 - [腾讯会议](https://meeting.tencent.com/download/)
+- [火绒](https://www.huorong.cn/person5.html?v=1)
 
 ## KMS
 
