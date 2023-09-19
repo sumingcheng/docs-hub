@@ -56,4 +56,4 @@ Crystal:
     2023年9月19日 10:55:00 AM UTC
 ### 原文地址
 
-https://blog.chromium.org/2023/09/unveiling-chrome-web-stores-redesign.html
+    https://blog.chromium.org/2023/09/unveiling-chrome-web-stores-redesign.html
