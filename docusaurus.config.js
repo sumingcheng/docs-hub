@@ -1,6 +1,6 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github')
 const darkCodeTheme = require('prism-react-renderer/themes/dracula')
-const Config = require("./config.js")
+const {Crawler, Config} = require('./config.js')
 
 // 导入Docusaurus的配置类型
 /** @type {import('@docusaurus/types').Config} */
@@ -26,13 +26,10 @@ const config = {
   // 即使你不使用国际化，你也可以使用此字段来设置有用的元数据，如html lang。
   i18n: {
     defaultLocale: 'zh-CN',
-    locales: ['zh-CN', 'en'],
+    locales: ['zh-CN'],
     localeConfigs: {
       'zh-CN': {
         label: '简体中文'
-      },
-      en: {
-        label: 'English'
       }
     }
   },
@@ -71,12 +68,12 @@ const config = {
     // 搜索
     algolia: {
       apiKey: Config.apiKey,
-      indexName: Config.indexName,
-      contextualSearch: true,
       appId: Config.appId,
+      indexName: Config.indexName,
+      contextualSearch: false,
       // 更多配置项
       searchParameters: {
-        insights: true,
+        insights: true
       }
     },
     navbar: {
