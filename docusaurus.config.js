@@ -90,6 +90,12 @@ const config = {
         },
         {
           type: 'docSidebar',
+          sidebarId: 'debuggerSidebar',
+          position: 'right',
+          label: 'debugger'
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'thoughtsSidebar',
           position: 'right',
           label: '思考碎片'
