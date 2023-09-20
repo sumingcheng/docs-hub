@@ -1,5 +1,7 @@
 const Config = {
-  apiKey: '4738bf597613dad54ccea9f4de048456', indexName: 'sumingcheng', appId: 'P783BA7DL3'
+  apiKey: '4738bf597613dad54ccea9f4de048456',
+  indexName: 'sumingcheng',
+  appId: 'P783BA7DL3'
 }
 // V2 模板
 const Crawler = ({
@@ -63,5 +65,5 @@ const Crawler = ({
   }
 })
 module.exports = {
-  Crawler,Config
+  Crawler, Config
 }

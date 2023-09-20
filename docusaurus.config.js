@@ -1,6 +1,6 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github')
 const darkCodeTheme = require('prism-react-renderer/themes/dracula')
-const {Crawler, Config} = require('./config.js')
+const {Config} = require('./config.js')
 
 // 导入Docusaurus的配置类型
 /** @type {import('@docusaurus/types').Config} */
@@ -70,11 +70,9 @@ const config = {
       apiKey: Config.apiKey,
       appId: Config.appId,
       indexName: Config.indexName,
-      contextualSearch: false,
+      contextualSearch: false, // 多版本搜索
       // 更多配置项
-      searchParameters: {
-        insights: true
-      }
+      searchParameters: {}
     },
     navbar: {
       title: 'SMC docs', // 导航栏标题
