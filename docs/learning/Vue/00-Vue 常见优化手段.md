@@ -20,6 +20,7 @@
      a:1,
      b:2
    }
+   
    Object.freeze(obj)
    Object.isFrozen(obj) // true
 ```
