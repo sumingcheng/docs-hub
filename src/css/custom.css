@@ -1,27 +1,28 @@
 :root {
-  --ifm-color-primary: #4096ff;
-  --ifm-color-primary-dark: #1677ff;
-  --ifm-color-primary-darker: #0958d9;
-  --ifm-color-primary-darkest: #003eb3;
-  --ifm-color-primary-light: #69b1ff;
-  --ifm-color-primary-lighter: #91caff;
-  --ifm-color-primary-lightest: #e6f4ff; /* 使用最浅的颜色 */
+  --ifm-color-primary: #1677ff;
+  --ifm-color-primary-dark: #0958d9;
+  --ifm-color-primary-darker: #003eb3;
+  --ifm-color-primary-darkest: #002c8c;
+  --ifm-color-primary-light: #4096ff;
+  --ifm-color-primary-lighter: #69b1ff;
+  --ifm-color-primary-lightest: #69b1ff; /* 重复使用了69b1ff色值 */
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(22, 119, 255, 0.1); /* 使用主色调，使高亮更显眼 */
 }
 
 [data-theme='dark'] {
   --ifm-font-color-base: #ffffff;
-  --ifm-font-color-secondary: #bae0ff; /* 使用稍微深一点的色调，以增加对比 */
-  --ifm-color-primary: #69b1ff; /* 在深色模式下，使用稍微浅一点的主色调 */
-  --ifm-color-primary-dark: #4096ff;
-  --ifm-color-primary-darker: #1677ff;
-  --ifm-color-primary-darkest: #0958d9;
-  --ifm-color-primary-light: #91caff;
-  --ifm-color-primary-lighter: #bae0ff;
-  --ifm-color-primary-lightest: #e6f4ff;
-  --docusaurus-highlighted-code-line-bg: rgba(105, 177, 255, 0.1); /* 使用浅色主色调，增加对比 */
+  --ifm-font-color-secondary: #69b1ff; /* 使用稍微深一点的色调，以增加对比 */
+  --ifm-color-primary: #4096ff; /* 在深色模式下，使用稍微浅一点的主色调 */
+  --ifm-color-primary-dark: #1677ff;
+  --ifm-color-primary-darker: #0958d9;
+  --ifm-color-primary-darkest: #003eb3;
+  --ifm-color-primary-light: #69b1ff;
+  --ifm-color-primary-lighter: #69b1ff; /* 重复使用了69b1ff色值 */
+  --ifm-color-primary-lightest: #69b1ff; /* 重复使用了69b1ff色值 */
+  --docusaurus-highlighted-code-line-bg: rgba(64, 150, 255, 0.1); /* 使用浅色主色调，增加对比 */
 }
+
 
 /*搜索*/
 [data-theme='light'] .DocSearch {
