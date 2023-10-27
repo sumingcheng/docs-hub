@@ -5,7 +5,7 @@ const {Config} = require('./config.js')
 // 导入Docusaurus的配置类型
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'SMC docs', // 网站的标题
+  title: 'SMC', // tab标题和站点标题
   tagline: 'sumingcheng', // 网站的标语
   favicon: 'img/favicon.ico', // 网站的图标
   trailingSlash: true, // 是否在URL末尾添加斜杠
@@ -45,7 +45,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'), // 侧边栏的路径
           // 请更改为你的仓库。
           // 删除此项以删除"编辑此页"链接。
-          editUrl: 'https://github.com/sumingcheng'
+          editUrl: 'https://github.com/sumingcheng',
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true, // 是否显示阅读时间
@@ -75,7 +76,7 @@ const config = {
       searchParameters: {}
     },
     navbar: {
-      title: 'SMC docs', // 导航栏标题
+      title: '素明诚', // 导航栏标题
       logo: {
         alt: '素明诚', // logo的替代文本
         src: 'img/mini.ico' // logo的路径
