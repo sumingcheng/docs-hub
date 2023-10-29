@@ -85,9 +85,21 @@ const config = {
         // {to: '/blog', label: 'Blog', position: 'right'},
         {
           type: 'docSidebar',
+          sidebarId: 'frontEndSidebar',
+          position: 'right',
+          label: '前端'
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'backEndSidebar',
+          position: 'right',
+          label: '后端'
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'learnSidebar',
           position: 'right',
-          label: '学习资料'
+          label: '其他'
         },
         {
           type: 'docSidebar',
@@ -124,7 +136,6 @@ const config = {
     footer: { // 页脚配置
       style: 'dark',
       links: [
-        //   好的文章
         {
           title: 'Docs',
           items: [
