@@ -22,6 +22,7 @@
 - [CharlesProxy](https://www.charlesproxy.com/)
 - [Clash 汉化](https://github.com/BoyceLig/Clash_Chinese_Patch)
 - [FinalShell SSH工具](https://www.hostbuf.com/t/988.html)
+- [PeaZip](https://peazip.github.io/)
 
 ## 办公软件
 
