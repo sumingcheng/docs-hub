@@ -21,6 +21,7 @@
 - [WARP](https://cloudflarewarp.com/)
 - [CharlesProxy](https://www.charlesproxy.com/)
 - [Clash 汉化](https://github.com/BoyceLig/Clash_Chinese_Patch)
+- [FinalShell SSH工具](https://www.hostbuf.com/t/988.html)
 
 ## 办公软件
 
