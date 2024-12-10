@@ -2,10 +2,18 @@ name: Deploy to GitHub Pages
 # 自动构建网站
 # 将构建后的文件推送到 gh-pages 分支
 # GitHub Pages 会自动从 gh-pages 分支部署网站
+
+# 部署操作
+# 1. 完成一系列更改后
+# 2. git tag v1.0.0
+# 3. git push origin v1.0.0  # 这会触发部署
 on:
   push:
     branches:
       - main
+    tags:
+      - 'v*'
+  workflow_dispatch:
 
 jobs:
   deploy:
