@@ -1,0 +1,8 @@
+{
+  "label": "事件环",
+  "position": 70,
+  "link": {
+    "type": "generated-index",
+    "description": "JavaScript事件循环机制"
+  }
+}

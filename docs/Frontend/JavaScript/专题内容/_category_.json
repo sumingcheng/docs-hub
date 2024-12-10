@@ -1,0 +1,8 @@
+{
+  "label": "专题内容",
+  "position": 90,
+  "link": {
+    "type": "generated-index",
+    "description": "JavaScript专题深入研究"
+  }
+}

@@ -1,186 +1,211 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github')
-const darkCodeTheme = require('prism-react-renderer/themes/dracula')
-const {Config} = require('./config.js')
+// @ts-check
+// `@type` JSDoc注解可实现编辑器自动补全和类型检查
+// (需配合 `@ts-check` 使用)
+// 有多种等效方式来声明Docusaurus配置
+// 详见: https://docusaurus.io/docs/api/docusaurus-config
 
-// 导入Docusaurus的配置类型
+import { themes as prismThemes } from "prism-react-renderer"
+const navbar = require('./config/navbar')
+const additionalLanguages = require('./config/additionalLanguages')
+
+// 此代码运行在Node.js环境 - 禁止使用客户端代码(浏览器API、JSX等)
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'SMC', // tab标题和站点标题
-  tagline: 'sumingcheng', // 网站的标语
-  favicon: 'img/favicon.ico', // 网站的图标
-  trailingSlash: true, // 是否在URL末尾添加斜杠
-  // 设置你的网站的生产URL
-  url: 'https://sumingcheng.github.io',
-  // 设置网站在哪个路径名下被访问
-  // 对于GitHub pages部署，通常是 '/<projectName>/'
-  baseUrl: '/NoteBook/',
+  title: "Sumingcheng's Document Center",
+  tagline: "Document Center",
+  favicon: "img/favicon.ico",
 
-  // GitHub pages部署配置。
-  // 如果你不使用GitHub pages，你不需要这些。
-  organizationName: 'sumingcheng', // 通常是你的GitHub组织/用户名称
-  projectName: 'NoteBook', // 通常是你的仓库名称
+  // 设置网站生产环境URL
+  url: "https://sumingcheng.github.io",
+  // 设置网站服务的基础路径
+  // GitHub pages部署通常为'/<projectName>/'
+  baseUrl: "/docs-hub/",
 
-  onBrokenLinks: 'throw', // 找不到链接时的行为
-  onBrokenMarkdownLinks: 'warn', // Markdown中找不到链接时的行为
+  // GitHub pages部署配置
+  // 如不使用GitHub pages可忽略以下配置
+  organizationName: "sumingcheng", // 通常是GitHub组织/用户名
+  projectName: "docs-hub", // 通常是仓库名
 
-  // 即使你不使用国际化，你也可以使用此字段来设置有用的元数据，如html lang。
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+
+  // 即使不使用国际化，也必须在此设置有用的元数据
+  // 例如，中文网站可将"en"替换为"zh-CN"
   i18n: {
-    defaultLocale: 'zh-CN',
-    locales: ['zh-CN'],
+    defaultLocale: "zh-CN",
+    locales: ["zh-CN"],
     localeConfigs: {
-      'zh-CN': {
-        label: '简体中文'
-      }
-    }
+      "zh-CN": {
+        label: "简体中文",
+      },
+    },
   },
 
-  // 预设配置
+  plugins: ['docusaurus-plugin-sass'],
+
   presets: [
     [
-      'classic',
-      // 导入Docusaurus的经典预设选项类型
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'), // 侧边栏的路径
-          // 请更改为你的仓库。
-          // 删除此项以删除"编辑此页"链接。
-          editUrl: 'https://github.com/sumingcheng',
+          sidebarPath: "./sidebars.js",
+          editUrl: "https://github.com/sumingcheng/docs-hub/edit/main/",
           showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
         },
         blog: {
-          showReadingTime: true, // 是否显示阅读时间
-          // 请更改为你的仓库。
-          // 删除此项以删除"编辑此页"链接。
-          editUrl: 'https://github.com/sumingcheng'
+          showReadingTime: true,
+          readingTime: ({ content, frontMatter, defaultReadingTime }) =>
+            defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
+          feedOptions: {
+            type: ["rss", "atom"],
+            xslt: true,
+          },
+          // 请更改为你的仓库地址
+          // 删除此行将移除"编辑此页"链接
+          editUrl: "https://github.com/sumingcheng/docs-hub",
+          // 博客最佳实践的相关选项
+          onInlineTags: "warn",
+          onInlineAuthors: "warn",
+          onUntruncatedBlogPosts: "warn",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css') // 自定义CSS的路径
-        }
-      })
-    ]
+          customCss: [
+            "./src/css/custom.scss",
+            "./src/css/article.scss"
+          ],
+        },
+      }),
+    ],
   ],
 
-  // 主题配置
-  // 导入Docusaurus的经典主题配置类型
-  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-  themeConfig: {
-    image: 'img/mini.ico',
-    // 搜索
-    algolia: {
-      apiKey: Config.apiKey,
-      appId: Config.appId,
-      indexName: Config.indexName,
-      contextualSearch: false, // 多版本搜索
-      // 更多配置项
-      searchParameters: {}
-    },
-    navbar: {
-      title: '素明诚', // 导航栏标题
-      logo: {
-        alt: '素明诚', // logo的替代文本
-        src: 'img/mini.ico' // logo的路径
-      },
-      items: [
-        // {to: '/blog', label: 'Blog', position: 'right'},
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
+      // 替换为你项目的社交卡片
+      image: "img/docusaurus-social-card.jpg",
+      metadata: [
         {
-          type: 'docSidebar',
-          sidebarId: 'frontEndSidebar',
-          position: 'right',
-          label: '前端'
+          name: "keywords",
+          content:
+            "素明诚, sumingcheng, 技术文档, 博客, 前端开发, 后端开发, Web开发, JavaScript, TypeScript, Vue, React, Go, Python, Java",
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'backEndSidebar',
-          position: 'right',
-          label: '后端'
+          name: "description",
+          content:
+            "素明诚的技术文档和博客，涵盖前端、后端、Web3等多个技术领域的学习笔记和开发经验分享",
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'learnSidebar',
-          position: 'right',
-          label: '其他'
+          name: "author",
+          content: "素明诚 (sumingcheng)",
         },
-        {
-          type: 'docSidebar',
-          sidebarId: 'debuggerSidebar',
-          position: 'right',
-          label: 'debugger'
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'thoughtsSidebar',
-          position: 'right',
-          label: '思考碎片'
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'translationsSidebar',
-          position: 'right',
-          label: '译文集'
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'resourceSidebar',
-          position: 'right',
-          label: '资源'
-        },
-        {
-          href: 'https://github.com/sumingcheng',
-          'aria-label': 'GitHub repository',
-          position: 'right',
-          className: 'github-icon'
-        }
-      ]
-    },
-    footer: { // 页脚配置
-      style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro'
-            }
-          ]
-        },
-        //   社区的链接
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'React',
-              href: 'https://react.dev/learn'
-            },
-            {
-              label: 'Docusaurus',
-              href: 'https://docusaurus.io/zh-CN/docs/'
-            }
-          ]
-        },
-        //   相关链接
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/sumingcheng/NoteBook'
-            },
-            {
-              label: 'Yuque',
-              href: 'https://www.yuque.com/sumingcheng'
-            }
-          ]
-        }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Su Mingcheng. Built with Docusaurus.`
+      head: [
+        // 添加多个思源黑体 CDN 源以提高可用性
+        {
+          tagName: "link",
+          rel: "stylesheet",
+          href: "https://npm.elemecdn.com/source-han-sans-sc@1.001/dist/source-han-sans-sc.css",
+        },
+        {
+          tagName: "link",
+          rel: "stylesheet",
+          href: "https://cdn.bootcdn.net/ajax/libs/source-han-sans-sc/1.001/source-han-sans-sc.min.css",
+        },
+        {
+          tagName: "link",
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap",
+        },
+      ],
+      navbar: navbar,
+      footer: {
+        style: "dark",
+        links: [
+          {
+            title: "Docs",
+            items: [
+              {
+                label: "语雀",
+                href: "https://www.yuque.com/sumingcheng",
+              },
+              {
+                label: "知乎",
+                href: "https://www.zhihu.com/people/xiaolaodi.top",
+              },
+            ],
+          },
+          {
+            title: "Acknowledgments",
+            items: [
+              {
+                label: "React",
+                href: "https://react.dev",
+              },
+              {
+                label: "Docusaurus",
+                href: "https://docusaurus.io",
+              },
+            ],
+          },
+          {
+            title: "More",
+            items: [
+              {
+                label: "Blog",
+                href: "https://sumingcheng.cn",
+              },
+              {
+                label: "GitHub",
+                href: "https://github.com/sumingcheng",
+              },
+            ],
+          },
+        ],
+        copyright: `Copyright \u00A9 2020-${new Date().getFullYear()} Sumingcheng. All Rights Reserved.`,
+      },
+      algolia: {
+        apiKey: "4738bf597613dad54ccea9f4de048456",
+        indexName: "sumingcheng",
+        appId: "P783BA7DL3",
+        searchPagePath: "search",
+        contextualSearch: true,
+        searchParameters: {
+          hitsPerPage: 8, // 每页显示结果数
+        },
+        replaceSearchResultPathname: {
+          from: '/docs-hub/',
+          to: '/',
+        },
+      },
+      prism: {
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
+        additionalLanguages: additionalLanguages,
+      },
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
+      tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 4,
+      },
+    }),
+  scripts: [
+    {
+      src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+      async: true,
+      crossorigin: "anonymous",
     },
-    prism: { // Prism代码高亮配置
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme
-    }
-  }
+  ],
+  customFields: {
+    carbonServeId: "CVYD42T7", //  Carbon Ads ID
+  },
 }
 
-module.exports = config // 导出配置
+export default config

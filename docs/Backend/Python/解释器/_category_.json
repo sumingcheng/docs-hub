@@ -1,0 +1,8 @@
+{
+  "label": "解释器",
+  "position": 20,
+  "link": {
+    "type": "generated-index",
+    "description": "Python解释器原理"
+  }
+}

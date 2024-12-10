@@ -1,0 +1,8 @@
+{
+  "label": "Go教程",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Go编程语言的系统教程，按照学习路径组织，从基础到高级"
+  }
+}

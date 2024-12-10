@@ -18,3 +18,33 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Local development
+.env
+.env.*.local
+
+# Temporary files
+*.log
+*.tmp
+.temp/
+tmp/
+
+# System files
+Thumbs.db
+desktop.ini
+
+# Docusaurus specific
+.docusaurus/
+build/
+i18n/
+.vercel/
+.netlify/

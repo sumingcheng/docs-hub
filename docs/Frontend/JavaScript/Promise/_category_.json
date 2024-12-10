@@ -1,0 +1,8 @@
+{
+  "label": "Promise",
+  "position": 60,
+  "link": {
+    "type": "generated-index",
+    "description": "JavaScript异步编程Promise"
+  }
+}

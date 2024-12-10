@@ -1,0 +1,8 @@
+{
+  "label": "接口",
+  "position": 50,
+  "link": {
+    "type": "generated-index",
+    "description": "Go语言接口，实现多态和抽象"
+  }
+}
