@@ -30,7 +30,7 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
-  // 即使不使用国际化，也必须在此设置有用的元数据
+  // 即使不使���国际化，也必须在此设置有用的元数据
   // 例如，中文网站可将"en"替换为"zh-CN"
   i18n: {
     defaultLocale: "zh-CN",
@@ -173,11 +173,11 @@ const config = {
         searchPagePath: "search",
         contextualSearch: true,
         searchParameters: {
-          hitsPerPage: 8, // 每页显示结果数
+          hitsPerPage: 8,
         },
         replaceSearchResultPathname: {
           from: '/docs-hub/',
-          to: '/',
+          to: '/docs-hub/',
         },
       },
       prism: {
