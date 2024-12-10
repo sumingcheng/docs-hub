@@ -1,5 +1,7 @@
 name: Deploy to GitHub Pages
-
+# 自动构建网站
+# 将构建后的文件推送到 gh-pages 分支
+# GitHub Pages 会自动从 gh-pages 分支部署网站
 on:
   push:
     branches:
