@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknotebook=self.webpackChunknotebook||[]).push([[2247],{8288:o=>{o.exports=JSON.parse('{"label":"facebook","permalink":"/NoteBook/blog/tags/facebook","allTagsPath":"/NoteBook/blog/tags","count":1}')}}]);

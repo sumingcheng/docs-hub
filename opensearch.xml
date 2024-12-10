@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-  <ShortName>SMC docs</ShortName>
-  <Description>Search SMC docs</Description>
+  <ShortName>Sumingcheng&#39;s Document Center</ShortName>
+  <Description>Search Sumingcheng&#39;s Document Center</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://sumingcheng.github.io/NoteBook/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://sumingcheng.github.io/NoteBook/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://sumingcheng.github.io/NoteBook/opensearch.xml" />
-  <moz:SearchForm>https://sumingcheng.github.io/NoteBook/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://sumingcheng.github.io/docs-hub/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://sumingcheng.github.io/docs-hub/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://sumingcheng.github.io/docs-hub/opensearch.xml" />
+  <moz:SearchForm>https://sumingcheng.github.io/docs-hub/</moz:SearchForm>
 </OpenSearchDescription>
