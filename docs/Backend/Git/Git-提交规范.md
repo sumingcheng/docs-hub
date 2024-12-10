@@ -2,9 +2,9 @@
 | --- | --- | --- |
 | feat | production | 新增功能 |
 | fix | production | bug 修复 |
-| perf | production | 提高代码性能变更 |
+| perf | production | 性能优化，提升性能的代码更改 |
 | style | development | 代码格式变更 |
-| refactor | production | 其他代码类变更，例如简化代码、重命名、删除 |
+| refactor | production | 代码重构，既不修复错误也不添加功能的代码更改 |
 | test | development | 新增测试用例，或是现有的测试用例 |
 | ci | development | CI/CD 修改 |
 | docs | development | 文档类的更新，包括修改用户文档或者开发文档 |

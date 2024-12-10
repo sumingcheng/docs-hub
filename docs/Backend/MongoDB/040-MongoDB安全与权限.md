@@ -25,6 +25,7 @@ db.createUser({
 ```yaml
 security:
   authorization: enabled
+  clusterAuthMode: x509
 ```
 
 ## 角色管理
@@ -78,6 +79,8 @@ net:
     mode: requireSSL
     PEMKeyFile: /path/to/mongodb.pem
     CAFile: /path/to/ca.pem
+    allowInvalidCertificates: false
+    allowInvalidHostnames: false
 ```
 
 ### 防火墙设置

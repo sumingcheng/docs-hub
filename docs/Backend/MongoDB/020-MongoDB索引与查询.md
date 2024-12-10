@@ -95,7 +95,7 @@ db.users.dropIndex('index_name');
 开启慢查询日志，监控耗时操作：
 
 ```javascript
-db.setProfilingLevel(1, { slowms: 100 });
+db.setProfilingLevel(1, { slowms: 100, sampleRate: 1.0 });
 ```
 
 通过分析慢查询日志，笔者能够识别并优化性能较差的查询。

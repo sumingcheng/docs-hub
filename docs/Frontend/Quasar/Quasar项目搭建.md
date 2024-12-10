@@ -9,16 +9,8 @@ npm install -g @quasar/cli
 # 创建项目
 
 ```shell
- quasar create item
-```
-
-## 用 yarn 或者是 npm
-
-这里我使用`npm`
-
-```shell
 yarn create quasar
-   # or
+# 或
 npm init quasar
 ```
 

@@ -59,10 +59,10 @@ mongod --config /usr/local/etc/mongod.conf
 
 ### 连接到 MongoDB Shell
 
-使用 `mongo` 命令连接到 MongoDB Shell，开始与数据库交互：
+使用 `mongosh` 命令连接到 MongoDB Shell，开始与数据库交互：
 
 ```bash
-mongo
+mongosh
 ```
 
 连接成功后，进入交互式命令行环境，可以执行各种数据库操作。

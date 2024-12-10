@@ -126,6 +126,8 @@ try {
   session.commitTransaction();
 } catch (error) {
   session.abortTransaction();
+} finally {
+  session.endSession();
 }
 ```
 
