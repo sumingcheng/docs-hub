@@ -30,7 +30,7 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
-  // 即使不使���国际化，也必须在此设置有用的元数据
+  // 即使不使用国际化，也必须在此设置有用的元数据
   // 例如，中文网站可将"en"替换为"zh-CN"
   i18n: {
     defaultLocale: "zh-CN",
@@ -118,6 +118,11 @@ const config = {
           tagName: "link",
           rel: "stylesheet",
           href: "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap",
+        },
+        {
+          tagName: "link",
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap",
         },
       ],
       navbar: navbar,

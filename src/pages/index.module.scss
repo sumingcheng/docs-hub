@@ -1,0 +1,232 @@
+// 变量定义
+$hero-gradient-light: linear-gradient(145deg, #3578e5 0%, #1d4ed8 100%);
+$hero-gradient-dark: linear-gradient(145deg, #2b3137 0%, #1b1e21 100%);
+$transition-normal: all 0.3s ease;
+$transition-fast: all 0.2s ease;
+$font-heading: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+$font-body: 'Noto Sans SC', sans-serif;
+
+// Hero Banner
+.heroBanner {
+  padding: 6rem 0;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  background: $hero-gradient-dark;
+  color: white;
+
+  &::before {
+    content: 'Sumingcheng';
+    position: absolute;
+    right: -5%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 100px;
+    font-weight: 900;
+    opacity: 0.03;
+    white-space: nowrap;
+    z-index: 0;
+    font-family: 'Noto Sans SC', sans-serif;
+  }
+
+  &.light {
+    background: $hero-gradient-light;
+  }
+
+  &.dark {
+    background: $hero-gradient-dark;
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+    padding-left: 4rem;
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+      background: linear-gradient(to right, #ffffff, rgba(255, 255, 255, 0.8));
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: $font-heading;
+      letter-spacing: -0.02em;
+    }
+
+    p {
+      font-size: 1.3rem;
+      opacity: 0.9;
+      margin-bottom: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 996px) {
+    padding: 4rem 0;
+    text-align: center;
+
+    &::before {
+      font-size: 80px;
+      opacity: 0.02;
+      right: -10%;
+    }
+
+    .container {
+      padding-left: 1rem;
+      padding-right: 1rem;
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
+
+// 按钮容器
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+// 主要内容区
+.main {
+  padding: 2rem 0;
+}
+
+// 分类列表
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+// 分类卡片
+.categoryCard {
+  background: var(--ifm-card-background-color);
+  border-radius: var(--ifm-card-border-radius);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.2rem;
+  transition: $transition-normal;
+  width: 100%;
+  border: 1px solid var(--ifm-color-emphasis-200);
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    border-color: var(--ifm-color-primary);
+  }
+}
+
+// 分类标题
+.categoryTitle {
+  position: relative;
+  margin-bottom: 0.8rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+  padding-bottom: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  font-family: $font-heading;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background: var(--ifm-color-primary);
+    border-radius: 2px;
+  }
+
+  &::before {
+    content: attr(data-cn);
+    position: absolute;
+    right: 0;
+    bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 0.5;
+    font-family: $font-body;
+  }
+}
+
+// 分类网格
+.categoryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 0.8rem;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
+}
+
+// 项目链接
+.itemLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+// 项目卡片
+.itemCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.8rem;
+  border-radius: 8px;
+  background: var(--ifm-background-surface-color);
+  transition: $transition-fast;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  height: 100%;
+
+  &:hover {
+    background: var(--ifm-color-emphasis-100);
+    transform: translateY(-2px);
+    border-color: var(--ifm-color-primary);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  [data-theme='dark'] & {
+    background: var(--ifm-card-background-color);
+    border-color: var(--ifm-color-emphasis-300);
+
+    &:hover {
+      background: var(--ifm-color-emphasis-200);
+      border-color: var(--ifm-color-primary);
+    }
+  }
+}
+
+// 项目名称
+.itemName {
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+  color: var(--ifm-font-color-base);
+}
+
+// 项目图标
+.itemIcon {
+  font-size: 1.4rem;
+  margin-bottom: 0.4rem;
+  color: var(--ifm-color-primary);
+  transition: $transition-fast;
+}
+
+.itemCard:hover .itemIcon {
+  transform: scale(1.1);
+}
