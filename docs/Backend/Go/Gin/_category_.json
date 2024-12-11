@@ -1,6 +1,6 @@
 {
   "label": "Gin",
-  "position": 80,
+  "position": 60,
   "link": {
     "type": "generated-index",
     "description": "Go语言最流行的Web框架Gin的使用"

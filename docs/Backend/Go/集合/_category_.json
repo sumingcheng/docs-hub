@@ -1,0 +1,8 @@
+{
+  "label": "集合",
+  "position": 50,
+  "link": {
+    "type": "generated-index",
+    "description": "Go语言的数组、切片和映射"
+  }
+} 

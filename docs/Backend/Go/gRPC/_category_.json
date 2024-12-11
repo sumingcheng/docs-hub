@@ -1,6 +1,6 @@
 {
   "label": "gRPC",
-  "position": 100,
+  "position": 80,
   "link": {
     "type": "generated-index",
     "description": "Go语言中使用gRPC进行微服务通信"

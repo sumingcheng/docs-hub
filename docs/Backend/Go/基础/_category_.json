@@ -1,0 +1,8 @@
+{
+  "label": "基础",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Go语言的基础语法和概念"
+  }
+} 

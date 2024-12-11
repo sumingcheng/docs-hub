@@ -141,17 +141,6 @@ $font-body: 'Noto Sans SC', sans-serif;
   letter-spacing: 0.02em;
   font-family: $font-heading;
 
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 60px;
-    height: 4px;
-    background: var(--ifm-color-primary);
-    border-radius: 2px;
-  }
-
   &::before {
     content: attr(data-cn);
     position: absolute;
