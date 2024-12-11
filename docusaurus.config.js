@@ -173,7 +173,7 @@ const config = {
         copyright: `Copyright \u00A9 2020-${new Date().getFullYear()} Sumingcheng. All Rights Reserved.`,
       },
       algolia: {
-        apiKey: "4738bf597613dad54ccea9f4de048456",
+        apiKey: "18c32a5f522a7cc9090995a10ee1258c",
         indexName: "sumingcheng",
         appId: "P783BA7DL3",
         searchPagePath: "search",

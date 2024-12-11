@@ -120,7 +120,7 @@ $font-body: 'Noto Sans SC', sans-serif;
   padding: 1.2rem;
   transition: $transition-normal;
   width: 100%;
-  border: 1px solid var(--ifm-color-emphasis-200);
+  border: 2px solid var(--ifm-color-emphasis-200);
 
   &:hover {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
@@ -131,11 +131,11 @@ $font-body: 'Noto Sans SC', sans-serif;
 // 分类标题
 .categoryTitle {
   position: relative;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.5rem;
   font-size: 1.8rem;
   font-weight: 700;
   color: var(--ifm-heading-color);
-  padding-bottom: 0.6rem;
+  padding-bottom: 0.3rem;
   text-transform: uppercase;
   letter-spacing: 0.02em;
   font-family: $font-heading;
