@@ -182,10 +182,10 @@ $font-body: 'Noto Sans SC', sans-serif;
   height: 100%;
 
   &:hover {
-    background: var(--ifm-color-emphasis-100);
+    background: rgba(52, 152, 219, 0.05);
     transform: translateY(-2px);
-    border-color: var(--ifm-color-primary);
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    border-color: #3498db;
+    box-shadow: 0 2px 12px rgba(52, 152, 219, 0.1);
   }
 
   [data-theme='dark'] & {
