@@ -185,7 +185,7 @@ export default function Home() {
   return (
     <Layout
       title={siteConfig.title}
-      description="素明的技术文档中心 - 前端、后端、Web3 等技术领域的学习笔记和开发经验分享"
+      description="文档中心 - 前端、后端、Web3 等技术领域的学习笔记和开发经验分享"
     >
       <HomepageHeader />
       <main className={styles.main}>
