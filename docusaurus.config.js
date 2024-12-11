@@ -30,7 +30,7 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
-  // 即使不使用国际化，也必须在此设置有用的元数据
+  // 元数据必须设置
   // 例如，中文网站可将"en"替换为"zh-CN"
   i18n: {
     defaultLocale: "zh-CN",
@@ -54,6 +54,7 @@ const config = {
           editUrl: "https://github.com/sumingcheng/docs-hub/edit/main/",
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
+          routeBasePath: '/',
         },
         blog: {
           showReadingTime: true,
