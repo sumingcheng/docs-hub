@@ -70,7 +70,7 @@ function generateSidebar() {
   )};`
   fs.writeFileSync(path.join(__dirname, "..", "sidebars.js"), sidebarContent)
 
-  console.log("Sidebar configuration has been generated successfully!")
+  console.log("侧边栏配置已成功生成！")
 }
 
 generateSidebar()
