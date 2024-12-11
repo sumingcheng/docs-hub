@@ -9,8 +9,6 @@ name: Deploy to GitHub Pages
 # 3. git push origin v1.0.0  # 这会触发部署
 on:
   push:
-    branches:
-      - main
     tags:
       - 'v*'
   workflow_dispatch:

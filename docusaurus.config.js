@@ -50,7 +50,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: "./sidebars.js",
+          sidebarPath: "./config/sidebars.js",
           editUrl: "https://github.com/sumingcheng/docs-hub/edit/main/",
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
