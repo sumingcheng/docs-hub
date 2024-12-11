@@ -22,7 +22,8 @@ import {
   FaAtom,
   FaServer,
   FaSearch,
-  FaExchange
+  FaExchangeAlt,
+  FaWrench
 } from 'react-icons/fa'
 import {
   RiBookFill,
@@ -84,7 +85,7 @@ const categoriesData = [
       { name: 'Docker', icon: <FaDocker style={{ color: '#2496ED' }} />, path: '/docs-hub/Backend/Docker/Docker-基础命令' },
       { name: 'Nginx', icon: <FaServer style={{ color: '#009639' }} />, path: '/docs-hub/Backend/Nginx/Nginx基础入门' },
       { name: 'ElasticSearch', icon: <FaSearch style={{ color: '#FED10A' }} />, path: '/docs-hub/Backend/ElasticSearch/ElasticSearch-安装使用' },
-      { name: 'MQ', icon: <FaExchange style={{ color: '#FF6B6B' }} />, path: '/docs-hub/Backend/MQ/Go-Kafka安装使用指南' },
+      { name: 'MQ', icon: <FaExchangeAlt style={{ color: '#FF6B6B' }} />, path: '/docs-hub/Backend/MQ/Go-Kafka安装使用指南' },
       // 数据库
       { name: 'MySQL', icon: <FaDatabase style={{ color: '#4479A1' }} />, path: '/docs-hub/Backend/MySQL/常用SQL语句' },
       { name: 'Redis', icon: <FaDatabase style={{ color: '#A41E11' }} />, path: '/docs-hub/Backend/Redis/Redis-基础使用' },
@@ -107,7 +108,7 @@ const categoriesData = [
       { name: 'Vue', icon: <RiVuejsFill style={{ color: '#4FC08D' }} />, path: '/docs-hub/category/vue基础入门' },
       { name: 'React', icon: <FaReact style={{ color: '#61DAFB' }} />, path: '/docs-hub/Frontend/React/初识React' },
       // 工程化
-      { name: '工程化', icon: <FaTools style={{ color: '#6C6CFF' }} />, path: '/docs-hub/Frontend/Engineering/核心-Web-指标' },
+      { name: '工程化', icon: <FaWrench style={{ color: '#6C6CFF' }} />, path: '/docs-hub/Frontend/Engineering/核心-Web-指标' },
       // 基础技术
       { name: 'HTML', icon: <RiHtml5Fill style={{ color: '#E34F26' }} />, path: '/docs-hub/Frontend/HTML/DOCTYPE' },
       { name: 'CSS', icon: <RiCss3Fill style={{ color: '#1572B6' }} />, path: '/docs-hub/Frontend/CSS/CSS-选择器-权重-匹配规则' },
