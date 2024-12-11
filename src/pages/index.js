@@ -1,3 +1,4 @@
+import React from 'react'
 import Link from "@docusaurus/Link"
 import { useColorMode } from '@docusaurus/theme-common'
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
@@ -7,7 +8,9 @@ import clsx from "clsx"
 import styles from "./index.module.scss"
 
 import NeonButton from '../components/NeonButton'
+import CategoryCard from './categories'
 import { categories } from './categories'
+import Categories from './categories'
 
 
 function HomepageHeader() {
@@ -20,39 +23,15 @@ function HomepageHeader() {
           Documentation Center
         </Heading>
         <p className="hero__subtitle">
-          前端、后端、Web3 一站式技术文档中心
+          前端、后端、Web3 一站式文档中心
         </p>
         <div className={styles.buttons}>
-          <NeonButton to="/docs/intro">
+          <NeonButton to="/docs-hub/Other/Notes/如何编写技术文章">
             开始阅读文档 📚
           </NeonButton>
         </div>
       </div>
     </header>
-  )
-}
-
-function CategoryCard({ category }) {
-  return (
-    <div className={styles.categoryCard}>
-      <h3 className={styles.categoryTitle} data-cn={category.title}>
-        {category.enTitle}
-      </h3>
-      <div className={styles.categoryGrid}>
-        {category.items.map((item) => (
-          <Link
-            key={item.name}
-            to={item.path}
-            className={styles.itemLink}
-          >
-            <div className={styles.itemCard}>
-              {item.icon}
-              <span className={styles.itemName}>{item.name}</span>
-            </div>
-          </Link>
-        ))}
-      </div>
-    </div>
   )
 }
 
@@ -67,11 +46,7 @@ export default function Home() {
       <HomepageHeader />
       <main className={styles.main}>
         <div className="container">
-          <div className={styles.categories}>
-            {categories.map((category, idx) => (
-              <CategoryCard key={idx} category={category} />
-            ))}
-          </div>
+          <Categories />
         </div>
       </main>
     </Layout>
