@@ -1,4 +1,8 @@
 {
   "label": "Vue进阶特性",
-  "position": 40
+  "position": 40,
+  "link": {
+    "type": "generated-index",
+    "description": "Vue进阶特性与高级应用"
+  }
 } 

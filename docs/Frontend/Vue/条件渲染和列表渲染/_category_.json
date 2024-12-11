@@ -1,4 +1,8 @@
 {
   "label": "条件渲染和列表渲染",
-  "position": 30
+  "position": 20,
+  "link": {
+    "type": "generated-index",
+    "description": "Vue条件渲染和列表渲染的使用详解"
+  }
 } 

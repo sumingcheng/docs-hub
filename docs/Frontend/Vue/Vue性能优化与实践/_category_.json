@@ -1,4 +1,8 @@
 {
   "label": "Vue性能优化与实践",
-  "position": 60
+  "position": 60,
+  "link": {
+    "type": "generated-index",
+    "description": "Vue性能优化技巧与最佳实践"
+  }
 } 

@@ -1,4 +1,8 @@
 {
   "label": "ECharts相关",
-  "position": 70
+  "position": 70,
+  "link": {
+    "type": "generated-index",
+    "description": "Vue与ECharts的集成应用"
+  }
 } 

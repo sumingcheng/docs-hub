@@ -1,8 +1,8 @@
 {
   "label": "常见问题解决",
-  "position": 80,
+  "position": 50,
   "link": {
     "type": "generated-index",
-    "description": "Vue.js 开发中常见问题的解决方案和最佳实践"
+    "description": "Vue开发中常见问题及解决方案"
   }
 } 
