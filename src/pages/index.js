@@ -1,15 +1,12 @@
-import React from 'react'
-import Link from "@docusaurus/Link"
 import { useColorMode } from '@docusaurus/theme-common'
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
 import Heading from "@theme/Heading"
 import Layout from "@theme/Layout"
 import clsx from "clsx"
+import React from 'react'
 import styles from "./index.module.scss"
 
 import NeonButton from '../components/NeonButton'
-import CategoryCard from './categories'
-import { categories } from './categories'
 import Categories from './categories'
 
 

@@ -1,43 +1,37 @@
-import React from 'react'
 import Link from "@docusaurus/Link"
-import styles from "./index.module.scss"
+import React from 'react'
 import {
+  FaAtom,
+  FaBitcoin,
   FaCode,
+  FaCogs,
+  FaDatabase,
   FaDocker,
+  FaExchangeAlt,
+  FaGlobe,
+  FaHdd,
   FaJava,
-  FaNetworkWired,
   FaPython,
   FaReact,
   FaRegFileCode,
-  FaDatabase,
-  FaCogs,
-  FaDesktop,
-  FaGlobe,
-  FaCubes,
-  FaBook,
-  FaBitcoin,
-  FaUtensils,
-  FaHdd,
-  FaCoffee,
-  FaAtom,
-  FaServer,
   FaSearch,
-  FaExchangeAlt,
+  FaServer,
+  FaUtensils,
   FaWrench
 } from 'react-icons/fa'
 import {
   RiBookFill,
+  RiComputerLine,
   RiCss3Fill,
   RiFileTextFill,
   RiGithubFill,
   RiHtml5Fill,
   RiJavascriptFill,
   RiNodejsFill,
-  RiServerFill,
   RiVuejsFill,
-  RiWindowFill,
-  RiComputerLine
+  RiWindowFill
 } from 'react-icons/ri'
+import styles from "./index.module.scss"
 
 import { SiTypescript } from 'react-icons/si'
 
