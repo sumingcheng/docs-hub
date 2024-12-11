@@ -1,8 +1,8 @@
 {
   "label": "Promise",
-  "position": 60,
+  "position": 50,
   "link": {
     "type": "generated-index",
-    "description": "JavaScript异步编程Promise"
+    "description": "Promise异步编程详解"
   }
 }

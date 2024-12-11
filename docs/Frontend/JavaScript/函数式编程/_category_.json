@@ -1,8 +1,8 @@
 {
   "label": "函数式编程",
-  "position": 80,
+  "position": 70,
   "link": {
     "type": "generated-index",
-    "description": "JavaScript函数式编程"
+    "description": "JavaScript函数式编程范式与实践"
   }
 }

@@ -1,6 +1,6 @@
 {
   "label": "常见问题",
-  "position": 1,
+  "position": 90,
   "link": {
     "type": "generated-index",
     "description": "JavaScript开发中的常见问题和解决方案"
