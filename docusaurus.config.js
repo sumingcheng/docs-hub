@@ -201,6 +201,19 @@ const config = {
         minHeadingLevel: 2,
         maxHeadingLevel: 4,
       },
+      giscus: {
+        repo: 'sumingcheng/docs-hub',
+        repoId: 'R_kgDOKQ1N4Q',
+        category: 'Announcements',
+        categoryId: 'DIC_kwDOKQ1N4c4Ckrcs',
+        mapping: 'pathname',
+        reactionsEnabled: '1',
+        emitMetadata: '0',
+        inputPosition: 'top',
+        lang: 'zh-CN',
+        loading: 'lazy',
+        theme: 'preferred_color_scheme',
+      },
     }),
   scripts: [
     {
