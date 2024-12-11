@@ -23,7 +23,7 @@ function HomepageHeader() {
           Documentation Center
         </Heading>
         <p className="hero__subtitle">
-          前端、后端、Web3 一站式文档中心
+          技术知识分享与学习笔记汇总 📝
         </p>
         <div className={styles.buttons}>
           <NeonButton to="/docs-hub/Other/Notes/如何编写技术文章">
