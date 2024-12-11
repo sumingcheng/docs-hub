@@ -1,8 +1,8 @@
 {
   "label": "数组扩展方法",
-  "position": 50,
+  "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "JavaScript数组扩展方法详解"
+    "description": "JavaScript数组的扩展方法实现与应用"
   }
 }

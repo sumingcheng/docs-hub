@@ -1,0 +1,8 @@
+{
+  "label": "DOM",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "DOM操作与事件处理机制"
+  }
+} 

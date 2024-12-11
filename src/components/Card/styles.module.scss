@@ -29,24 +29,24 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-color: var(--ifm-color-primary);
   }
-
-  &-content {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
-
-  &-title {
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-    color: var(--ifm-heading-color);
-  }
-
-  &-description {
-    margin: 0;
-    font-size: 0.9rem;
-    color: var(--ifm-color-emphasis-700);
-    line-height: 1.5;
-  }
 }
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.cardTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--ifm-heading-color);
+}
+
+.cardDescription {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.5;
+} 

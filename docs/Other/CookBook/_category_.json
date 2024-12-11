@@ -1,0 +1,8 @@
+{
+  "label": "实用手册",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "开发过程中的实用技巧与解决方案"
+  }
+} 

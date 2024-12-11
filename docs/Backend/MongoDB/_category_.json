@@ -1,0 +1,8 @@
+{
+  "label": "MongoDB",
+  "position": 70,
+  "link": {
+    "type": "generated-index",
+    "description": "MongoDB文档数据库的使用指南"
+  }
+} 

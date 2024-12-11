@@ -1,0 +1,8 @@
+{
+  "label": "前端开发",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "前端开发技术栈，包括JavaScript、Node.js等核心内容"
+  }
+}

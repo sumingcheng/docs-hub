@@ -1,6 +1,6 @@
 {
   "label": "Protobuf",
-  "position": 70,
+  "position": 90,
   "link": {
     "type": "generated-index",
     "description": "Protocol Buffers序列化协议的使用"

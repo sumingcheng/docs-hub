@@ -1,8 +1,8 @@
 {
-  "label": "MySQL教程",
-  "position": 1,
+  "label": "MySQL",
+  "position": 50,
   "link": {
     "type": "generated-index",
-    "description": "MySQL数据库的系统教程，包含基础语法、查询优化、数据库设计等核心内容"
+    "description": "MySQL数据库的基础知识与进阶技巧"
   }
 }

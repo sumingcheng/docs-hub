@@ -1,8 +1,8 @@
 {
   "label": "并发",
-  "position": 15,
+  "position": 70,
   "link": {
     "type": "generated-index",
-    "description": "Go语言的并发编程特性"
+    "description": "Go语言goroutine和channel的并发编程"
   }
 } 

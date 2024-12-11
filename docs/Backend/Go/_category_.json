@@ -2,7 +2,7 @@
   "label": "Go",
   "position": 1,
   "link": {
-    "type": "doc",
-    "id": "Backend/Go/intro"
+    "type": "generated-index",
+    "description": "Go语言基础、语法、并发编程、网络编程等核心内容"
   }
-} 
+}

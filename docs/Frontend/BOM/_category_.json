@@ -1,0 +1,8 @@
+{
+  "label": "BOM",
+  "position": 9,
+  "link": {
+    "type": "generated-index",
+    "description": "浏览器对象模型的使用指南"
+  }
+} 

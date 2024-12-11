@@ -1,0 +1,8 @@
+{
+  "label": "资源导航",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "开发资源导航，包括工具、教程等资源"
+  }
+} 

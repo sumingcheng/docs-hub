@@ -1,8 +1,8 @@
 {
   "label": "接口",
-  "position": 30,
+  "position": 50,
   "link": {
     "type": "generated-index",
-    "description": "Go语言的接口设计与实现"
+    "description": "Go语言接口的定义、实现和多态"
   }
 }

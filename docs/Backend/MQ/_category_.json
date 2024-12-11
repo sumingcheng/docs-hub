@@ -1,0 +1,8 @@
+{
+  "label": "消息队列",
+  "position": 80,
+  "link": {
+    "type": "generated-index",
+    "description": "消息队列中间件的原理与应用"
+  }
+} 

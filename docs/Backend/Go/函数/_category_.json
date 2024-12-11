@@ -1,8 +1,8 @@
 {
   "label": "函数",
-  "position": 40,
+  "position": 20,
   "link": {
     "type": "generated-index",
-    "description": "Go语言函数的基础知识"
+    "description": "Go语言函数的定义、使用和最佳实践"
   }
 } 
