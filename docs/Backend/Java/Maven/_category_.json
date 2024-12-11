@@ -1,6 +1,6 @@
 {
   "label": "Maven",
-  "position": 1,
+  "position": 50,
   "link": {
     "type": "generated-index",
     "description": "Java项目构建工具Maven的使用教程"
