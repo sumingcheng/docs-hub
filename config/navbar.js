@@ -222,7 +222,7 @@ const navbar = {
         },
       ],
     },
-    // { to: "/blog", label: "Blog", position: "right" },
+    { to: "/blog", label: "Blog", position: "right" },
     {
       href: "https://github.com/sumingcheng",
       position: "right",

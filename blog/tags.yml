@@ -17,3 +17,13 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+javascript:
+  label: JavaScript
+  permalink: /javascript
+  description: JavaScript相关文章
+
+frontend:
+  label: 前端开发
+  permalink: /frontend
+  description: 前端开发技术文章
