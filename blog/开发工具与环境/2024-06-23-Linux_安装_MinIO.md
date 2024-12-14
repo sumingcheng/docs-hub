@@ -10,7 +10,7 @@ date: 2024-06-23
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/701858772]
+ 
 
 ## 官网地址  
 [https://min.io/download?license=agpl&platform=docker](https://min.io/download?license=agpl&platform=docker)## Docker 安装  

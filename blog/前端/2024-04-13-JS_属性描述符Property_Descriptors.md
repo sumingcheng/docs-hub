@@ -10,7 +10,7 @@ date: 2024-04-13
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/689868101]
+ 
 
 ## 属性描述符作用  
 ### writable  

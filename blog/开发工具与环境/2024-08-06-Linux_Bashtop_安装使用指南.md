@@ -10,7 +10,7 @@ date: 2024-08-06
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/712361591]
+ 
 
 ## bashtop  
 ![265fcc37dc81fb5e8db6aa6d1bb78f21](../image/265fcc37dc81fb5e8db6aa6d1bb78f21.jpg)## 安装  

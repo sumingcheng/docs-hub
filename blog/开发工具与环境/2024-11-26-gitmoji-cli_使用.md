@@ -10,7 +10,7 @@ date: 2024-11-26
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/9024310737]
+ 
 
 ### 安装 gitmoji-cli  
 

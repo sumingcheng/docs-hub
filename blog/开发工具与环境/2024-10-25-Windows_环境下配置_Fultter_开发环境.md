@@ -10,7 +10,7 @@ date: 2024-10-25
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/3157207574]
+ 
 
 ## 必须安装的部分  
 ### 安装 Android Studio 或 Visual Studio Code  

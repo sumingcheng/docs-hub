@@ -10,7 +10,7 @@ date: 2023-02-08
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/604527576]
+ 
 
 ## 什么是Web Workers  
 [Worker - Web API 接口参考 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Worker)## 有哪些实际用处？  

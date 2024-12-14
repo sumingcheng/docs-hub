@@ -10,7 +10,7 @@ date: 2024-07-03
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/706829182]
+ 
 
 ## 命令nvidia-smi输出的信息  
 ![06e4d05b11403eb3a9f8943902ac0e8f](../image/06e4d05b11403eb3a9f8943902ac0e8f.jpg)### 表格标题和版本信息  

@@ -10,7 +10,7 @@ date: 2024-10-28
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/3666992026]
+ 
 
 ## 修改sudoers文件以免密码执行sudo（推荐）  
 

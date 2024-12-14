@@ -10,7 +10,7 @@ date: 2024-11-10
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/6036747209]
+ 
 
 ### 临时关闭GUI  
 

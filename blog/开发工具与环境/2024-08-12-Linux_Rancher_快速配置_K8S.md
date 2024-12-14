@@ -10,7 +10,7 @@ date: 2024-08-12
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/714135221]
+ 
 
 ## 下载镜像  
 ```

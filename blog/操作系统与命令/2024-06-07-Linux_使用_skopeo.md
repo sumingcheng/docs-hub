@@ -10,7 +10,7 @@ date: 2024-06-07
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/702158036]
+ 
 
 ### 在 Fedora 和 RHEL 上安装  
 ```

@@ -10,7 +10,7 @@ date: 2024-08-22
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/715969584]
+ 
 
 ## Kubernetes 中的 apiVersion 是什么意思？  
 

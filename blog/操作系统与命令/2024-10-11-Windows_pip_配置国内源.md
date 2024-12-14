@@ -10,7 +10,7 @@ date: 2024-10-11
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/923970475]
+ 
 
 ## 查看当前 pip 位置  
 ```

@@ -10,7 +10,7 @@ date: 2023-09-17
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/656730359]
+ 
 
 ### super关键字的核心目的  
 

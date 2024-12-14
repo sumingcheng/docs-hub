@@ -10,7 +10,7 @@ date: 2024-03-16
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/687404279]
+ 
 
 ### 先安装 pipreqs 生成项目需要的 requirements.txt 文件  
 ```

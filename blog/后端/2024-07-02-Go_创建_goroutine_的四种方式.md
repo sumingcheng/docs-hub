@@ -10,7 +10,7 @@ date: 2024-07-02
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/706686625]
+ 
 
 ### 直接启动匿名函数  
 

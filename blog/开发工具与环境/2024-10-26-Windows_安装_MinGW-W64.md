@@ -10,7 +10,7 @@ date: 2024-10-26
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/702119343]
+ 
 
 ## MinGW 离线安装  
 

@@ -10,7 +10,7 @@ date: 2024-05-29
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/700301299]
+ 
 
 ### 确保已安装 Oh My Zsh  
 

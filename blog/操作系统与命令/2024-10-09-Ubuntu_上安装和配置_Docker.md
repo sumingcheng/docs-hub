@@ -10,7 +10,7 @@ date: 2024-10-09
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/890518440]
+ 
 
 ## 一、更新软件源  
 

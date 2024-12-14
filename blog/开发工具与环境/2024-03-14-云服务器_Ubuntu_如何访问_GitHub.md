@@ -10,7 +10,7 @@ date: 2024-03-14
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/686948724]
+ 
 
 ### 打开项目地址，你可以按照项目markdown进行操作  
 [https://github.com/521xueweihan/GitHub520](https://github.com/521xueweihan/GitHub520)### 或者，直接复制它更新的hosts  

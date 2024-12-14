@@ -10,7 +10,7 @@ date: 2024-05-23
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/699340924]
+ 
 
 ### 使用firewalld放开/关闭端口  
 

@@ -10,7 +10,7 @@ date: 2024-07-12
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/708491108]
+ 
 
 ## 安装 ollama  
 ```

@@ -10,7 +10,7 @@ date: 2024-05-29
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/698359047]
+ 
 
 ### 对于 Ubuntu/Debian 系统  
 

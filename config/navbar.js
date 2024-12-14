@@ -1,5 +1,5 @@
 const navbar = {
-  hideOnScroll: true,
+  hideOnScroll: false,
   title: "Sumingcheng",
   logo: {
     alt: "Sumingcheng Logo",

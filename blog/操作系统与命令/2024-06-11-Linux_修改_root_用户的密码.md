@@ -10,7 +10,7 @@ date: 2024-06-11
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/702805204]
+ 
 
 ## 修改 root 用户  
 

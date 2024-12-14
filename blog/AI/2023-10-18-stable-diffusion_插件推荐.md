@@ -10,7 +10,7 @@ date: 2023-10-18
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/662046710]
+ 
 
 ## 界面汉化  
 

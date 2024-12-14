@@ -10,7 +10,7 @@ date: 2024-06-17
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/703922308]
+ 
 
 ### 打开或创建.nanorc文件  
 

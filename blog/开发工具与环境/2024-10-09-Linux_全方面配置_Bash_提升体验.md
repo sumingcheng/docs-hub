@@ -10,7 +10,7 @@ date: 2024-10-09
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/710785979]
+ 
 
 ## 配置 Bash 提示符（PS1）  
 

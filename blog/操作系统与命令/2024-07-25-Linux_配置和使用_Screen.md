@@ -10,7 +10,7 @@ date: 2024-07-25
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/710813985]
+ 
 
 ### 安装 Screen  
 

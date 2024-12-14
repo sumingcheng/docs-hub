@@ -10,7 +10,7 @@ date: 2024-08-13
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/714306348]
+ 
 
 ### 下载kubectl  
 

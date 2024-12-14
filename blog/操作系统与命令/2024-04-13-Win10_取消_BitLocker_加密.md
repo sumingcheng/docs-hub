@@ -10,7 +10,7 @@ date: 2024-04-13
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/691486902]
+ 
 
 ### 控制面板  
 ![eb19d257299ce48959c23cafe036b069](../image/eb19d257299ce48959c23cafe036b069.jpg)### 选择系统  

@@ -80,8 +80,8 @@ const config = {
         },
         theme: {
           customCss: [
-            "./src/css/custom.scss",
-            "./src/css/article.scss"
+            "./src/css/custom.css",
+            "./src/css/article.css"
           ],
         },
       }),

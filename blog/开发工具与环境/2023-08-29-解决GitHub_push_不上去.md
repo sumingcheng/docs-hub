@@ -10,7 +10,7 @@ date: 2023-08-29
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/653056038]
+ 
 
 ## 一、配置host方法  
 ## 1.https://github.com.ipaddress.com/  

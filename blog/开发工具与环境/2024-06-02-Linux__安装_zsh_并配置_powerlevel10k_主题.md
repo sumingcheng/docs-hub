@@ -10,7 +10,7 @@ date: 2024-06-02
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/700788537]
+ 
 
 ## 安装 Zsh  
 

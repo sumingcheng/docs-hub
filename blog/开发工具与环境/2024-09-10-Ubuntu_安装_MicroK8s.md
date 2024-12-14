@@ -10,7 +10,7 @@ date: 2024-09-10
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/714822990]
+ 
 
 ## 安装 MicroK8s  
 

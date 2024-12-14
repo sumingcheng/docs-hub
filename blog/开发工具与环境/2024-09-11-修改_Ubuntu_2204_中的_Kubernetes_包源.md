@@ -10,7 +10,7 @@ date: 2024-09-11
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/719531210]
+ 
 
 ### 备份现有的 Kubernetes 源文件  
 

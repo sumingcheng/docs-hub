@@ -10,7 +10,7 @@ date: 2024-09-25
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/692766036]
+ 
 
 ## 安装 Docker 和 docker-compose  
 

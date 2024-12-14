@@ -10,7 +10,7 @@ date: 2024-09-26
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/712964315]
+ 
 
 ## 准备工作  
 ### 检查 MongoDB 安装状态  

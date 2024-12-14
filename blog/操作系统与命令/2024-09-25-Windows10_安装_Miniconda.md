@@ -10,7 +10,7 @@ date: 2024-09-25
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/722046847]
+ 
 
 ## 下载 miniconda  
 [Installing Miniconda](https://docs.anaconda.com/miniconda/miniconda-install/)## 添加环境变量  

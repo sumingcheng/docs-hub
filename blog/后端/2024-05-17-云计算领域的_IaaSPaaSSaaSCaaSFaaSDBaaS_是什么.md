@@ -10,7 +10,7 @@ date: 2024-05-17
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/697981146]
+ 
 
 ### IaaS：智能基础设施即服务的未来（Infrastructure as a Service）  
 

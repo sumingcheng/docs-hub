@@ -22,7 +22,7 @@ const additionalLanguages = [
   'jsx',
   'tsx',
   'css',
-  'scss',
+  'css',
   'less',
   'nginx',
   'docker',

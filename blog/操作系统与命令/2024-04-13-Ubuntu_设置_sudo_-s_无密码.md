@@ -10,7 +10,7 @@ date: 2024-04-13
 
 
 
- **Link:** [https://zhuanlan.zhihu.com/p/692249921]
+ 
 
 ## 配置无密码 sudo  
 
