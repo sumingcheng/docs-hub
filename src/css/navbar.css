@@ -2,22 +2,77 @@
 :root {
   --navbar-background-light: rgba(255, 255, 255, 0.85);
   --navbar-background-dark: rgba(36, 37, 38, 0.85);
-  --navbar-blur-radius: 15px;
+  --navbar-blur-radius: 3px;
   --navbar-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.15);
   --hover-background: rgba(0, 0, 0, 0.05);
   --transition-duration: 0.3s;
-  --navbar-min-height: 60px;
 }
 
 /* 导航栏基础样式 */
 .navbar {
-  -webkit-backdrop-filter: blur(var(--navbar-blur-radius)) saturate(1.2);
-  -moz-backdrop-filter: blur(var(--navbar-blur-radius)) saturate(1.2);
-  -o-backdrop-filter: blur(var(--navbar-blur-radius)) saturate(1.2);
-  backdrop-filter: blur(var(--navbar-blur-radius)) saturate(1.2);
   background-color: var(--navbar-background-light) !important;
   box-shadow: var(--navbar-shadow);
   transition: background-color var(--transition-duration) ease;
+}
+
+/* PC端的毛玻璃效果 */
+@media (min-width: 768px) {
+  .navbar {
+    /* 增加通透性和光泽感 */
+    -webkit-backdrop-filter: blur(var(--navbar-blur-radius)) saturate(160%) brightness(108%) contrast(1.1);
+    backdrop-filter: blur(var(--navbar-blur-radius)) saturate(160%) brightness(108%) contrast(1.1);
+
+    /* 降低背景色不透明度 */
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, /* 降低不透明度 */ rgba(255, 255, 255, 0.65) 100%);
+
+    /* 优化阴影,使其更轻盈 */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
+  }
+
+  /* 深色模式下的通��效果 */
+  [data-theme='dark'] .navbar {
+    background: linear-gradient(180deg, rgba(36, 37, 38, 0.75) 0%, rgba(36, 37, 38, 0.65) 100%);
+  }
+
+  /* 下拉菜单通透效果优化 */
+  .navbar .dropdown__menu {
+    -webkit-backdrop-filter: blur(var(--navbar-blur-radius)) saturate(160%) brightness(108%) contrast(1.1);
+    backdrop-filter: blur(var(--navbar-blur-radius)) saturate(160%) brightness(108%) contrast(1.1);
+
+    /* 更细腻的边框 */
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    /* 更轻盈的阴影 */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
+  }
+}
+
+/* 移动端使用更不透明的背景色 */
+@media (max-width: 767px) {
+  .navbar {
+    /* 移动端使用纯色背景，不使用毛玻璃效果 */
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    -webkit-backdrop-filter: none; /* 确保移除毛玻璃效果 */
+    backdrop-filter: none;
+  }
+
+  [data-theme='dark'] .navbar {
+    background-color: rgba(36, 37, 38, 0.95) !important;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+
+  .navbar .dropdown__menu {
+    background-color: rgba(255, 255, 255, 0.95);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+
+  [data-theme='dark'] .navbar .dropdown__menu {
+    background-color: rgba(36, 37, 38, 0.95);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
 }
 
 /* 深色模式 */
