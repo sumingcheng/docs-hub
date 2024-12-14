@@ -81,7 +81,8 @@ const config = {
         theme: {
           customCss: [
             "./src/css/custom.css",
-            "./src/css/article.css"
+            "./src/css/article.css",
+            "./src/css/navbar.css"
           ],
         },
       }),
