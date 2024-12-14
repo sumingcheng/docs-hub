@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknote_book=self.webpackChunknote_book||[]).push([["72792"],{17934:function(e){e.exports=JSON.parse('{"name":"docusaurus-plugin-content-blog","id":"default"}')}}]);

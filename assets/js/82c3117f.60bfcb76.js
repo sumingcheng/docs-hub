@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknote_book=self.webpackChunknote_book||[]).push([["70936"],{23260:function(o){o.exports=JSON.parse('{"metadata":{"permalink":"/docs-hub/blog/page/2","page":2,"postsPerPage":10,"totalPages":38,"totalCount":375,"previousPage":"/docs-hub/blog","nextPage":"/docs-hub/blog/page/3","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
