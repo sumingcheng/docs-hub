@@ -14,24 +14,22 @@ logging.basicConfig(
 def load_tags_mapping():
     """加载标签映射"""
     try:
-        with open('tags.yml', 'r', encoding='utf-8') as f:
-            tags = yaml.safe_load(f)
-            # 创建目录名到标签的映射
-            dir_to_tag = {
-                '前端': 'frontend',
-                '后端': 'backend',
-                '数据库': 'database',
-                '操作系统与命令': 'os-and-commands',
-                '开发工具与环境': 'dev-tools',
-                '网络与协议': 'network-protocol',
-                '性能优化和架构': 'performance-architecture',
-                'Web3': 'web3',
-                'AI': 'ai',
-                '2021-08-26-welcome': 'welcome'
-            }
-            return dir_to_tag
+        # 创建目录名到标签的映射
+        dir_to_tag = {
+            '前端': 'frontend',
+            '后端': 'backend',
+            '数据库': 'database',
+            '操作系统与命令': 'os-and-commands',
+            '开发工具与环境': 'dev-tools',
+            '网络与协议': 'network-protocol',
+            '性能优化和架构': 'performance-architecture',
+            'Web3': 'web3',
+            'AI': 'ai',
+            '2021-08-26-welcome': 'welcome'
+        }
+        return dir_to_tag
     except Exception as e:
-        logging.error(f"加载tags.yml失败: {e}")
+        logging.error(f"加载标签映射失败: {e}")
         return {}
 
 def get_date_from_filename(filename):
