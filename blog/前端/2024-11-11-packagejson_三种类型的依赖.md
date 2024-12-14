@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: packagejson-三种类型的依赖
+title: packagejson 三种类型的依赖
+authors: [sumingcheng]
+tags: [frontend]
+date: 2024-11-11
 ---
+
 # package.json 三种类型的依赖
 
 
@@ -82,4 +87,3 @@ authors: sumingcheng
 ```
 
 这样，假设用户已经在他们的项目中安装了 `react@18.0.0`，那么他们就可以使用你的组件库了。如果用户没有安装正确版本的 `react`，npm 会给出警告提示。
-

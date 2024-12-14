@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: linux-ollama-常用命令和-api-调用
+title: Linux Ollama 常用命令和 API 调用
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2024-07-12
 ---
+
 # Linux Ollama 常用命令和 API 调用
 
 
@@ -115,4 +120,3 @@ root@gptdev:/home# curl http://localhost:11434/api/chat -d '{
 ```
 
 个人觉得 Ollama 真心挺不错的，让跑大模型这件事变的简单了，专心搞业务就行了。
-

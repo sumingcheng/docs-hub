@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: h5-使用-nosleepjs-阻止手机自动休眠
+title: H5 使用 NoSleepjs 阻止手机自动休眠
+authors: [sumingcheng]
+tags: [frontend]
+date: 2024-03-28
 ---
+
 # H5 使用 NoSleep.js 阻止手机自动休眠
 
 

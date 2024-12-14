@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: linux-rancher-快速配置-k8s
+title: Linux Rancher 快速配置 K8S
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-08-12
 ---
+
 # Linux Rancher 快速配置 K8S
 
 

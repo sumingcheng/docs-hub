@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: kubernetesk8s集群-docker-作为容器运行时
+title: KubernetesK8s集群 Docker 作为容器运行时
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-09-12
 ---
+
 # Kubernetes（K8s）集群 Docker 作为容器运行时
 
 

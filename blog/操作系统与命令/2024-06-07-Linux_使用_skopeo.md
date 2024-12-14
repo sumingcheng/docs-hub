@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: linux-使用-skopeo
+title: Linux 使用 skopeo
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2024-06-07
 ---
+
 # Linux 使用 skopeo
 
 
@@ -64,4 +69,3 @@ skopeo copy docker://docker.io/library/alpine:latest oci:/path/to/alpine-bundle:
 ```
 
 将 Docker Hub 上的 Alpine 镜像保存为本地的 OCI 格式 tar 文件。
-

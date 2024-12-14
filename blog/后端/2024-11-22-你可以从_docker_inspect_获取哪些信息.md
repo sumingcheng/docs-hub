@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 你可以从-docker-inspect-获取哪些信息
+title: 你可以从 docker inspect 获取哪些信息
+authors: [sumingcheng]
+tags: [backend]
+date: 2024-11-22
 ---
+
 # 你可以从 docker inspect 获取哪些信息
 
 

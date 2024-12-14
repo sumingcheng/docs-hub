@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: windows10-安装-miniconda
+title: Windows10 安装 Miniconda
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2024-09-25
 ---
+
 # Windows10 安装 Miniconda
 
 

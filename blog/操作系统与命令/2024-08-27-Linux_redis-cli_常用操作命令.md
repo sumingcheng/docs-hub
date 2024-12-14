@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: linux-redis-cli-常用操作命令
+title: Linux redis-cli 常用操作命令
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2024-08-27
 ---
+
 # Linux redis-cli 常用操作命令
 
 

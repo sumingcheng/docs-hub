@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: nginx-不同场景的-log-format-示例
+title: Nginx 不同场景的 log format 示例
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-09-03
 ---
+
 # Nginx 不同场景的 log_format 示例
 
 

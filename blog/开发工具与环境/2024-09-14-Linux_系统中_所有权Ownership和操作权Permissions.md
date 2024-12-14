@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: linux-系统中-所有权ownership和操作权permissions
+title: Linux 系统中 所有权Ownership和操作权Permissions
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-09-14
 ---
+
 # Linux 系统中 所有权（Ownership）和操作权（Permissions）
 
 
@@ -44,4 +49,3 @@ authors: sumingcheng
 **资源管理**：在多用户环境中，区分所有权和权限有助于更有效地管理系统资源。用户可以共享文件而不失去对其的控制权，促进协作的同时保障数据安全。
 
 **历史设计选择**：Unix 系统最初设计时，就采用了这种所有权和权限分离的模型。它提供了一个简单 yet 强大的机制，避免了复杂的访问控制列表（ACL），满足了当时对效率和性能的需求。
-

@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 如何上传镜像到-docker-hub
+title: 如何上传镜像到 Docker Hub
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-07-17
 ---
+
 # 如何上传镜像到 Docker Hub
 
 
@@ -38,4 +43,3 @@ docker push username/repository:tag
 确保替换 `username/repository:tag` 为您标记的镜像名
 
 **确认上传**： 上传完成后，您可以在 Docker Hub 上的账户仓库中看到您的镜像
-

@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: linux-使用-rsync-传输文件
+title: Linux 使用 rsync 传输文件
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-06-28
 ---
+
 # Linux 使用 rsync 传输文件
 
 
@@ -38,4 +43,3 @@ rsync -avzP /path/to/source/folder/ username@B_machine_IP:/path/to/destination/f
 * `-a` 表示归档模式，确保文件的属性和权限被保留。
 * `-v` 表示详细模式，会显示传输过程的详细信息。
 * `-z` 表示启用压缩，减少数据传输量。
-

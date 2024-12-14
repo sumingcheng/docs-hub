@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: kubernetes-面试常见问题
+title: Kubernetes 面试常见问题
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-08-22
 ---
+
 # Kubernetes 面试常见问题
 
 
@@ -82,4 +87,3 @@ authors: sumingcheng
 
 
 **注：以上问题仅针对研发岗，运维岗需要更深入了解**
-

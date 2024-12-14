@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: linux-安装-minio
+title: Linux 安装 MinIO
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-06-23
 ---
+
 # Linux 安装 MinIO
 
 

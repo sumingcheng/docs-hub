@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: linux-安装使用-filebrowser
+title: Linux 安装使用 FileBrowser
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-08-08
 ---
+
 # Linux 安装使用 FileBrowser
 
 
@@ -45,4 +50,3 @@ FileBrowser 支持一些高级功能，例如设置磁盘配额、限制访问�
 **HTTPS 配置**：建议启用 HTTPS 来安全地使用 FileBrowser。您可以在 Docker Compose 文件中配置反向代理和 SSL/TLS。
 
 **自定义用户权限**：您可以为不同用户设置不同的访问权限，以管理谁可以访问什么内容。
-

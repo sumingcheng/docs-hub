@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: nginx-配置中-root-和-alias-指令的区别
+title: Nginx 配置中 root 和 alias 指令的区别
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2023-12-11
 ---
+
 # Nginx 配置中 root 和 alias 指令的区别
 
 

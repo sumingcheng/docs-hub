@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: gitignore如何优雅地忽略不必要的文件
+title: Gitignore如何优雅地忽略不必要的文件
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2023-08-29
 ---
+
 # Gitignore：如何优雅地忽略不必要的文件
 
 
@@ -53,4 +58,3 @@ yarn-error.log*
 * 使用 `!` 开头的模式将排除之前定义的模式。
 
 通过上述规则，你可以轻松地定制 `.gitignore`，确保只有需要的文件被加入到 Git 版本控制中。
-

@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: javascript数组方法修改原数组的原因是什么
+title: JavaScript数组方法修改原数组的原因是什么
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-08-29
 ---
+
 # JavaScript数组方法修改原数组的原因是什么？
 
 
@@ -33,4 +38,3 @@ authors: sumingcheng
 各位可以看出，修改原数组的方法，往往是要对数组中的元素进行操作。或者说是这种操作影响到了元素的位置。这种情况下的方法，是要修改原数组的。
 
 不修改原数组的方法，往往是想对整个数组进行操作。并不是想改变数组元素，而是对整个数组进行遍历、合并、转化等。
-

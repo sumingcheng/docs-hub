@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: python-typeerror-asyncconnectionpool--init---got-an-unexpected-keyword-argument-socket-options
+title: Python TypeError AsyncConnectionPool  init   got an unexpected keyword argument socket options
+authors: [sumingcheng]
+tags: [backend]
+date: 2024-03-18
 ---
+
 # Python: TypeError: AsyncConnectionPool.__init__() got an unexpected keyword argument 'socket_options
 
 
@@ -57,4 +62,3 @@ pip install httpx==0.24.1
 ```
 
 重新启动
-

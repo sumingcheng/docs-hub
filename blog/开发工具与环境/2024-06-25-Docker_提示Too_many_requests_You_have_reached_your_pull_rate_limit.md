@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: docker-提示too-many-requests-you-have-reached-your-pull-rate-limit
+title: Docker 提示Too many requests You have reached your pull rate limit
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-06-25
 ---
+
 # Docker 提示“Too many requests: You have reached your pull rate limit”。
 
 
@@ -34,4 +39,3 @@ docker login
 **本地缓存常用镜像**
 
 尽量缓存您经常使用的镜像。当您的CI/CD流程或开发环境需要使用这些镜像时，直接从本地缓存拉取，减少对Docker Hub的请求。
-

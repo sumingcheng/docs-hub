@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: ubuntu-安装-zsh-配置-oh-my-zsh-主题和插件
+title: Ubuntu 安装 Zsh 配置 Oh My Zsh 主题和插件
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2024-04-13
 ---
+
 # Ubuntu 安装 Zsh 配置 Oh My Zsh 主题和插件
 
 
@@ -72,4 +77,3 @@ plugins=(git z autojump)
 ```
 
 安装完成后，你可以通过关闭并重新打开终端或运行 `source ~/.zshrc` 来应用更改。
-

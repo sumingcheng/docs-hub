@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: javascript-常用正则
+title: JavaScript 常用正则
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-02-14
 ---
+
 # JavaScript 常用正则
 
 

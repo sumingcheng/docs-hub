@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: javascript-中的-super-关键字解析
+title: JavaScript 中的 super 关键字解析
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-09-17
 ---
+
 # JavaScript 中的 super 关键字解析
 
 

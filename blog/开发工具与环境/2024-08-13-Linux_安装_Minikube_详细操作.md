@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: linux-安装-minikube-详细操作
+title: Linux 安装 Minikube 详细操作
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-08-13
 ---
+
 # Linux 安装 Minikube 详细操作
 
 

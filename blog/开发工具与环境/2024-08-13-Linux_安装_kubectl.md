@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: linux-安装-kubectl
+title: Linux 安装 kubectl
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-08-13
 ---
+
 # Linux 安装 kubectl
 
 

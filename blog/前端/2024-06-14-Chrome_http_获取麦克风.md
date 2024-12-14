@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: chrome-http-获取麦克风
+title: Chrome http 获取麦克风
+authors: [sumingcheng]
+tags: [frontend]
+date: 2024-06-14
 ---
+
 # Chrome http 获取麦克风
 
 
@@ -22,4 +27,3 @@ http://10.20.201.215:30001,http://172.22.220.89:30001
 ### 重启浏览器  
 
 点击右下角的 Relaunch
-

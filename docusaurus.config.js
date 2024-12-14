@@ -60,8 +60,8 @@ const config = {
           path: 'blog',
           routeBasePath: 'blog',
           include: ['**/*.{md,mdx}'], // 包含所有子目录
-          blogSidebarCount: 50,     // 显示所有文章
-          blogSidebarTitle: 'All posts', // 侧边栏标题
+          blogSidebarCount: "ALL",     // 显示所有文章
+          blogSidebarTitle: '所有文章', // 侧边栏标题
           sortPosts: 'descending',     // 按日期降序排列
           showReadingTime: true,
           readingTime: ({ content, frontMatter, defaultReadingTime }) =>
@@ -71,7 +71,7 @@ const config = {
             xslt: true,
           },
           // 请更改为你的仓库地址
-          // 删除此行将移除"编辑此页"链接
+          // 删除此行将移除"编辑此���"链接
           editUrl: "https://github.com/sumingcheng/docs-hub",
           // 博客最佳实践的相关选项
           onInlineTags: "warn",
@@ -230,6 +230,9 @@ const config = {
   ],
   customFields: {
     carbonServeId: "CVYD42T7", //  Carbon Ads ID
+  },
+  future: {
+    experimental_faster: true, // 启用实验性能优化
   },
 }
 

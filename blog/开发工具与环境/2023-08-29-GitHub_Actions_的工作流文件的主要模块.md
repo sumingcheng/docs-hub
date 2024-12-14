@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: github-actions-的工作流文件的主要模块
+title: GitHub Actions 的工作流文件的主要模块
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2023-08-29
 ---
+
 # GitHub Actions 的工作流文件的主要模块
 
 

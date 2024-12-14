@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: httphttps的区别
+title: HTTPHTTPS的区别
+authors: [sumingcheng]
+tags: [network-protocol]
+date: 2023-02-12
 ---
+
 # HTTP/HTTPS的区别
 
 

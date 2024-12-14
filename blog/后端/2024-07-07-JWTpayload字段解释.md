@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: jwtpayload字段解释
+title: JWTpayload字段解释
+authors: [sumingcheng]
+tags: [backend]
+date: 2024-07-07
 ---
+
 # JWT（payload）字段解释
 
 
@@ -26,4 +31,3 @@ authors: sumingcheng
 ### 私有的Claims  
 
 私有的claims是发送者和接收者之间共同定义的claims，并不是注册或公共的claims。这些claims通常用于携带业务逻辑相关的信息。
-

@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: nginx-代理-eventsstream-接口配置优化
+title: Nginx 代理 EventsStream 接口配置优化
+authors: [sumingcheng]
+tags: [backend]
+date: 2024-07-19
 ---
+
 # Nginx 代理 EventsStream 接口配置优化
 
 

@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: webpack-常见-loaderplugin
+title: Webpack 常见 LoaderPlugin
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-02-27
 ---
+
 # Webpack 常见 Loader、Plugin
 
 
@@ -48,4 +53,3 @@ authors: sumingcheng
 (7) ProvidePlugin：自动加载模块，而不必使用 require 或 import 导入。
 
 (8) HotModuleReplacementPlugin：实现模块热更新，用于提高开发效率。
-

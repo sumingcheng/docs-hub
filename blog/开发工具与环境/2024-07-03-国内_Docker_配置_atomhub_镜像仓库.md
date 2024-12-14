@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 国内-docker-配置-atomhub-镜像仓库
+title: 国内 Docker 配置 atomhub 镜像仓库
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-07-03
 ---
+
 # 国内 Docker 配置 atomhub 镜像仓库
 
 
@@ -35,4 +40,3 @@ sudo systemctl restart docker
 
 
 **试过这个源目前是可以使用的，因为里面有华为，所以相信未来也一定可以继续使用！**
-

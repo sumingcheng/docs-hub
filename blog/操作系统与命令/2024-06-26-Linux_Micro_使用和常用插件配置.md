@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: linux-micro-使用和常用插件配置
+title: Linux Micro 使用和常用插件配置
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2024-06-26
 ---
+
 # Linux Micro 使用和常用插件配置
 
 

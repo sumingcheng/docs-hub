@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: linux-mongodb-数据的导出和导入
+title: Linux MongoDB 数据的导出和导入
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-09-26
 ---
+
 # Linux MongoDB 数据的导出和导入
 
 

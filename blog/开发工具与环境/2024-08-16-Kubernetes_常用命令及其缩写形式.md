@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: kubernetes-常用命令及其缩写形式
+title: Kubernetes 常用命令及其缩写形式
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-08-16
 ---
+
 # Kubernetes 常用命令及其缩写形式
 
 
@@ -37,4 +42,3 @@ authors: sumingcheng
 | clusterrolebindings | crb | 管理集群级角色绑定 |
 | roles | ro | 管理命名空间级角色 |
 | rolebindings | rb | 管理命名空间级角色绑定 |
-

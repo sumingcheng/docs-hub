@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: go-搭建并使用-goproxy-作为代理服务器
+title: Go 搭建并使用 goproxy 作为代理服务器
+authors: [sumingcheng]
+tags: [backend]
+date: 2024-07-02
 ---
+
 # Go 搭建并使用 goproxy 作为代理服务器
 
 
@@ -64,4 +69,3 @@ go get -v github.com/sirupsen/logrus
 **开源社区**：开源项目可以设置使用公共的 `goproxy` 服务，如 `goproxy.cn` 或 `goproxy.io`，这些都是为了提供更快速的模块下载服务而设立的。
 
 **个人开发者**：个人开发者也可以使用公共的或私有的 `goproxy` 实例来优化自己的开发流程，尤其是在网络连接不佳的情况下。
-

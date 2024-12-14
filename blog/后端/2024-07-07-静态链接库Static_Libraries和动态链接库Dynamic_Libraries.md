@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 静态链接库static-libraries和动态链接库dynamic-libraries
+title: 静态链接库Static Libraries和动态链接库Dynamic Libraries
+authors: [sumingcheng]
+tags: [backend]
+date: 2024-07-07
 ---
+
 # 静态链接库（Static Libraries）和动态链接库（Dynamic Libraries）
 
 
@@ -71,4 +76,3 @@ go build -tags netgo -ldflags '-extldflags "-static"'
 **-ldflags '-extldflags "-static"'**
 
 静态链接。`-extldflags "-static"` 是传递给外部链接器的，确保没有动态库被链接
-

@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: http请求参数类型及其在swagger文档和实际请求中的表示方式
+title: HTTP请求参数类型及其在Swagger文档和实际请求中的表示方式
+authors: [sumingcheng]
+tags: [network-protocol]
+date: 2023-09-12
 ---
+
 # HTTP 请求参数类型及其在 Swagger 文档和实际请求中的表示方式
 
 **Author:** [素明诚]

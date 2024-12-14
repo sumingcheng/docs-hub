@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 对等依赖peer-dependency
+title: 对等依赖peer dependency
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-07-04
 ---
+
 # 对等依赖（peer dependency）
 
 

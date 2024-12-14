@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 前端对接-python-sse
+title: 前端对接 Python SSE
+authors: [sumingcheng]
+tags: [frontend]
+date: 2024-03-13
 ---
+
 # 前端对接 Python SSE
 
 

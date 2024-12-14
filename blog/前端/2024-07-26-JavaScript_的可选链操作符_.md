@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: javascript-的可选链操作符-
+title: JavaScript 的可选链操作符 
+authors: [sumingcheng]
+tags: [frontend]
+date: 2024-07-26
 ---
+
 # JavaScript 的可选链操作符 (?.)
 
 
@@ -38,4 +43,3 @@ obj.func?.();
 ```
 
 如果 `obj.func` 存在且为函数，则执行调用；如果为 `undefined` 或 `null`，则不执行并返回 `undefined`。
-

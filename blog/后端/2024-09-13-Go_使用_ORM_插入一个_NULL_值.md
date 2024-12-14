@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: go-使用-orm-插入一个-null-值
+title: Go 使用 ORM 插入一个 NULL 值
+authors: [sumingcheng]
+tags: [backend]
+date: 2024-09-13
 ---
+
 # Go 使用 ORM 插入一个 NULL 值
 
 

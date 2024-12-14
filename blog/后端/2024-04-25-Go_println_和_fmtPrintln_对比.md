@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: go-println-和-fmtprintln-对比
+title: Go println 和 fmtPrintln 对比
+authors: [sumingcheng]
+tags: [backend]
+date: 2024-04-25
 ---
+
 # Go println() 和 fmt.Println() 对比
 
 

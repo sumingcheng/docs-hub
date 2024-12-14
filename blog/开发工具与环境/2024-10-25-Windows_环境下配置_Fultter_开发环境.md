@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: windows-环境下配置-fultter-开发环境
+title: Windows 环境下配置 Fultter 开发环境
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-10-25
 ---
+
 # Windows 环境下配置 Fultter 开发环境
 
 

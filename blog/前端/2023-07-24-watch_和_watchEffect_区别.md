@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: watch-和-watcheffect-区别
+title: watch 和 watchEffect 区别
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-07-24
 ---
+
 # watch 和 watchEffect 区别
 
 
@@ -46,4 +51,3 @@ watch(count, (newValue, oldValue) => {
 
 
 `watchEffect` 更为简单和直观，尤其在处理副作用时，而 `watch` 则提供了更细粒度的控制，包括获取旧值和新值，以及 lazy 选项等
-

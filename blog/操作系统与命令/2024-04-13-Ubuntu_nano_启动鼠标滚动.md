@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: ubuntu-nano-启动鼠标滚动
+title: Ubuntu nano 启动鼠标滚动
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2024-04-13
 ---
+
 # Ubuntu nano 启动鼠标滚动
 
 
@@ -48,4 +53,3 @@ quit  // 退出
 ```
 
 **如果您喜欢这篇文章，不妨给它点个赞并收藏，感谢您的支持！**
-

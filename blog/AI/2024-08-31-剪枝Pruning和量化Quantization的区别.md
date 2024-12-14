@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 剪枝pruning和量化quantization的区别
+title: 剪枝Pruning和量化Quantization的区别
+authors: [sumingcheng]
+tags: [ai]
+date: 2024-08-31
 ---
+
 # 剪枝（Pruning）和量化（Quantization）的区别
 
 
@@ -30,4 +35,3 @@ authors: sumingcheng
 ## 如何选择量化或者剪枝  
 
 如果你需要减少模型的总大小或提升模型在特定硬件上的兼容性，应选择量化。如果目标是减少非必要的计算和提升推理速度，应选择剪枝。在许多情况下，结合使用这两种技术可以达到最佳的优化效果。
-

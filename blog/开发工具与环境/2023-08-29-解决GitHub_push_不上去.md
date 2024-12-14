@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 解决github-push-不上去
+title: 解决GitHub push 不上去
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2023-08-29
 ---
+
 # 解决：GitHub push 不上去
 
 
@@ -83,4 +88,3 @@ git config --global http.https://github.com.proxy socks5://127.0.0.1:7890
 ```
 
 四种方法，最终肯定会解决你的问题，如果能开了代理，可以直接指定本地的代理软件，也就是按照四进行操作
-

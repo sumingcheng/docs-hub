@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: linux-上传和下载-lrzsz
+title: Linux 上传和下载 lrzsz
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-05-29
 ---
+
 # Linux 上传和下载 lrzsz
 
 

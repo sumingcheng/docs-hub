@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 比较-tcphttp-和-websocket-三种协议
+title: 比较 TCPHTTP 和 WebSocket 三种协议
+authors: [sumingcheng]
+tags: [network-protocol]
+date: 2023-07-07
 ---
+
 # 比较 TCP、HTTP 和 WebSocket 三种协议
 
 
@@ -17,4 +22,3 @@ authors: sumingcheng
 | 数据流向 | 双向 | 单向，从客户端发送请求到服务端响应 | 双向，可以从客户端到服务端，也可以从服务端到客户端 |
 | 头部信息 | 无，仅在握手时有少量开销 | 每次请求和响应都有头部信息，可能导致额外开销 | 握手时有开销，但之后数据传输的头部开销非常小 |
 | 使用场景 | 低级别的网络通信，不特定于应用场景 | 网页请求，API 请求，短连接 | 实时或需要服务器主动推送的应用，如聊天应用、在线游戏等 |
-

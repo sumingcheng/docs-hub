@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: gradio-配合-fastapi-搭建交互式web应用与rest-api服务
+title: Gradio 配合 FastAPI 搭建交互式Web应用与REST API服务
+authors: [sumingcheng]
+tags: [backend]
+date: 2023-10-18
 ---
+
 # Gradio 配合 FastAPI 搭建交互式Web应用与REST API服务
 
 
@@ -96,4 +101,3 @@ python fastapi_app.py
 
 
 PS：这只是一个模板，如果想继续添加UI界面或者是接口需要你自己继续开发
-

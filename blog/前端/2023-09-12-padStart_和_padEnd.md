@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: padstart-和-padend
+title: padStart 和 padEnd
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-09-12
 ---
+
 # padStart 和 padEnd
 
 
@@ -39,4 +44,3 @@ authors: sumingcheng
 ```
 
 这两个方法在处理数字、日期等格式时非常有用，它们可以确保输出的字符串具有统一的长度和格式。
-

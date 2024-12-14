@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: docker-danglingunused--images
+title: Docker DanglingUnused  Images
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-09-12
 ---
+
 # Docker Dangling/Unused  Images
 
 
@@ -53,4 +58,3 @@ authors: sumingcheng
 如果一个悬空镜像同时也是一个未使用镜像，使用`docker image prune`或者`docker system prune`命令就足够了。
 
 定期清理不需要的镜像，以节省磁盘空间。但不要过于频繁。
-

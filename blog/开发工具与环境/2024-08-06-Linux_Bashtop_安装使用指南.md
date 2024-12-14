@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: linux-bashtop-安装使用指南
+title: Linux Bashtop 安装使用指南
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-08-06
 ---
+
 # Linux Bashtop 安装使用指南
 
 

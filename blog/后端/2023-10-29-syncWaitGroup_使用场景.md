@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: syncwaitgroup-使用场景
+title: syncWaitGroup 使用场景
+authors: [sumingcheng]
+tags: [backend]
+date: 2023-10-29
 ---
+
 # sync.WaitGroup 使用场景
 
 
@@ -46,4 +51,3 @@ func main() {
 ```
 
 在这个例子中，我们创建了一个 `sync.WaitGroup` 实例，并在启动每个协程时通过 `Add` 方法增加计数。每个工作协程在完成时调用 `Done` 方法来减少计数。主协程通过调用 `Wait` 方法等待所有工作协程完成执行。这样，我们可以确保所有工作协程完成后，再执行后续的代码。
-

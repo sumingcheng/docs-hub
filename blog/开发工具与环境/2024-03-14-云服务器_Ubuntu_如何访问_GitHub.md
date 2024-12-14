@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 云服务器-ubuntu-如何访问-github
+title: 云服务器 Ubuntu 如何访问 GitHub
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-03-14
 ---
+
 # 云服务器 Ubuntu 如何访问 GitHub
 
 

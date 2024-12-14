@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: linux-命令-nvidia-smi-参数
+title: Linux 命令 nvidia-smi 参数
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2024-07-03
 ---
+
 # Linux 命令 nvidia-smi 参数
 
 
@@ -61,4 +66,3 @@ authors: sumingcheng
 **Process name**：进程名称
 
 **GPU Memory Usage**：该进程使用的GPU内存量
-

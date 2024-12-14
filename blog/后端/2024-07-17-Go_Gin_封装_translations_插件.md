@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: go-gin-封装-translations-插件
+title: Go Gin 封装 translations 插件
+authors: [sumingcheng]
+tags: [backend]
+date: 2024-07-17
 ---
+
 # Go Gin 封装 translations 插件
 
 

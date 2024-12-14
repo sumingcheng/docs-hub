@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: windows-上为-wsl2-设置端口转发实现局域网访问
+title: Windows 上为 WSL2 设置端口转发实现局域网访问
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2024-09-12
 ---
+
 # Windows 上为 WSL2 设置端口转发，实现局域网访问
 
 
@@ -38,6 +43,3 @@ netsh interface portproxy add v4tov4 listenport=5244 listenaddress=0.0.0.0 conne
 ![0c145f89f470e88ed679e632d09dc32d](../image/0c145f89f470e88ed679e632d09dc32d.jpg)
 
 可以访问了，局域网也没问题
-
-  
-  

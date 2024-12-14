@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: docker-compose-配置字段详解
+title: docker-compose 配置字段详解
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-06-06
 ---
+
 # docker-compose 配置字段详解
 
 
@@ -165,4 +170,3 @@ services:
 ```
 
 这些是 `docker-compose.yml` 文件中最常见的配置项，通过这些配置，用户可以详终定义和管理容器化应用的行为。每个选项都提供了控制和调整容器运行环境的灵活性，使得 `docker-compose` 成为管理容器应用的强大工具。
-

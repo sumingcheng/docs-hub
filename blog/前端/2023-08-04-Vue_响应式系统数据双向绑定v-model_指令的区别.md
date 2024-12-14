@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: vue-响应式系统数据双向绑定v-model-指令的区别
+title: Vue 响应式系统数据双向绑定v-model 指令的区别
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-08-04
 ---
+
 # Vue 响应式系统、数据双向绑定、v-model 指令的区别
 
 
@@ -32,4 +37,3 @@ authors: sumingcheng
 ```
 
 `v-model` 提供了一种更简洁、更易于理解的方式来实现数据双向绑定，所以说 `v-model` 是 `v-bind` 和 `v-on` 的语法糖。
-

@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 什么是浏览器的-mixed-content-问题
+title: 什么是浏览器的 Mixed Content 问题
+authors: [sumingcheng]
+tags: [frontend]
+date: 2024-09-26
 ---
+
 # 什么是浏览器的 Mixed Content 问题？
 
 

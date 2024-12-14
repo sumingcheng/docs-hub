@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: java-受检checked异常和非受检unchecked异常
+title: Java 受检Checked异常和非受检Unchecked异常
+authors: [sumingcheng]
+tags: [backend]
+date: 2023-10-13
 ---
+
 # Java 受检（Checked）异常和非受检（Unchecked）异常
 
 

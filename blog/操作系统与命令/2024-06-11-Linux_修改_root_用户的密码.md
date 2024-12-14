@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: linux-修改-root-用户的密码
+title: Linux 修改 root 用户的密码
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2024-06-11
 ---
+
 # Linux 修改 root 用户的密码
 
 
@@ -37,4 +42,3 @@ passwd alice
 ```
 
 **操作步骤同上**
-

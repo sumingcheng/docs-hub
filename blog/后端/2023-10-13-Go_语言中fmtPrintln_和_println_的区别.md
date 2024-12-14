@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: go-语言中fmtprintln-和-println-的区别
+title: Go 语言中fmtPrintln 和 println 的区别
+authors: [sumingcheng]
+tags: [backend]
+date: 2023-10-13
 ---
+
 # Go 语言中，fmt.Println 和 println 的区别
 
 
@@ -38,4 +43,3 @@ authors: sumingcheng
 
 * `fmt.Println` 是在生产环境中打印信息的推荐方式，因为它的行为明确且一致。
 * `println` 主要用于调试阶段，不推荐在生产代码中使用，因为它的实现在不同系统和 Go 的版本中可能会有所不同。
-

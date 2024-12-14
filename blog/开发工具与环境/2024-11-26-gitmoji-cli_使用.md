@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: gitmoji-cli-使用
+title: gitmoji-cli 使用
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-11-26
 ---
+
 # gitmoji-cli 使用
 
 
@@ -25,4 +30,3 @@ npm install -g gitmoji-cli
 ![9e832bc775e4c368fc130b4129f89edc](../image/9e832bc775e4c368fc130b4129f89edc.jpg)
 
 选择后提交即可
-

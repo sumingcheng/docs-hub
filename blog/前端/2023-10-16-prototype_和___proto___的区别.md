@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: prototype-和---proto---的区别
+title: prototype 和   proto   的区别
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-10-16
 ---
+
 # prototype 和 __proto__ 的区别
 
 

@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 深入理解-await-与-async
+title: 深入理解 await 与 async
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-09-11
 ---
+
 # 深入理解 await 与 async
 
 
@@ -126,4 +131,3 @@ Node.js 从 7.6.0 版本开始支持 `async/await`。大多数现代浏览器都
 ### 了解其他与async/await相关的 ES 提议，如顶级await。  
 
 顶级 `await` 是一个提议，允许你在模块的顶级使用 `await`，而不是仅在 `async` 函数中。
-

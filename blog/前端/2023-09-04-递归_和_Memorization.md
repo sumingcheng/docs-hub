@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 递归-和-memorization
+title: 递归 和 Memorization
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-09-04
 ---
+
 # 递归 和 Memorization
 
 
@@ -49,4 +54,3 @@ function fibonacciWithMemo(n, memo = {}) {
 ```
 
 在这个版本中，使用一个名为 `memo` 的对象来存储已经计算过的斐波那契数。当函数再次被调用时，它首先检查 `memo` 对象中是否已经有了该数的值。如果有，则直接返回这个值，从而避免了不必要的重复计算。
-

@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: go-make-和-new-的区别
+title: Go make 和 new 的区别
+authors: [sumingcheng]
+tags: [backend]
+date: 2024-04-25
 ---
+
 # Go make 和 new 的区别
 
 

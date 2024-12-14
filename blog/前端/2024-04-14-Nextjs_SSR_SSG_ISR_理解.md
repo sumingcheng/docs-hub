@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: nextjs-ssr-ssg-isr-理解
+title: Nextjs SSR SSG ISR 理解
+authors: [sumingcheng]
+tags: [frontend]
+date: 2024-04-14
 ---
+
 # Next.js SSR SSG ISR 理解
 
 
@@ -132,4 +137,3 @@ export default ProductsPage;
 这三种技术各有优势和特定的适用场景，选择合适的渲染方法可以极大提升应用的性能和用户体验。
 
 **如果您喜欢这篇文章，不妨给它点个赞并收藏，感谢您的支持！**
-

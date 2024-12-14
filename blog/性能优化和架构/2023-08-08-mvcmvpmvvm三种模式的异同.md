@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: mvcmvpmvvm三种模式的异同
+title: mvcmvpmvvm三种模式的异同
+authors: [sumingcheng]
+tags: [performance-architecture]
+date: 2023-08-08
 ---
+
 # mvc、mvp、mvvm三种模式的异同
 
 

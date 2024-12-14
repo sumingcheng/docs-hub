@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: js-web-workers
+title: JS Web Workers
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-02-08
 ---
+
 # JS Web Workers
 
 
@@ -42,4 +47,3 @@ importScripts('...')
 ```
 
 1. 使用`terminate()`可以终止`worker`
-

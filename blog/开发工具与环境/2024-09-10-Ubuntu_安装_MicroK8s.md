@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: ubuntu-安装-microk8s
+title: Ubuntu 安装 MicroK8s
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-09-10
 ---
+
 # Ubuntu 安装 MicroK8s
 
 
@@ -111,4 +116,3 @@ microk8s config > ~/.kube/config
 ## 参考文档  
 
 MicroK8s 的[https://microk8s.io/docs](https://microk8s.io/docs)
-

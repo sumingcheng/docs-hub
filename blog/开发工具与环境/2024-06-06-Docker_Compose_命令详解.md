@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: docker-compose-命令详解
+title: Docker Compose 命令详解
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-06-06
 ---
+
 # Docker Compose 命令详解
 
 
@@ -209,5 +214,4 @@ docker-compose -f custom-compose.yaml up
   
 
 
-**整理不易，求关注** 
-
+**整理不易，求关注**

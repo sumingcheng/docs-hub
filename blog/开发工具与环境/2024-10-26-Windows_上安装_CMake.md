@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: windows-上安装-cmake
+title: Windows 上安装 CMake
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-10-26
 ---
+
 # Windows 上安装 CMake
 
 **Author:** [素明诚]

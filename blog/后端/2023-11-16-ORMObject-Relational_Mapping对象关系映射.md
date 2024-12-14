@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: ormobject-relational-mapping对象关系映射
+title: ORMObject-Relational Mapping对象关系映射
+authors: [sumingcheng]
+tags: [backend]
+date: 2023-11-16
 ---
+
 # ORM（Object-Relational Mapping，对象关系映射）
 
 
@@ -33,4 +38,3 @@ User.create({
 ```
 
 不过，也有一些缺点。比如，对于一些复杂的查询，ORM可能不够灵活，有时候生成的SQL语句也不是最优的。但总的来说，ORM是个很有用的工具，尤其是在项目规模较大时，它能大大提升开发效率。
-

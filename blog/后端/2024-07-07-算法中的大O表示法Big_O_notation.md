@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 算法中的大o表示法big-o-notation
+title: 算法中的大O表示法Big O notation
+authors: [sumingcheng]
+tags: [backend]
+date: 2024-07-07
 ---
+
 # 算法中的大O表示法（Big O notation）
 
 

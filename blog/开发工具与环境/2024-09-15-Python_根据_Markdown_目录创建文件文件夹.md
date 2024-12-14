@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: python-根据-markdown-目录创建文件文件夹
+title: Python 根据 Markdown 目录创建文件文件夹
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-09-15
 ---
+
 # Python 根据 Markdown 目录创建文件/文件夹
 
 

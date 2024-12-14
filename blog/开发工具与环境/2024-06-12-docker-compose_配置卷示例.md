@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: docker-compose-配置卷示例
+title: docker-compose 配置卷示例
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-06-12
 ---
+
 # docker-compose 配置卷示例
 
 

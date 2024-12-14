@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: ubuntu-设置-sudo--s-无密码
+title: Ubuntu 设置 sudo -s 无密码
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2024-04-13
 ---
+
 # Ubuntu 设置 sudo -s 无密码
 
 
@@ -50,4 +55,3 @@ ALL ALL=(ALL) NOPASSWD:ALL
 
 
 如果您喜欢这篇文章，不妨给它点个赞并收藏，感谢您的支持！
-

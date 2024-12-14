@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: python-没-requirementstxt-如何安装包
+title: Python 没 requirementstxt 如何安装包
+authors: [sumingcheng]
+tags: [backend]
+date: 2024-03-16
 ---
+
 # Python 没 requirements.txt 如何安装包
 
 

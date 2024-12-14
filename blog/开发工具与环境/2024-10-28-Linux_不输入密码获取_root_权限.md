@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: linux-不输入密码获取-root-权限
+title: Linux 不输入密码获取 root 权限
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-10-28
 ---
+
 # Linux 不输入密码获取 root 权限
 
 
@@ -90,4 +95,3 @@ PubkeyAuthentication yes
 在 `root` 用户的`home`目录下，将用户的公钥添加到 `~/.ssh/authorized_keys` 文件中。
 
 确保客户端的私钥安全，且不被未授权用户访问。
-

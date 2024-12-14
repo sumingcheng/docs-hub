@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 修改-ubuntu-2204-中的-kubernetes-包源
+title: 修改 Ubuntu 2204 中的 Kubernetes 包源
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-09-11
 ---
+
 # 修改 Ubuntu 22.04 中的 Kubernetes 包源
 
 

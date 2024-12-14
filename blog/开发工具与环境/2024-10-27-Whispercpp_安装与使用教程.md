@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: whispercpp-安装与使用教程
+title: Whispercpp 安装与使用教程
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-10-27
 ---
+
 # Whisper.cpp 安装与使用教程
 
 
@@ -136,4 +141,3 @@ export PULSE_SERVER=tcplocalhost
 
 * [https://zhuanlan.zhihu.com/p/2765143936/https//www.freedesktop.org/wiki/Software/PulseAudio/Ports/Windows/Support/](https://zhuanlan.zhihu.com/p/2765143936/https//www.freedesktop.org/wiki/Software/PulseAudio/Ports/Windows/Support/)
 * [https://zhuanlan.zhihu.com/p/2765143936/https//ktkr3d.github.io/2020/08/01/Enabling-sound-in-WSL/index.html](https://zhuanlan.zhihu.com/p/2765143936/https//ktkr3d.github.io/2020/08/01/Enabling-sound-in-WSL/index.html)
-

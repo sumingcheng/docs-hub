@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 什么是倒排索引inverted-index
+title: 什么是倒排索引Inverted Index
+authors: [sumingcheng]
+tags: [backend]
+date: 2024-07-07
 ---
+
 # 什么是倒排索引（Inverted Index）
 
 

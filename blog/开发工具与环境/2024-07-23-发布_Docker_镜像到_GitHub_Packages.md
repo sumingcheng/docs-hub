@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 发布-docker-镜像到-github-packages
+title: 发布 Docker 镜像到 GitHub Packages
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-07-23
 ---
+
 # 发布 Docker 镜像到 GitHub Packages
 
 

@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: vue-provide-和-inject
+title: Vue Provide 和 Inject
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-02-27
 ---
+
 # Vue Provide 和 Inject
 
 
@@ -53,4 +58,3 @@ export default {
 ## 总结  
 
 Provide 和 Inject 适用于在组件树中需要共享数据的场景，不需要手动逐层地传递 props 属性，提高了代码的可读性和可维护性。
-

@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: go-使用-swagger
+title: Go 使用 Swagger
+authors: [sumingcheng]
+tags: [backend]
+date: 2024-07-01
 ---
+
 # Go 使用 Swagger
 
 

@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: git-语义化提交semantic-commits
+title: Git 语义化提交Semantic Commits
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2023-07-26
 ---
+
 # Git 语义化提交（Semantic Commits）
 
 

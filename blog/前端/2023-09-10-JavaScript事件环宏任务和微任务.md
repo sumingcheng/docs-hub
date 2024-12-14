@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: javascript事件环宏任务和微任务
+title: JavaScript事件环宏任务和微任务
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-09-10
 ---
+
 # JavaScript事件环，宏任务和微任务
 
 
@@ -30,4 +35,3 @@ JavaScript 是单线程语言，它在一个事件环中处理所有任务。事
 * MutationObserver
 
 JavaScript 引擎在处理完一轮宏任务后，再处理当前微任务队列中的所有任务，直到当前微任务队列中的所有任务都处理完成，再回到主线程，处理下一轮宏任务。这样的循环继续进行，直到所有任务都处理完成。
-

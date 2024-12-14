@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: zsh-中使用-agnoster-主题
+title: zsh 中使用 agnoster 主题
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-05-29
 ---
+
 # zsh 中使用 agnoster 主题
 
 

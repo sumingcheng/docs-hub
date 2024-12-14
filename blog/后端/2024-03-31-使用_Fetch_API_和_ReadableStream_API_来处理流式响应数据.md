@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 使用-fetch-api-和-readablestream-api-来处理流式响应数据
+title: 使用 Fetch API 和 ReadableStream API 来处理流式响应数据
+authors: [sumingcheng]
+tags: [backend]
+date: 2024-03-31
 ---
+
 # 使用 Fetch API 和 ReadableStream API 来处理流式响应数据
 
 
@@ -115,4 +120,3 @@ fetch('https://example.com/data.json')
 ```
 
 在这个示例中，我使用一个数组来存储所有数据块，然后在数据读取完成后，将所有数据块连接起来，解码为字符串，最后解析为 JavaScript 对象。
-

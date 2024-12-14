@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 修改-powershell-执行策略
+title: 修改 PowerShell 执行策略
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-03-15
 ---
+
 # 修改 PowerShell 执行策略
 
 

@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: v-for-为什么不推荐用-index-做-key
+title: v-for 为什么不推荐用 index 做 key
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-02-08
 ---
+
 # v-for 为什么不推荐用 index 做 key
 
 
@@ -28,4 +33,3 @@ Vue 采用“就地更新”的策略来更新DOM，当数据项的顺序发生�
 因为这种方式是高效的，尤其是在用于列表渲染的时候，Vue会尽可能复用相同元素。如果使用 index 有时候会导致渲染异常或者错位的现象。
 
 所以，尽可能使用 key 并保障 key 是唯一的，如果没有唯一值可以使用 nanoId等其他的库来生成 key
-

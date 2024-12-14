@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 使用-husky-和-commitlint-构建-git-提交规范
+title: 使用 Husky 和 Commitlint 构建 Git 提交规范
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2023-07-28
 ---
+
 # 使用 Husky 和 Commitlint 构建 Git 提交规范
 
 
@@ -66,4 +71,3 @@ export default {
 ```
 
 麻烦点个赞谢谢啦~
-

@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: indexdts-为什么要写-export-
+title: Indexdts 为什么要写 export 
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-09-11
 ---
+
 # Index.d.ts 为什么要写 export {}
 
 
@@ -18,4 +23,3 @@ authors: sumingcheng
 为了避免这个问题，但又不实际导出任何东西，我们可以使用一个空的 `export {}` 语句。这会将文件标记为模块，从而确保文件内的所有声明都仅在该模块中可见，而不是被加入到全局命名空间。
 
 所以，`export {}` 的主要目的是确保 `.d.ts` 文件被视为一个模块，而不是全局脚本，从而避免意外地将声明加入到全局命名空间。
-

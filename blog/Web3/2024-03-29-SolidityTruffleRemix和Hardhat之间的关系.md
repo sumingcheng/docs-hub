@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: soliditytruffleremix和hardhat之间的关系
+title: SolidityTruffleRemix和Hardhat之间的关系
+authors: [sumingcheng]
+tags: [web3]
+date: 2024-03-29
 ---
+
 # Solidity、Truffle、Remix和Hardhat之间的关系
 
 
@@ -42,4 +47,3 @@ Solidity代码需要被编译成EVM字节码，以便在以太坊网络上运行
 **Truffle** 提供了一个成熟的开发环境，适合大型项目和团队合作。
 
 **Hardhat** 提供了先进的开发工具和灵活性，适合追求最新技术和自定义开发流程的开发者。
-

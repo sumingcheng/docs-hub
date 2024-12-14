@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: ubuntu-上安装和配置-docker
+title: Ubuntu 上安装和配置 Docker
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2024-10-09
 ---
+
 # Ubuntu 上安装和配置 Docker
 
 
@@ -115,4 +120,3 @@ echo -e "59.151.19.44\tmodel.vnet.com\n172.22.220.40\tmodel.vnet.com" | sudo tee
 ```
 
 这样就完成了 Docker 的安装和基本配置。
-

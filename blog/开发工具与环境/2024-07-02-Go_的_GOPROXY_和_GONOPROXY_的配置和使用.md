@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: go-的-goproxy-和-gonoproxy-的配置和使用
+title: Go 的 GOPROXY 和 GONOPROXY 的配置和使用
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-07-02
 ---
+
 # Go 的 GOPROXY 和 GONOPROXY 的配置和使用
 
 
@@ -30,4 +35,3 @@ authors: sumingcheng
 ### 配置 GOPRIVATE 和 GONOPROXY  
 
 `GOPRIVATE` 和 `GONOPROXY` 环境变量用于定义不通过公共代理或不进行校验和验证的私有模块的模式。这些设置对于管理企业内部或敏感的私有模块非常有用，确保这些模块的使用不会被公开或误用。
-

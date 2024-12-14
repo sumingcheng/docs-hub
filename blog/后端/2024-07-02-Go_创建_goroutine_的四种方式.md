@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: go-创建-goroutine-的四种方式
+title: Go 创建 goroutine 的四种方式
+authors: [sumingcheng]
+tags: [backend]
+date: 2024-07-02
 ---
+
 # Go 创建 goroutine 的四种方式
 
 

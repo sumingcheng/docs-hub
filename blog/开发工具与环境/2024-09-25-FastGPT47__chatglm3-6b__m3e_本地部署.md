@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: fastgpt47--chatglm3-6b--m3e-本地部署
+title: FastGPT47  chatglm3-6b  m3e 本地部署
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-09-25
 ---
+
 # FastGPT4.7 + chatglm3-6b + m3e 本地部署
 
 
@@ -796,4 +801,3 @@ if __name__ == "__main__":
 [https://github.com/songquanpeng/one-api](https://github.com/songquanpeng/one-api)
 
 **如果您喜欢这篇文章，不妨给它点个赞并收藏，感谢您的支持！**
-

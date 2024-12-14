@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: windows-安装-mingw-w64
+title: Windows 安装 MinGW-W64
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-10-26
 ---
+
 # Windows 安装 MinGW-W64
 
 

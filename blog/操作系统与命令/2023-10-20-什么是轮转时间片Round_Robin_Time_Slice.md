@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 什么是轮转时间片round-robin-time-slice
+title: 什么是轮转时间片Round Robin Time Slice
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2023-10-20
 ---
+
 # 什么是轮转时间片（Round Robin Time Slice）
 
 
@@ -36,4 +41,3 @@ authors: sumingcheng
 4. **减少延迟**：此策略还有助于减少用户感知到的延迟，因为所有关键操作（如视频显示、音频播放和用户输入）都获得了定期的、相对均匀的处理时间。
 
 这种任务调度方法允许视频会议系统高效、公平地管理多个并发会话，即使在高负载情况下也能保持性能和响应速度。
-

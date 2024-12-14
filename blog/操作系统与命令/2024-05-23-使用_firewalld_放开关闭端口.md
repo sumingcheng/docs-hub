@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 使用-firewalld-放开关闭端口
+title: 使用 firewalld 放开关闭端口
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2024-05-23
 ---
+
 # 使用 firewalld 放开/关闭端口
 
 

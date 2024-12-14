@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: linux--安装-zsh-并配置-powerlevel10k-主题
+title: Linux  安装 zsh 并配置 powerlevel10k 主题
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-06-02
 ---
+
 # Linux  安装 zsh 并配置 powerlevel10k 主题
 
 

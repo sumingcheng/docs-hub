@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: react-vue3-api-速查
+title: React Vue3 API 速查
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-07-24
 ---
+
 # React Vue3 API 速查
 
 
@@ -72,4 +77,3 @@ authors: sumingcheng
 | triggerRef() | 手动触发 shallowRef 的更新 |
 | shallowReactive() | 和 reactive 类似，但只保持浅层响应式 |
 | markRaw() | 使一个对象永远不会被转化为 Proxy |
-

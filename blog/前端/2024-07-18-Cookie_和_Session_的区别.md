@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: cookie-和-session-的区别
+title: Cookie 和 Session 的区别
+authors: [sumingcheng]
+tags: [frontend]
+date: 2024-07-18
 ---
+
 # Cookie 和 Session 的区别
 
 
@@ -28,4 +33,3 @@ authors: sumingcheng
 ### 安全性  
 
 由于Session数据存储在服务器端，它比存储在用户浏览器中的Cookie更安全。没有直接的方式可以从用户端查看或修改存储在服务器上的Session数据。所以 Cookie 一般用来保存用户信息，Session 的主要作用就是通过服务端记录用户的状态
-

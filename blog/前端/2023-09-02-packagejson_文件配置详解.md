@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: packagejson-文件配置详解
+title: packagejson 文件配置详解
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-09-02
 ---
+
 # package.json 文件配置详解
 
 
@@ -82,4 +87,3 @@ authors: sumingcheng
 ### directories  
 
 当我们的包安装时，可以指定确切的位置来放二进制文件、man pages、文档、例子等。
-

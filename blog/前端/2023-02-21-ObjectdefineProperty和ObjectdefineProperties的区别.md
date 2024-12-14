@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: objectdefineproperty和objectdefineproperties的区别
+title: ObjectdefineProperty和ObjectdefineProperties的区别
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-02-21
 ---
+
 # Object.defineProperty()和Object.defineProperties()的区别
 
 
@@ -20,4 +25,3 @@ authors: sumingcheng
 ![d9585335e55d924129c36967fece038f](../image/d9585335e55d924129c36967fece038f.jpg)
 
 因此，如果只需要定义单个对象属性，使用`Object.defineProperty()`即可；如果需要定义多个对象属性，使用`Object.defineProperties()`更为方便。
-

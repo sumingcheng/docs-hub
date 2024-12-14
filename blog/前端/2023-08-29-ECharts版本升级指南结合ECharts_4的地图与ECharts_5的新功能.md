@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: echarts版本升级指南结合echarts-4的地图与echarts-5的新功能
+title: ECharts版本升级指南结合ECharts 4的地图与ECharts 5的新功能
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-08-29
 ---
+
 # ECharts版本升级指南：结合ECharts 4的地图与ECharts 5的新功能
 
 

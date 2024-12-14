@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: docker-查看-volume-位置
+title: docker 查看 volume 位置
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-06-26
 ---
+
 # docker 查看 volume 位置
 
 
@@ -42,4 +47,3 @@ docker volume inspect logs 卷名
 ```
 
 在这个示例中，`logs` 卷的存储路径是 `/var/lib/docker/volumes/mysql-redis_mysql/_data`。您可以通过访问这个路径来查看和管理存储在卷中的日志文件。
-

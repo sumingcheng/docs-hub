@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: vue-scoped--的原理
+title: vue scoped  的原理
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-02-26
 ---
+
 # vue scoped  的原理
 
 
@@ -56,4 +61,3 @@ Vue 会将其编译成类似以下代码：
   
 
 注意，Vue 会自动生成一个唯一的标识符（如 `_v-xxxxxx`）并将其添加到当前组件的所有选择器中，以确保样式仅作用于当前组件。而对于 HTML 元素的原有类名或 ID，在使用 `scoped` 属性时并不会添加标识符，因此样式规则仍然会被应用。
-

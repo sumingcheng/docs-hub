@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: ubuntu-安装-nvm
+title: Ubuntu 安装 nvm
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2024-04-12
 ---
+
 # Ubuntu 安装 nvm
 
 
@@ -69,4 +74,3 @@ nvm ls
 ```
 
 使用 `nvm`，你可以轻松管理多个 Node.js 版本，并根据需要为不同的项目使用不同的版本。
-

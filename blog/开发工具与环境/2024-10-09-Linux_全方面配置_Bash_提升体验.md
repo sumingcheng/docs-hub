@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: linux-全方面配置-bash-提升体验
+title: Linux 全方面配置 Bash 提升体验
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-10-09
 ---
+
 # Linux 全方面配置 Bash 提升体验
 
 

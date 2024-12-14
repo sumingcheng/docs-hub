@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: vue-event-bus-使用案例
+title: Vue Event bus 使用案例
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-02-26
 ---
+
 # Vue Event bus 使用案例
 
 
@@ -45,4 +50,3 @@ methods: {
 这里我们使用 `$on` 方法来监听名为 `myEvent` 的事件，并在回调函数中输出传递的参数。
 
 通过这种方式，我们可以实现跨组件通信，将数据从一个组件传递到另一个组件。需要注意的是，Event bus 作为全局对象，**可能会导致代码难以维护和调试，因此需要谨慎使用。**
-

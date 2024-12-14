@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 什么是-restful-api
+title: 什么是 RESTful API
+authors: [sumingcheng]
+tags: [network-protocol]
+date: 2023-11-16
 ---
+
 # 什么是 RESTful API
 
 
@@ -35,4 +40,3 @@ GET /notes/id
 ### RESTful API 中文叫什么？  
 
 RESTful API 翻译成中文通常被称作“表现层状态转移应用编程接口”。这里，“表现层”指的是资源的表现层，即资源的具体表示形式（如JSON、XML等）；“状态转移”则是指通过HTTP动词（如GET、POST、PUT、DELETE等）来表达对资源的操作，实现应用的状态转换。这种设计风格强调资源的识别、通过标准的HTTP方法进行操作，以及无状态通信，是构建Web服务的一种流行方法。
-

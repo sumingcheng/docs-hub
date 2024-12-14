@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: potplayer-快捷键
+title: PotPlayer 快捷键
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2024-06-23
 ---
+
 # PotPlayer 快捷键
 
 

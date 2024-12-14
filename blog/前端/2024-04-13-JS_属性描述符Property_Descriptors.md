@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: js-属性描述符property-descriptors
+title: JS 属性描述符Property Descriptors
+authors: [sumingcheng]
+tags: [frontend]
+date: 2024-04-13
 ---
+
 # JS 属性描述符（Property Descriptors）
 
 

@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: ubuntu-配置-zsh-syntax-highlighting-实现命令检查
+title: Ubuntu 配置 zsh-syntax-highlighting 实现命令检查
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-04-18
 ---
+
 # Ubuntu 配置 zsh-syntax-highlighting 实现命令检查
 
 
@@ -80,4 +85,3 @@ source ~/.zshrc
 ![9855560e682d68d3b5637adf63659054](../image/9855560e682d68d3b5637adf63659054.jpg)
 
 **如果您喜欢，希望能点赞支持一下**
-

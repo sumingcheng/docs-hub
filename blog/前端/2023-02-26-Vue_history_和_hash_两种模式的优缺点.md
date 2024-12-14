@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: vue-history-和-hash-两种模式的优缺点
+title: Vue history 和 hash 两种模式的优缺点
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-02-26
 ---
+
 # Vue history 和 hash 两种模式的优缺点
 
 
@@ -45,4 +50,3 @@ try_files $uri /index.html;
 
 
 发现共同点没，这两种模式都是为了不刷新页面，这也就契合当下我们制作的单页面应用。
-

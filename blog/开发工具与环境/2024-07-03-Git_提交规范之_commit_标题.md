@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: git-提交规范之-commit-标题
+title: Git 提交规范之 commit 标题
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-07-03
 ---
+
 # Git 提交规范之 commit 标题
 
 
@@ -78,4 +83,3 @@ commit 的简短描述，一般来说不超过50个字符
 **chore(data-migration)**: Script data migration for next database schema update
 
 **chore(ci-config)**: Modify CI configuration to include new test suites
-

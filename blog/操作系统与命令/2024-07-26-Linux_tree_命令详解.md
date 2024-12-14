@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: linux-tree-命令详解
+title: Linux tree 命令详解
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2024-07-26
 ---
+
 # Linux tree 命令详解
 
 

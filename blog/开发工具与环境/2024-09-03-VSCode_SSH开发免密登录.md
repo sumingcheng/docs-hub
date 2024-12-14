@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: vscode-ssh开发免密登录
+title: VSCode SSH开发免密登录
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-09-03
 ---
+
 # VSCode SSH开发，免密登录
 
 

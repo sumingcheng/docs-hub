@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: linux-使用-zstd-解压缩
+title: Linux 使用 zstd 解压缩
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2024-06-08
 ---
+
 # Linux 使用 zstd 解压缩
 
 

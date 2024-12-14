@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 解决node版本问题fsjs45---primordials
+title: 解决Node版本问题fsjs45   primordials
+authors: [sumingcheng]
+tags: [backend]
+date: 2023-11-06
 ---
+
 # 解决Node版本问题：fs.js:45 } = primordials;
 
 

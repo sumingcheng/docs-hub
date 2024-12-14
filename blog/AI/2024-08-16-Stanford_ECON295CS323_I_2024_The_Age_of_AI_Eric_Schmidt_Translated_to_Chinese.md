@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: stanford-econ295cs323-i-2024-the-age-of-ai-eric-schmidt-translated-to-chinese
+title: Stanford ECON295CS323 I 2024 The Age of AI Eric Schmidt Translated to Chinese
+authors: [sumingcheng]
+tags: [ai]
+date: 2024-08-16
 ---
+
 # Stanford_ECON295/CS323_I_2024_The_Age_of_AI_Eric_Schmidt (Translated to Chinese)
 
 
@@ -154,4 +159,3 @@ Stargate是1000亿，对吧？ 这非常非常难。 我和Sam Altman是亲密�
 结束语 我们今天讨论了很多关于人工智能的重要问题。 我希望这些讨论能帮助你们更好地理解这些复杂的技术，以及它们如何影响我们的世界。 感谢大家今天的参与。
 
 **原文地址：**[https://github.com/ociubotaru/transcripts](https://github.com/ociubotaru/transcripts)
-

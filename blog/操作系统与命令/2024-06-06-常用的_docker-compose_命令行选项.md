@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 常用的-docker-compose-命令行选项
+title: 常用的 docker-compose 命令行选项
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2024-06-06
 ---
+
 # 常用的 docker-compose 命令行选项
 
 
@@ -69,4 +74,3 @@ docker-compose --env-file .env.production up
 **--exit-code-from** 使用 `up` 命令时，设置从特定服务获取退出代码。这对 CI/CD 管道中的错误处理非常有用。
 
 **--follow** 跟随日志输出，通常与 `logs` 命令结合使用，用于实时监控日志。
-

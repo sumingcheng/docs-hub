@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: linux-nano-优化配置-nanorc-提升效率和舒适度
+title: Linux nano 优化配置 nanorc 提升效率和舒适度
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2024-06-17
 ---
+
 # Linux nano 优化，配置 .nanorc 提升效率和舒适度
 
 
@@ -102,4 +107,3 @@ color green "#.*"
 按 `Enter` 确认文件名。
 
 按 `Ctrl+X` 退出 `nano`。
-

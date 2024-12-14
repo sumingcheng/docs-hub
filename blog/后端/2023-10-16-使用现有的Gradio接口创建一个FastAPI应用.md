@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 使用现有的gradio接口创建一个fastapi应用
+title: 使用现有的Gradio接口创建一个FastAPI应用
+authors: [sumingcheng]
+tags: [backend]
+date: 2023-10-16
 ---
+
 # 使用现有的Gradio接口创建一个FastAPI应用
 
 
@@ -49,8 +54,4 @@ if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
 ```
 
-现在，你可以运行此脚本，然后访问 `http://localhost:8000` 来查看和交互 Gradio 界面，或者访问 `http://localhost:8000/docs` 来查看和交互 FastAPI 自动生成的 Swagger 文档。  
-  
-  
-
-
+现在，你可以运行此脚本，然后访问 `http://localhost:8000` 来查看和交互 Gradio 界面，或者访问 `http://localhost:8000/docs` 来查看和交互 FastAPI 自动生成的 Swagger 文档。

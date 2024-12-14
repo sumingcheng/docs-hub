@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: github-使用个人访问令牌pat克隆项目
+title: github 使用个人访问令牌PAT克隆项目
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-07-09
 ---
+
 # github 使用个人访问令牌（PAT）克隆项目
 
 
@@ -28,4 +33,3 @@ git clone https://username@repository-url.git
 ```
 
 **当提示输入密码时，输入刚才生成的 PAT**
-

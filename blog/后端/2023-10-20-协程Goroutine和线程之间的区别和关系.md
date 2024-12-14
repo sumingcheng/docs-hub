@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 协程goroutine和线程之间的区别和关系
+title: 协程Goroutine和线程之间的区别和关系
+authors: [sumingcheng]
+tags: [backend]
+date: 2023-10-20
 ---
+
 # 协程、Goroutine和线程之间的区别和关系
 
 
@@ -66,4 +71,3 @@ Goroutine是Go语言特有的，是对协程概念的一种实现，但具有一
 | 执行模型 | 并发/并行执行 | 协作式并发 | 并发/并行执行 |
 | 资源共享 | 可共享进程资源 | 通常独立的栈和局部变量 | 可共享内存 |
 | 应用场景 | 广泛的并发/并行处理 | 协作式多任务，事件驱动 | 简化并发编程，网络服务 |
-

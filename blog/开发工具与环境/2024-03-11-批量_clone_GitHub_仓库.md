@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 批量-clone-github-仓库
+title: 批量 clone GitHub 仓库
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-03-11
 ---
+
 # 批量 clone GitHub 仓库
 
 
@@ -30,4 +35,3 @@ for repo in repos:
 ```
 
 python [http://xx.py](http://xx.py) 运行这个脚本，clone 所有仓库
-

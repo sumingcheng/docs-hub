@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: vue3-中的-provide-和-inject
+title: Vue3 中的 provide 和 inject
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-07-05
 ---
+
 # Vue3 中的 provide 和 inject
 
 
@@ -50,4 +55,3 @@ export default {
 ```
 
 在 Vue 3 中，你需要使用 `globalState.user` 来访问 `user` 属性，而不能直接使用 `globalState`，因为 `globalState` 是一个响应式的对象，而不是一个值。如果你需要提供一个响应式的值（例如一个字符串或数字），你可以使用 `ref` 方法。
-

@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: linux-配置和使用-screen
+title: Linux 配置和使用 Screen
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2024-07-25
 ---
+
 # Linux 配置和使用 Screen
 
 

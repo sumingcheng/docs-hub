@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: go-的-select-语句随机选择-case-分支
+title: Go 的 select 语句随机选择 case 分支
+authors: [sumingcheng]
+tags: [backend]
+date: 2023-10-29
 ---
+
 # Go 的 select 语句随机选择 case 分支
 
 
@@ -28,4 +33,3 @@ authors: sumingcheng
 **提高响应性**
 
 * 随机选择有助于提高系统的响应性，因为它减少了通道处理的确定性延迟，使系统能够更快地响应不同的事件和条件。
-

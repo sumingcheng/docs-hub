@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: javascript-中-minjs-和-js-文件的区别
+title: Javascript 中 minjs 和 js 文件的区别
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-08-29
 ---
+
 # Javascript 中 .min.js 和 .js 文件的区别
 
 
@@ -44,4 +49,3 @@ JavaScript 文件的压缩并不是一个简单的过程，它涉及多个步骤
 2. **代码混淆**：为了进一步减小文件大小并提供源代码的一定保护，变量和函数名被更改为短而没有实际意义的名称。此外，没有使用的代码、内联函数和等价语句也可能被删除或替换。
 
 总之，选择使用 `.js` 还是 `.min.js` 文件取决于你的实际需求。在开发和调试过程中，使用常规 `.js` 文件更为合适。但在生产环境中，为了提供更快的加载速度和保护源代码，使用 `.min.js` 文件通常是更好的选择。
-

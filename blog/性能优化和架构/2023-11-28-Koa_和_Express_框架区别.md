@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: koa-和-express-框架区别
+title: Koa 和 Express 框架区别
+authors: [sumingcheng]
+tags: [performance-architecture]
+date: 2023-11-28
 ---
+
 # Koa 和 Express 框架区别
 
 
@@ -74,4 +79,3 @@ app.listen(3000);
 2. 然后直接进入并打印 "中间件2"
 
 在这个结构中，没有类似于 Koa 中的“回溯”过程。每个中间件都是一个独立的单元，执行完毕后，就直接转到下一个中间件。
-

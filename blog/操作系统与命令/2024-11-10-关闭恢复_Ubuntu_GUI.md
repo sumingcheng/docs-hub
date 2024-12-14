@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 关闭恢复-ubuntu-gui
+title: 关闭恢复 Ubuntu GUI
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2024-11-10
 ---
+
 # 关闭/恢复 Ubuntu GUI
 
 

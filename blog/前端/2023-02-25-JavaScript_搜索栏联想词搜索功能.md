@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: javascript-搜索栏联想词搜索功能
+title: JavaScript 搜索栏联想词搜索功能
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-02-25
 ---
+
 # JavaScript 搜索栏联想词搜索功能
 
 
@@ -82,7 +87,3 @@ authors: sumingcheng
 
 </html>
 ```
-
-  
-
-

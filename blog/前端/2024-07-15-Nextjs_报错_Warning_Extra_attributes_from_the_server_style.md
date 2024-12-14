@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: nextjs-报错-warning-extra-attributes-from-the-server-style
+title: Nextjs 报错 Warning Extra attributes from the server style
+authors: [sumingcheng]
+tags: [frontend]
+date: 2024-07-15
 ---
+
 # Next.js 报错 Warning: Extra attributes from the server: style
 
 
@@ -37,4 +42,3 @@ Chrome推出了一个新的测试版功能，允许用户为特定URL关闭扩�
 ```
 
 如果你有这个错误，大概率是这些问题导致的
-

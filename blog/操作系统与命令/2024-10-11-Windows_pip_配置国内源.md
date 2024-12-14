@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: windows-pip-配置国内源
+title: Windows pip 配置国内源
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2024-10-11
 ---
+
 # Windows pip 配置国内源
 
 

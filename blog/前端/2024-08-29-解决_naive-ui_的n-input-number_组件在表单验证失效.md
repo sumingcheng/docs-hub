@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 解决-naive-ui-的n-input-number-组件在表单验证失效
+title: 解决 naive-ui 的n-input-number 组件在表单验证失效
+authors: [sumingcheng]
+tags: [frontend]
+date: 2024-08-29
 ---
+
 # 解决 naive-ui 的n-input-number 组件在表单验证失效
 
 
@@ -57,4 +62,3 @@ defaultText [
 ```
 
 看`issue`的时候发现很多人吐槽组件库的校验规则有问题，如果你对组件规则校验有很强的依赖，建议使用其他的组件库~
-

@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 为什么清除浮动要使用display-table
+title: 为什么清除浮动要使用display table
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-06-30
 ---
+
 # 为什么清除浮动要使用display: table？
 
 
@@ -26,4 +31,3 @@ authors: sumingcheng
 这是因为在CSS规范中，`display: table;`会创建一个新的块格式化上下文（Block Formatting Context, BFC）。在新的BFC中，内部的元素会在垂直方向上一个接一个地放置，并且可以管理浮动元素、防止外部元素与内部元素重叠，并防止边距塌缩。
 
 这就是为什么要用`display: table`的好处
-

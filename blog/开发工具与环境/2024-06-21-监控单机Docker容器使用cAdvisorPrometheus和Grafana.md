@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 监控单机docker容器使用cadvisorprometheus和grafana
+title: 监控单机Docker容器使用cAdvisorPrometheus和Grafana
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-06-21
 ---
+
 # 监控单机Docker容器，使用cAdvisor、Prometheus和Grafana
 
 

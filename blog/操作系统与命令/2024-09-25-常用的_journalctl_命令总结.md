@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: 常用的-journalctl-命令总结
+title: 常用的 journalctl 命令总结
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2024-09-25
 ---
+
 # 常用的 journalctl 命令总结
 
 

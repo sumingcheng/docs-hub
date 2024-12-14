@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: v-model-和-v-modellazy-的区别
+title: v-model 和 v-modellazy 的区别
+authors: [sumingcheng]
+tags: [frontend]
+date: 2023-09-14
 ---
+
 # v-model 和 v-model.lazy 的区别
 
 

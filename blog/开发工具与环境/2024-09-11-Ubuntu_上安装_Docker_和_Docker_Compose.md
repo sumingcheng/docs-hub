@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: ubuntu-上安装-docker-和-docker-compose
+title: Ubuntu 上安装 Docker 和 Docker Compose
+authors: [sumingcheng]
+tags: [dev-tools]
+date: 2024-09-11
 ---
+
 # Ubuntu 上安装 Docker 和 Docker Compose
 
 
@@ -83,4 +88,3 @@ sudo usermod -aG docker ${USER}
 ```
 
 之后，您需要注销并重新登录。
-

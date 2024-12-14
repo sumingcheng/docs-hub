@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: win10-取消-bitlocker-加密
+title: Win10 取消 BitLocker 加密
+authors: [sumingcheng]
+tags: [os-and-commands]
+date: 2024-04-13
 ---
+
 # Win10 取消 BitLocker 加密
 
 
@@ -20,4 +25,3 @@ authors: sumingcheng
 ![a0ba65f3117347cde8da4a327287d9ec](../image/a0ba65f3117347cde8da4a327287d9ec.jpg)
 
 解密后就可以对分区进行修改了，否则我的C盘总是满满的
-

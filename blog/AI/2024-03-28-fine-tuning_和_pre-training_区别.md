@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: fine-tuning-和-pre-training-区别
+title: fine-tuning 和 pre-training 区别
+authors: [sumingcheng]
+tags: [ai]
+date: 2024-03-28
 ---
+
 # fine-tuning 和 pre-training 区别
 
 
@@ -24,4 +29,3 @@ authors: sumingcheng
 **时间成本：**与计算资源相对应，预训练的时间成本显著高于微调。微调可以在几小时到几天内完成，而预训练可能需要几周到几个月。
 
 因此，微调则更加灵活、高效，允许研究人员和开发者快速适应和优化特定任务，成本相对较低。
-

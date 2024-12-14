@@ -1,6 +1,11 @@
 ---
-authors: sumingcheng
+slug: stable-diffusion-插件推荐
+title: stable-diffusion 插件推荐
+authors: [sumingcheng]
+tags: [ai]
+date: 2023-10-18
 ---
+
 # stable-diffusion 插件推荐
 
 
@@ -26,4 +31,3 @@ authors: sumingcheng
 ### 训练 loar  
 
 [https://github.com/bmaltais/kohya\_ss](https://github.com/bmaltais/kohya\_ss)
-
