@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Linux 命令 nvidia-smi 参数
 
 

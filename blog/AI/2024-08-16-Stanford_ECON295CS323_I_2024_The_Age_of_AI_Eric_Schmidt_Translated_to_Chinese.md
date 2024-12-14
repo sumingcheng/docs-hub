@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Stanford_ECON295/CS323_I_2024_The_Age_of_AI_Eric_Schmidt (Translated to Chinese)
 
 

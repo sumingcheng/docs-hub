@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Linux 使用 skopeo
 
 

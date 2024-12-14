@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Go 使用 Swagger
 
 

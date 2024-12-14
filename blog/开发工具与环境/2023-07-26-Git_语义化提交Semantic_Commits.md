@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Git 语义化提交（Semantic Commits）
 
 

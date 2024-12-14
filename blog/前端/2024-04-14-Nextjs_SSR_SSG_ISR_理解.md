@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Next.js SSR SSG ISR 理解
 
 

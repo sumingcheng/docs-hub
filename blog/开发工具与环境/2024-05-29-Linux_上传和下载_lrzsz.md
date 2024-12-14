@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Linux 上传和下载 lrzsz
 
 

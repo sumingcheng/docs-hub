@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # JavaScript 中的 super 关键字解析
 
 

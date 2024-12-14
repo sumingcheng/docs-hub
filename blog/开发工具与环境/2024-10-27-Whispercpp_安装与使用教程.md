@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Whisper.cpp 安装与使用教程
 
 

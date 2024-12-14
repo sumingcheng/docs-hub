@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Go 创建 goroutine 的四种方式
 
 

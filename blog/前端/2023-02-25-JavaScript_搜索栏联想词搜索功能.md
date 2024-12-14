@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # JavaScript 搜索栏联想词搜索功能
 
 

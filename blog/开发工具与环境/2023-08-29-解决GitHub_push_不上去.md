@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # 解决：GitHub push 不上去
 
 

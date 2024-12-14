@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # 什么是倒排索引（Inverted Index）
 
 

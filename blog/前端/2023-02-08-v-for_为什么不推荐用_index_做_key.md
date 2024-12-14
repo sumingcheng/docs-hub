@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # v-for 为什么不推荐用 index 做 key
 
 

@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Go 的 select 语句随机选择 case 分支
 
 

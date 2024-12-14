@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # ECharts版本升级指南：结合ECharts 4的地图与ECharts 5的新功能
 
 

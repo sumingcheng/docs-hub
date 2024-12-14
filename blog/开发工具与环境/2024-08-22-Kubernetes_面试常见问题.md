@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Kubernetes 面试常见问题
 
 

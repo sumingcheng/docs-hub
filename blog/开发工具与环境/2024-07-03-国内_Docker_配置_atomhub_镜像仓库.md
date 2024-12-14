@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # 国内 Docker 配置 atomhub 镜像仓库
 
 

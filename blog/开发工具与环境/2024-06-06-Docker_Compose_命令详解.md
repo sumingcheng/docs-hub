@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Docker Compose 命令详解
 
 

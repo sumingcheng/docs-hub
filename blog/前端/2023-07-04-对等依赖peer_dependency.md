@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # 对等依赖（peer dependency）
 
 

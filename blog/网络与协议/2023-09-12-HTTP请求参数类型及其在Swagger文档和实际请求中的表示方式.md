@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # HTTP 请求参数类型及其在 Swagger 文档和实际请求中的表示方式
 
 **Author:** [素明诚]

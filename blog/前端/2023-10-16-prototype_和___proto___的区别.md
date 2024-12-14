@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # prototype 和 __proto__ 的区别
 
 

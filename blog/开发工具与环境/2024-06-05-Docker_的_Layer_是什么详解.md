@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Docker 的 Layer 是什么？详解
 
 

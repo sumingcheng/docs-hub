@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # v-model 和 v-model.lazy 的区别
 
 

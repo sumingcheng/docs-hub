@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # 使用 Husky 和 Commitlint 构建 Git 提交规范
 
 

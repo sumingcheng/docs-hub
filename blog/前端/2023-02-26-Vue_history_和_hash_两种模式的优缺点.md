@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Vue history 和 hash 两种模式的优缺点
 
 

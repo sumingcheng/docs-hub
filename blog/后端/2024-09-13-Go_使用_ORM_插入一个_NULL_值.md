@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Go 使用 ORM 插入一个 NULL 值
 
 

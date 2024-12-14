@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # stable-diffusion 插件推荐
 
 

@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Windows 上安装 CMake
 
 **Author:** [素明诚]

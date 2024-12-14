@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Vue Event bus 使用案例
 
 

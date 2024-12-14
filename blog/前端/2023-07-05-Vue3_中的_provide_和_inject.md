@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Vue3 中的 provide 和 inject
 
 

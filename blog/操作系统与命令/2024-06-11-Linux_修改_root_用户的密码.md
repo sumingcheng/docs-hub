@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Linux 修改 root 用户的密码
 
 

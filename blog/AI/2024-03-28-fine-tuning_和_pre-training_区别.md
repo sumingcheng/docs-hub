@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # fine-tuning 和 pre-training 区别
 
 

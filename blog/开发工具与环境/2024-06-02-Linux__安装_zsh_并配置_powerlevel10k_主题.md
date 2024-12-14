@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Linux  安装 zsh 并配置 powerlevel10k 主题
 
 

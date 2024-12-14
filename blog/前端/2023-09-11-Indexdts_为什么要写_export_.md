@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Index.d.ts 为什么要写 export {}
 
 

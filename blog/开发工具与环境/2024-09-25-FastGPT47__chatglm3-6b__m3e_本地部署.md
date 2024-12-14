@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # FastGPT4.7 + chatglm3-6b + m3e 本地部署
 
 

@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # package.json 三种类型的依赖
 
 

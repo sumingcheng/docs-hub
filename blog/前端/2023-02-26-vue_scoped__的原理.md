@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # vue scoped  的原理
 
 

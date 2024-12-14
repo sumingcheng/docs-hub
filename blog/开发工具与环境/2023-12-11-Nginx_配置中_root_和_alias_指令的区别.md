@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Nginx 配置中 root 和 alias 指令的区别
 
 

@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Linux nano 优化，配置 .nanorc 提升效率和舒适度
 
 

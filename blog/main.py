@@ -33,15 +33,21 @@ authors: sumingcheng
 def process_markdown_files(directory):
     """遍历目录处理所有.md文件"""
     count = 0
+    # 添加调试日志
+    print(f"开始扫描目录: {directory}")
+    
     # 使用Path对象进行目录遍历
     for file_path in Path(directory).rglob('*.md'):
+        print(f"发现文件: {file_path}")  # 添加文件发现提示
         if insert_author_info(file_path):
             count += 1
     return count
 
 if __name__ == "__main__":
     # 设置要处理的目录路径
-    target_directory = "."  # 当前目录，可以修改为其他路径
+    target_directory = "."  # 当前目录
+    
+    print(f"当前工作目录: {os.getcwd()}")  # 添加当前目录提示
     
     # 处理文件并获取处理数量
     processed_count = process_markdown_files(target_directory)

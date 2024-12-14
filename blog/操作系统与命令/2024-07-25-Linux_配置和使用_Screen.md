@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Linux 配置和使用 Screen
 
 

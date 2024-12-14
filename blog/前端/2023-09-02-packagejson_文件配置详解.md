@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # package.json 文件配置详解
 
 

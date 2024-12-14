@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Go make 和 new 的区别
 
 

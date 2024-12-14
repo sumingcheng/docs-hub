@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # 解决远程开发时 JetBrains IDE 版本已过期的问题
 
 

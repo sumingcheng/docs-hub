@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # 使用现有的Gradio接口创建一个FastAPI应用
 
 

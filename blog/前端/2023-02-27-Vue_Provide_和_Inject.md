@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Vue Provide 和 Inject
 
 

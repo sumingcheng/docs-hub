@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Windows 安装 MinGW-W64
 
 

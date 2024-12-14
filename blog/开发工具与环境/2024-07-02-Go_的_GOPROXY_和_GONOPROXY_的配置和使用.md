@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Go 的 GOPROXY 和 GONOPROXY 的配置和使用
 
 

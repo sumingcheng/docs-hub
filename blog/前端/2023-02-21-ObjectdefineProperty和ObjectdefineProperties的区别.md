@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Object.defineProperty()和Object.defineProperties()的区别
 
 

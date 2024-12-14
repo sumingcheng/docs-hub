@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Ubuntu 安装 nvm
 
 

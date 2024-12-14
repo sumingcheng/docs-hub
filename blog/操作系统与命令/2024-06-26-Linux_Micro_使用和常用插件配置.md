@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Linux Micro 使用和常用插件配置
 
 

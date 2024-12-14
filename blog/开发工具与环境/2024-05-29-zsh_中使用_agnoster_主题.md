@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # zsh 中使用 agnoster 主题
 
 

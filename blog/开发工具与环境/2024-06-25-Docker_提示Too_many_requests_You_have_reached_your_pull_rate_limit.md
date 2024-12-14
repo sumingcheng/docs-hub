@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Docker 提示“Too many requests: You have reached your pull rate limit”。
 
 

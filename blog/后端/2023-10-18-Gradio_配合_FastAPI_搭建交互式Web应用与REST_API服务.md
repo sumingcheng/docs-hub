@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Gradio 配合 FastAPI 搭建交互式Web应用与REST API服务
 
 

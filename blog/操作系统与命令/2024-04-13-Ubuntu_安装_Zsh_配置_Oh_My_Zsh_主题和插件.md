@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Ubuntu 安装 Zsh 配置 Oh My Zsh 主题和插件
 
 

@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Javascript 中 .min.js 和 .js 文件的区别
 
 

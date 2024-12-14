@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # gitmoji-cli 使用
 
 

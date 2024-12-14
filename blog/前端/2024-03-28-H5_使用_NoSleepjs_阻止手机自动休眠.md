@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # H5 使用 NoSleep.js 阻止手机自动休眠
 
 

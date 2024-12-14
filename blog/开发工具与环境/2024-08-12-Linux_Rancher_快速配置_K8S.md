@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Linux Rancher 快速配置 K8S
 
 

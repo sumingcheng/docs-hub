@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # 静态链接库（Static Libraries）和动态链接库（Dynamic Libraries）
 
 

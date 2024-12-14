@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Linux Ollama 常用命令和 API 调用
 
 

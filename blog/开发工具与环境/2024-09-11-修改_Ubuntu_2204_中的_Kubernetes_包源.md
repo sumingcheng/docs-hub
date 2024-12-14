@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # 修改 Ubuntu 22.04 中的 Kubernetes 包源
 
 

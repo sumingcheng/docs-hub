@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Ubuntu 设置 sudo -s 无密码
 
 

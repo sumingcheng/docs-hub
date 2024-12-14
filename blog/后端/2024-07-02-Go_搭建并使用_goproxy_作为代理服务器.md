@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Go 搭建并使用 goproxy 作为代理服务器
 
 

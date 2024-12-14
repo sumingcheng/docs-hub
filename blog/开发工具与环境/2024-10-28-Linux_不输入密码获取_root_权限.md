@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Linux 不输入密码获取 root 权限
 
 

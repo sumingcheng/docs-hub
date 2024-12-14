@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Windows10 安装 Miniconda
 
 

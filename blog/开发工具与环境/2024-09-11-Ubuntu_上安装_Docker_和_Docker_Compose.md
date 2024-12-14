@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Ubuntu 上安装 Docker 和 Docker Compose
 
 

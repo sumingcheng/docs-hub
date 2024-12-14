@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Vue 响应式系统、数据双向绑定、v-model 指令的区别
 
 

@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Python 没 requirements.txt 如何安装包
 
 

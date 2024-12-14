@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Nginx 代理 EventsStream 接口配置优化
 
 

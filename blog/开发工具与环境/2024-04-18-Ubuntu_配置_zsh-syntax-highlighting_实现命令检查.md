@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Ubuntu 配置 zsh-syntax-highlighting 实现命令检查
 
 

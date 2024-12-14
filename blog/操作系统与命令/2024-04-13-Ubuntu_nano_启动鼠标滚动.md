@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Ubuntu nano 启动鼠标滚动
 
 

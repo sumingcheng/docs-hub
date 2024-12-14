@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # ORM（Object-Relational Mapping，对象关系映射）
 
 

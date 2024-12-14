@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Python: TypeError: AsyncConnectionPool.__init__() got an unexpected keyword argument 'socket_options
 
 

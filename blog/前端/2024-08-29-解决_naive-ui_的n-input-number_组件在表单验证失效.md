@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # 解决 naive-ui 的n-input-number 组件在表单验证失效
 
 

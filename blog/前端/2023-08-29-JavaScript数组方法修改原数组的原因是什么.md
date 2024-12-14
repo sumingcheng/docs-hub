@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # JavaScript数组方法修改原数组的原因是什么？
 
 

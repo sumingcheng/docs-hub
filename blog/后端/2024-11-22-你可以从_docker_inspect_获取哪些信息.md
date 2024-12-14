@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # 你可以从 docker inspect 获取哪些信息
 
 

@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # JS 属性描述符（Property Descriptors）
 
 

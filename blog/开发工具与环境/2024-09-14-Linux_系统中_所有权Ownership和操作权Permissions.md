@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Linux 系统中 所有权（Ownership）和操作权（Permissions）
 
 

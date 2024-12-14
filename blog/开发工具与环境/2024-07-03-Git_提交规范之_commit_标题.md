@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Git 提交规范之 commit 标题
 
 

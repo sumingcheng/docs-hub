@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Ubuntu 解决 fc-cache 命令缺失导致的 initramfs-tools 更新失败 的问题
 
 

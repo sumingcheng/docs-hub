@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # 关闭/恢复 Ubuntu GUI
 
 

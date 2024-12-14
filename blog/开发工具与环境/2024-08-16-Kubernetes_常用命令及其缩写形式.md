@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Kubernetes 常用命令及其缩写形式
 
 

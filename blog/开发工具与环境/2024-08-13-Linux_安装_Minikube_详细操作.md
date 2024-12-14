@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Linux 安装 Minikube 详细操作
 
 

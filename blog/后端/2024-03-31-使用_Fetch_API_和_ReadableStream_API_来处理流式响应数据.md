@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # 使用 Fetch API 和 ReadableStream API 来处理流式响应数据
 
 

@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Linux 全方面配置 Bash 提升体验
 
 

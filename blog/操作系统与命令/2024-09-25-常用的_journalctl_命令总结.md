@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # 常用的 journalctl 命令总结
 
 

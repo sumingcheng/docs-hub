@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # 算法中的大O表示法（Big O notation）
 
 

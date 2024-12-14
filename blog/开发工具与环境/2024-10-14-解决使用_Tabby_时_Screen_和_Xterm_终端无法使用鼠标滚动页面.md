@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # 解决使用 Tabby 时 Screen 和 Xterm 终端无法使用鼠标滚动页面
 
 

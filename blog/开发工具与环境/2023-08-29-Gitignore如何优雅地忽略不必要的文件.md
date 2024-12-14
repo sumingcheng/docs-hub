@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Gitignore：如何优雅地忽略不必要的文件
 
 

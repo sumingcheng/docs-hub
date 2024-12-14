@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Linux 安装 kubectl
 
 

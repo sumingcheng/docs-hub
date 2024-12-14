@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # github 使用个人访问令牌（PAT）克隆项目
 
 

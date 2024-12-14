@@ -1,4 +1,7 @@
 ---
+authors: sumingcheng
+---
+---
 slug: welcome
 title: Welcome
 authors: [sumingcheng]

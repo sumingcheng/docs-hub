@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # sync.WaitGroup 使用场景
 
 

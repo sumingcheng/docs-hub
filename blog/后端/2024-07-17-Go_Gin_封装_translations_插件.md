@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # Go Gin 封装 translations 插件
 
 

@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # 云服务器 Ubuntu 如何访问 GitHub
 
 

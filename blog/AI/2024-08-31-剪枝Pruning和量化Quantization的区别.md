@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # 剪枝（Pruning）和量化（Quantization）的区别
 
 

@@ -1,3 +1,6 @@
+---
+authors: sumingcheng
+---
 # mvc、mvp、mvvm三种模式的异同
 
 
