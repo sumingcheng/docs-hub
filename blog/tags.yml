@@ -1,29 +1,49 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
-
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
-
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
-
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
-
-javascript:
-  label: JavaScript
-  permalink: /javascript
-  description: JavaScript相关文章
-
 frontend:
-  label: 前端开发
+  label: 前端
   permalink: /frontend
   description: 前端开发技术文章
+
+backend:
+  label: 后端
+  permalink: /backend
+  description: 后端开发技术文章
+
+database:
+  label: 数据库
+  permalink: /database
+  description: 数据库相关技术文章
+
+os-and-commands:
+  label: 操作系统与命令
+  permalink: /os-and-commands
+  description: 操作系统和命令行相关知识
+
+dev-tools:
+  label: 开发工具与环境
+  permalink: /dev-tools
+  description: 开发工具和环境配置相关文章
+
+network-protocol:
+  label: 网络与协议
+  permalink: /network-protocol
+  description: 网络技术和协议相关文章
+
+performance-architecture:
+  label: 性能优化和架构
+  permalink: /performance-architecture
+  description: 性能优化和系统架构相关文章
+
+web3:
+  label: Web3
+  permalink: /web3
+  description: Web3、区块链相关技术文章
+
+ai:
+  label: AI
+  permalink: /ai
+  description: 人工智能相关技术文章
+
+welcome:
+  label: Welcome
+  permalink: /welcome
+  description: 欢迎文章
