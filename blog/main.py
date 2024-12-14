@@ -55,11 +55,23 @@ def get_title_from_filename(filename):
 
 def get_category_from_path(file_path, dir_to_tag):
     """从文件路径获取分类（目录名）"""
-    rel_path = os.path.relpath(file_path, 'blog')
-    directory = os.path.dirname(rel_path).split(os.sep)[0]
-    
-    # 使用映射获取对应的标签
-    return dir_to_tag.get(directory, 'misc')
+    try:
+        rel_path = os.path.relpath(file_path, '.')
+        directory = os.path.dirname(rel_path).split(os.sep)[0]
+        
+        # 调试信息
+        print(f"处理文件: {file_path}")
+        print(f"目录名: {directory}")
+        print(f"可用标签映射: {dir_to_tag}")
+        
+        # 使用映射获取对应的标签
+        tag = dir_to_tag.get(directory, 'misc')
+        print(f"选择的标签: {tag}")
+        
+        return tag
+    except Exception as e:
+        logging.error(f"获取分类失败: {e}")
+        return 'misc'
 
 def remove_existing_frontmatter(content):
     """移除已存在的frontmatter"""
