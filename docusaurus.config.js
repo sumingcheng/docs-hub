@@ -57,6 +57,12 @@ const config = {
           routeBasePath: '/',
         },
         blog: {
+          path: 'blog',
+          routeBasePath: 'blog',
+          include: ['**/*.{md,mdx}'], // 包含所有子目录
+          blogSidebarCount: 50,     // 显示所有文章
+          blogSidebarTitle: 'All posts', // 侧边栏标题
+          sortPosts: 'descending',     // 按日期降序排列
           showReadingTime: true,
           readingTime: ({ content, frontMatter, defaultReadingTime }) =>
             defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
@@ -70,7 +76,7 @@ const config = {
           // 博客最佳实践的相关选项
           onInlineTags: "warn",
           onInlineAuthors: "warn",
-          onUntruncatedBlogPosts: "warn",
+          onUntruncatedBlogPosts: "ignore", // 忽略未截断的博客文章
         },
         theme: {
           customCss: [
