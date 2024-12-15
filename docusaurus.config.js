@@ -76,6 +76,7 @@ const config = {
           onUntruncatedBlogPosts: "ignore"
         },
         theme: {
+          // 不可使用SCSS
           customCss: [
             "./src/css/custom.css",
             "./src/css/article.css",
