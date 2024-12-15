@@ -8,7 +8,7 @@ date: 2024-05-14
 
 # iptables 和 ufw 的常用命令
 
-**Author:** [素明诚]
+
 
 ## iptables 基础命令
 
