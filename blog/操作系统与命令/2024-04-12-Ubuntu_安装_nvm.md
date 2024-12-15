@@ -8,15 +8,14 @@ date: 2024-04-12
 
 # Ubuntu 安装 nvm
 
+### curl
 
-
- 
-
-### curl  
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
-### wget  
+
+### wget
+
 ```
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
@@ -35,7 +34,8 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 ```
 nvm --version
 ```
-### 使用 nvm 安装 Node.js  
+
+### 使用 nvm 安装 Node.js
 
 要安装最新版本的 Node.js，运行
 

@@ -8,18 +8,15 @@ date: 2024-05-29
 
 # zsh 中使用 agnoster 主题
 
-
-
- 
-
-### 确保已安装 Oh My Zsh  
+### 确保已安装 Oh My Zsh
 
 如果你还没有安装 `Oh My Zsh`，可以通过运行以下命令来安装它
 
 ```
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-### 修改.zshrc配置文件  
+
+### 修改.zshrc 配置文件
 
 打开你的 `~/.zshrc` 文件。你可以使用任何文本编辑器，如 `nano`
 
@@ -37,7 +34,7 @@ ZSH_THEME="agnoster"
 
 保存并关闭文件。如果你使用的是 `nano`，可以按 `Ctrl+O` 保存更改，然后按 `Ctrl+X` 退出。
 
-### 应用更改  
+### 应用更改
 
 运行以下命令来应用更改，使新主题生效
 
@@ -47,7 +44,7 @@ source ~/.zshrc
 
 或者，你可以简单地关闭并重新打开你的终端。
 
-### 安装合适的字体  
+### 安装合适的字体
 
 由于 `agnoster` 主题使用特殊的字体符号来显示 git 状态等信息，你可能需要安装 Powerline 字体或任何兼容的字体
 
@@ -68,7 +65,8 @@ rm -rf fonts
 
 **配置终端使用 Powerline 字体**: 打开你的终端设置（这取决于你使用的终端模拟器），找到字体设置部分，然后选择一个安装的 Powerline 字体，如 `DejaVu Sans Mono for Powerline`。
 
-## 我的配置文件  
+## 我的配置文件
+
 ```
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH

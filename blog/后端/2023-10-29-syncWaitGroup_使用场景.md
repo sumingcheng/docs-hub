@@ -8,12 +8,6 @@ date: 2023-10-29
 
 # sync.WaitGroup 使用场景
 
-
-
- 
-
-
-
 `sync.WaitGroup` 它主要用于等待一组协程（goroutines）的执行完成。
 
 1. **并行处理**：当你有一组独立的任务需要并行执行，而主协程需要等待所有任务完成时，你可以使用 `sync.WaitGroup`。

@@ -8,11 +8,8 @@ date: 2024-11-22
 
 # 你可以从 docker inspect 获取哪些信息
 
+## 对正在运行的 MySQLdocker inspect 后内容如下
 
-
- 
-
-## 对正在运行的 MySQLdocker inspect后内容如下  
 ```
 [
     {

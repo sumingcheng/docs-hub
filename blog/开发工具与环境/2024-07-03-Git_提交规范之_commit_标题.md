@@ -8,15 +8,11 @@ date: 2024-07-03
 
 # Git 提交规范之 commit 标题
 
+## 用于说明 commit 的类别，只允许使用以下标识
 
+commit 的简短描述，一般来说不超过 50 个字符
 
- 
-
-## 用于说明 commit 的类别，只允许使用以下标识  
-
-commit 的简短描述，一般来说不超过50个字符
-
-## feat (新功能)  
+## feat (新功能)
 
 **feat(search)**: Implement full-text search using Elasticsearch
 
@@ -26,7 +22,7 @@ commit 的简短描述，一般来说不超过50个字符
 
 **feat(localization)**: Support multi-language content
 
-## fix (修复问题)  
+## fix (修复问题)
 
 **fix(memory-leak)**: Patch memory leak observed in image processing
 
@@ -36,7 +32,7 @@ commit 的简短描述，一般来说不超过50个字符
 
 **fix(ui-render)**: Fix broken layout on mobile devices in landscape mode
 
-## docs (文档改动)  
+## docs (文档改动)
 
 **docs(installation)**: Revise steps to clarify the setup process
 
@@ -46,7 +42,7 @@ commit 的简短描述，一般来说不超过50个字符
 
 **docs(license)**: Correct the copyright year in license documentation
 
-## style (格式调整)  
+## style (格式调整)
 
 **style(sass)**: Convert CSS files to Sass for easier maintenance
 
@@ -54,7 +50,7 @@ commit 的简短描述，一般来说不超过50个字符
 
 **style(variable-naming)**: Refactor to follow camelCase naming convention
 
-## refactor (代码重构)  
+## refactor (代码重构)
 
 **refactor(auth-module)**: Decouple authentication from user management
 
@@ -64,7 +60,7 @@ commit 的简短描述，一般来说不超过50个字符
 
 **refactor(component-split)**: Break down the monolithic MainPage component into smaller units
 
-## test (测试相关)  
+## test (测试相关)
 
 **test(deployment)**: Add pre-deployment smoke tests to the pipeline
 
@@ -74,7 +70,7 @@ commit 的简短描述，一般来说不超过50个字符
 
 **test(integration)**: Increase coverage for integration testing between modules
 
-## chore (杂项)  
+## chore (杂项)
 
 **chore(update-framework)**: Update frontend framework to latest stable version
 

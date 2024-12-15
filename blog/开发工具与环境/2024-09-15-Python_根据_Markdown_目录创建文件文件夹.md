@@ -8,24 +8,16 @@ date: 2024-09-15
 
 # Python 根据 Markdown 目录创建文件/文件夹
 
-
-
- 
-
-
-
 **将脚本保存为 `create_dirs_from_md.py`。**
 
 **将您的目录结构粘贴到 `md_structure` 变量中。**
 
-**在终端运行脚本：**`python3 create_dirs_from_md.py` 
+**在终端运行脚本：**`python3 create_dirs_from_md.py`
 
 ![17adf28490d266622875f6dd7c4cbabe](../image/17adf28490d266622875f6dd7c4cbabe.jpg)
 
 创建成功
 
-  
-  
 ```
 import os
 import re

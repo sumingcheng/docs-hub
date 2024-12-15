@@ -8,18 +8,15 @@ date: 2024-11-26
 
 # gitmoji-cli 使用
 
-
-
- 
-
-### 安装 gitmoji-cli  
+### 安装 gitmoji-cli
 
 首先，确保你的计算机上安装了 Node.js 和 npm。然后，通过 npm 安装 `gitmoji-cli`：
 
 ```
 npm install -g gitmoji-cli
 ```
-### 使用 gitmoji-cli  
+
+### 使用 gitmoji-cli
 
 安装完成后，你可以通过以下命令开始使用 `gitmoji-cli`：
 

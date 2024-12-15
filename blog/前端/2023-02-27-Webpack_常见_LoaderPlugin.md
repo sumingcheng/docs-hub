@@ -8,17 +8,13 @@ date: 2023-02-27
 
 # Webpack 常见 Loader、Plugin
 
-
-
- 
-
-## 什么是Loader、Plugin  
+## 什么是 Loader、Plugin
 
 简单的说 Loader 用于转换各种资源，例如 Babel-loader：将 ES6+ 代码转换为 ES5 代码，以便在低版本浏览器中运行
 
 而 Plugin 是用于增强 Webpack 的功能，例如 HtmlWebpackPlugin：自动生成 HTML 文件，并将打包生成的 JavaScript 和 CSS 文件自动引入 HTML 中。
 
-### Loader  
+### Loader
 
 (1) Babel-loader：将 ES6+ 代码转换为 ES5 代码，以便在低版本浏览器中运行。
 
@@ -36,7 +32,7 @@ date: 2023-02-27
 
 (8) Sass-loader：解析 Sass 文件并转换为 CSS。
 
-### Plugin  
+### Plugin
 
 (1) HtmlWebpackPlugin：自动生成 HTML 文件，并将打包生成的 JavaScript 和 CSS 文件自动引入 HTML 中。
 

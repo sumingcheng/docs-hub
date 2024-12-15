@@ -8,11 +8,7 @@ date: 2024-10-28
 
 # Linux 不输入密码获取 root 权限
 
-
-
- 
-
-## 修改sudoers文件以免密码执行sudo（推荐）  
+## 修改 sudoers 文件以免密码执行 sudo（推荐）
 
 可以通过修改 `sudoers` 文件为特定用户配置无密码 `sudo` 权限
 
@@ -32,7 +28,7 @@ your_username ALL=(ALL) NOPASSWD: ALL
 
 这样配置后，用户在执行 `sudo` 命令时无需输入密码，例如使用 `sudo su` 可以直接切换到 `root` 用户。
 
-## 设置root用户的自动登录  
+## 设置 root 用户的自动登录
 
 对于部分 Linux 发行版，可以设置在启动时自动登录 `root` 用户
 
@@ -73,7 +69,8 @@ ExecStart=-/sbin/agetty --autologin root --noclear %I $TERM
 sudo systemctl daemon-reload
 sudo systemctl restart getty@tty1.service
 ```
-## 禁用root用户密码  
+
+## 禁用 root 用户密码
 
 **不建议此方法**，但也可以通过删除 `root` 用户的密码实现无密码登录
 
@@ -82,7 +79,8 @@ sudo systemctl restart getty@tty1.service
 ```
 sudo passwd -d root
 ```
-## 使用ssh公钥认证  
+
+## 使用 ssh 公钥认证
 
 通过配置 `ssh` 允许使用公钥进行身份验证，从而无需密码直接登录到 `root` 用户
 

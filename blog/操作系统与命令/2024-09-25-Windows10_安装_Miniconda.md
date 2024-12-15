@@ -8,12 +8,9 @@ date: 2024-09-25
 
 # Windows10 安装 Miniconda
 
+## 下载 miniconda
 
-
- 
-
-## 下载 miniconda  
-[Installing Miniconda](https://docs.anaconda.com/miniconda/miniconda-install/)## 添加环境变量  
+[Installing Miniconda](https://docs.anaconda.com/miniconda/miniconda-install/)## 添加环境变量
 
 **手动添加 Miniconda 到 `PATH`**
 
@@ -43,14 +40,15 @@ date: 2024-09-25
 
 **4. 保存更改**
 
-* 点击“**确定**”保存环境变量设置。
-* 关闭所有对话框。
+- 点击“**确定**”保存环境变量设置。
+- 关闭所有对话框。
 
 **5. 重启 PowerShell**
 
-* 关闭并重新打开 PowerShell，以使环境变量更改生效。
+- 关闭并重新打开 PowerShell，以使环境变量更改生效。
 
-## 验证  
+## 验证
+
 ```
 conda --version
 ```

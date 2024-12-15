@@ -8,11 +8,7 @@ date: 2024-09-10
 
 # Ubuntu 安装 MicroK8s
 
-
-
- 
-
-## 安装 MicroK8s  
+## 安装 MicroK8s
 
 MicroK8s 是通过 Snap 包提供的，因此确保你的系统支持 Snap 包。在 Ubuntu 上，Snap 通常已经预安装。
 
@@ -28,9 +24,8 @@ sudo snap install microk8s --classic
 
 安装成功
 
-  
-  
-### 卸载  
+### 卸载
+
 ```
 sudo snap remove microk8s --purge
 ```
@@ -53,11 +48,12 @@ sudo chown -f -R $USER ~/.kube
 ```
 microk8s status --wait-ready
 ```
+
 ![bb025162c99abe0f53cfd24e360aae49](../image/bb025162c99abe0f53cfd24e360aae49.jpg)
 
 **如果没有看到正常输出，或者卡住，大概率是网络问题。你需要配置代理**
 
-### 配置 MicroK8s 代理  
+### 配置 MicroK8s 代理
 
 为了确保 MicroK8s 内部的 Kubernetes 组件也能使用代理，你可以修改 MicroK8s 的服务定义，添加环境变量。MicroK8s 使用 systemd 服务管理其组件，因此你可以直接修改这些服务文件：
 
@@ -79,7 +75,8 @@ export NO_PROXY=localhost,127.0.0.1,.cluster.local
 microk8s stop
 microk8s start
 ```
-## 启用 MicroK8s 服务  
+
+## 启用 MicroK8s 服务
 
 MicroK8s 提供了许多 Kubernetes 的标准服务和附加组件。你可以根据需要启用
 
@@ -100,8 +97,11 @@ microk8s enable dns dashboard storage
 ```
 microk8s dashboard-proxy
 ```
-![30d12ece67bdbdbec631efdbfabd4002](../image/30d12ece67bdbdbec631efdbfabd4002.jpg)## 标准的kubectl命令而不是每次都键入microk8s kubectl  
-### 1. 修改别名  
+
+![30d12ece67bdbdbec631efdbfabd4002](../image/30d12ece67bdbdbec631efdbfabd4002.jpg)## 标准的 kubectl 命令而不是每次都键入 microk8s kubectl
+
+### 1. 修改别名
+
 ```
 nano ~/.bashrc  # 或者 ~/.zshrc，取决于你使用的 shell
 # 在文件的末尾添加以下行
@@ -109,10 +109,13 @@ alias kubectl='microk8s kubectl'
 # 保存并关闭文件，然后重新加载配置
 source ~/.bashrc  # 或者 source ~/.zshrc
 ```
-### 2. 使用 Bash 中的>操作符来强制覆盖  
+
+### 2. 使用 Bash 中的>操作符来强制覆盖
+
 ```
 microk8s config > ~/.kube/config
 ```
-## 参考文档  
+
+## 参考文档
 
 MicroK8s 的[https://microk8s.io/docs](https://microk8s.io/docs)

@@ -8,15 +8,13 @@ date: 2024-07-12
 
 # Linux Ollama 常用命令和 API 调用
 
+## 安装 ollama
 
-
- 
-
-## 安装 ollama  
 ```
 curl -fsSL https://ollama.com/install.sh | sh
 ```
-![19129b550cdfe1a30a05973ac4fccb9b](../image/19129b550cdfe1a30a05973ac4fccb9b.jpg)## 下载模型  
+
+![19129b550cdfe1a30a05973ac4fccb9b](../image/19129b550cdfe1a30a05973ac4fccb9b.jpg)## 下载模型
 
 下载 gemma 进行测试，下次成功后会直接进入跟模型的交互模式。可以直接在命令行聊天
 
@@ -26,45 +24,55 @@ ollama run gemma:2b
 
 你也可以下载自己需要的 [https://ollama.com/library](https://ollama.com/library)
 
-## 查看模型  
+## 查看模型
+
 ```
 root@gptdev:/home# ollama list
-NAME            ID              SIZE    MODIFIED       
+NAME            ID              SIZE    MODIFIED
 gemma:2b        b50d6c999e59    1.7 GB  24 minutes ago
 ```
-## 查看模型详情  
+
+## 查看模型详情
+
 ```
 root@gptdev:/home# ollama show gemma:2b
-  Model                             
-        arch                    gemma                
-        parameters              3B                   
-        quantization            Q4_0                 
-        context length          8192                 
-        embedding length        2048                 
-                                          
-  Parameters                        
-        repeat_penalty  1                          
-        stop            "<start_of_turn>"          
-        stop            "<end_of_turn>"            
-                                          
-  License                           
-        Gemma Terms of Use                        
-        Last modified: February 21, 2024          
+  Model
+        arch                    gemma
+        parameters              3B
+        quantization            Q4_0
+        context length          8192
+        embedding length        2048
+
+  Parameters
+        repeat_penalty  1
+        stop            "<start_of_turn>"
+        stop            "<end_of_turn>"
+
+  License
+        Gemma Terms of Use
+        Last modified: February 21, 2024
 ```
-## 删除模型  
+
+## 删除模型
+
 ```
 ollama rm <model-name>
 ```
-## 运行模型  
+
+## 运行模型
+
 ```
 root@gptdev:/home# ollama run gemma:2b
 ```
-![9e5360abeb936307f17341381d6658e1](../image/9e5360abeb936307f17341381d6658e1.jpg)## 退出交互模式  
+
+![9e5360abeb936307f17341381d6658e1](../image/9e5360abeb936307f17341381d6658e1.jpg)## 退出交互模式
+
 ```
 Use Ctrl + d or /bye to exit.
 >>> /bye
 ```
-## 使用 API 调用  
+
+## 使用 API 调用
 
 generate **一次性回答**
 
@@ -91,7 +99,7 @@ root@gptdev:/home# curl -XPOST http://localhost:11434/api/generate -d '{"model":
 **聊天**
 
 ```
-root@gptdev:/home# curl http://localhost:11434/api/chat -d '{                                                                                      
+root@gptdev:/home# curl http://localhost:11434/api/chat -d '{
   "model": "gemma:2b",
   "messages": [
     { "role": "system", "content": "You are an astronomer. Answer the following questions based on your knowledge of astronomy." },

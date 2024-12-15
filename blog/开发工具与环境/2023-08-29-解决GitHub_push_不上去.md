@@ -8,42 +8,22 @@ date: 2023-08-29
 
 # 解决：GitHub push 不上去
 
+## 一、配置 host 方法
 
-
- 
-
-## 一、配置host方法  
-## 1.https://github.com.ipaddress.com/  
-
-  
-
+## 1.https://github.com.ipaddress.com/
 
 ![12c873d84a956c9ad9c37eefcc30f934](../image/12c873d84a956c9ad9c37eefcc30f934.jpg)
 
-  
-
-
-## 2.https://fastly.net.ipaddress.com/github.global.ssl.fastly.net#ipinfo  
-
-  
-
+## 2.https://fastly.net.ipaddress.com/github.global.ssl.fastly.net#ipinfo
 
 ![ef152ae3bf890ac8ed00326087af6e7e](../image/ef152ae3bf890ac8ed00326087af6e7e.jpg)
 
-  
-
-
-## 3.https://github.com.ipaddress.com/assets-cdn.github.com  
-
-  
-
+## 3.https://github.com.ipaddress.com/assets-cdn.github.com
 
 ![961478a1d45f15436e95c381153e2cc9](../image/961478a1d45f15436e95c381153e2cc9.jpg)
 
-  
+## 4.打开 hosts 文件，把记录的 IP 和对应的域名写上
 
-
-## 4.打开hosts文件，把记录的IP和对应的域名写上  
 ```
 140.82.112.3 github.com //图1
 199.232.69.194 github.global.ssl.fastly.net    //图2
@@ -52,21 +32,31 @@ date: 2023-08-29
 185.199.110.153 assets-cdn.github.com	 //图3
 185.199.111.153 assets-cdn.github.com  //图3
 ```
-## 二、修改本地host  
+
+## 二、修改本地 host
+
 ```
 140.82.112.3 github.com
 ```
-## 刷新本地的DNS  
+
+## 刷新本地的 DNS
+
 ```
 ipconfig /displaydns
 ```
-## 其他错误  
-## error 11053  
+
+## 其他错误
+
+## error 11053
+
 ```
 git config --global http.postBuffer 524288000
 ```
-## 三、刷新代理  
-## 配置/取消http代理  
+
+## 三、刷新代理
+
+## 配置/取消 http 代理
+
 ```
 # 配置socks5代理
 git config --global http.proxy 'socks5://127.0.0.1:1080'
@@ -76,12 +66,16 @@ git config --global http.proxy 'http://127.0.0.1:1080'
 git config --global https.proxy 'https://127.0.0.1:1080'
 git config --global --unset http.proxy
 ```
-## 配置/取消HTTPS代理  
+
+## 配置/取消 HTTPS 代理
+
 ```
 git config --global https.proxy
 git config --global --unset https.proxy
 ```
-## 四、指定代理的作用域  
+
+## 四、指定代理的作用域
+
 ```
 #只对github.com
 git config --global http.https://github.com.proxy socks5://127.0.0.1:7890

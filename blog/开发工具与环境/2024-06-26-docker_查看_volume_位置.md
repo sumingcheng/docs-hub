@@ -8,12 +8,6 @@ date: 2024-06-26
 
 # docker 查看 volume 位置
 
-
-
- 
-
-
-
 **列出所有卷**：首先确保卷 `logs` 已被正确创建。
 
 ```
@@ -26,7 +20,7 @@ docker volume ls
 docker volume inspect logs 卷名
 ```
 
-这个命令将返回一个包含卷详细信息的JSON数组。其中的 `"Mountpoint"` 键值对应的值就是卷在宿主机上的存储路径。例如：
+这个命令将返回一个包含卷详细信息的 JSON 数组。其中的 `"Mountpoint"` 键值对应的值就是卷在宿主机上的存储路径。例如：
 
 ```
 [

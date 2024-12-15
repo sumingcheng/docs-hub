@@ -8,13 +8,9 @@ date: 2024-03-13
 
 # 前端对接 Python SSE
 
+### Python 代码
 
-
- 
-
-### Python代码  
-
-请求后 每10s 向前端发送数据
+请求后 每 10s 向前端发送数据
 
 ```
 from flask import Flask, Response, json
@@ -30,7 +26,7 @@ def events():
         for i in range(1, 11):  # 生成10次数据
             yield f"data: Message {i}\n\n"
             time.sleep(1)  # 每秒发送一次
-        
+
         # 发送完成信号
         yield f"data: {json.dumps({'message': 'done'})}\n\n"
     return Response(generate(), mimetype='text/event-stream')
@@ -38,7 +34,9 @@ def events():
 if __name__ == '__main__':
     app.run(debug=True, threaded=True)
 ```
-### 前端请求接口对接 SSE  
+
+### 前端请求接口对接 SSE
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -70,4 +68,5 @@ if __name__ == '__main__':
   </body>
 </html>
 ```
+
 ![59aa7dc28e6fec13cf51271f629f9ea3](../image/59aa7dc28e6fec13cf51271f629f9ea3.jpg)

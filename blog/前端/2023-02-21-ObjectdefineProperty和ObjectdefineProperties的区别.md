@@ -6,13 +6,7 @@ tags: [frontend]
 date: 2023-02-21
 ---
 
-# Object.defineProperty()和Object.defineProperties()的区别
-
-
-
- 
-
-
+# Object.defineProperty()和 Object.defineProperties()的区别
 
 `Object.defineProperty()`和`Object.defineProperties()`都是用于定义对象属性的方法，不同之处在于它们的作用范围不同。
 

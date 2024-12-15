@@ -8,11 +8,7 @@ date: 2024-06-06
 
 # 常用的 docker-compose 命令行选项
 
-
-
- 
-
-## 常用的docker-compose命仅行选项  
+## 常用的 docker-compose 命仅行选项
 
 **-p | --project-name** 用于指定项目名称。默认情况下，`docker-compose` 使用当前目录名作为项目名称。使用此选项可以自定义项目名称，这在同一台机器上运行多个配置实例时非常有用。
 
@@ -51,7 +47,8 @@ docker-compose up --build
 ```
 docker-compose up --scale web=3
 ```
-## 进阶和特定用途的docker-compose命令行选项  
+
+## 进阶和特定用途的 docker-compose 命令行选项
 
 **--env-file** 指定一个环境变量文件。这允许从外部文件加载环境变量，而不是在 `docker-compose.yml` 文件中硬编码。
 

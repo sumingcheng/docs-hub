@@ -8,13 +8,9 @@ date: 2024-09-13
 
 # Go 使用 ORM 插入一个 NULL 值
 
+## 使用 sql.NullXXX 这一家族类
 
-
- 
-
-## 使用sql.NullXXX这一家族类  
-
-定义了一个`User`结构体，其中手机号和邮箱字段被定义为`sql.NullString`。这允许它们接收来自数据库的NULL值，`Valid`字段用于检查值是否为NULL，如果不为NULL，可以安全地访问`String`字段。
+定义了一个`User`结构体，其中手机号和邮箱字段被定义为`sql.NullString`。这允许它们接收来自数据库的 NULL 值，`Valid`字段用于检查值是否为 NULL，如果不为 NULL，可以安全地访问`String`字段。
 
 ```
 package main
@@ -52,7 +48,7 @@ func main() {
         if err := rows.Scan(&user.ID, &user.PhoneNumber, &user.Email); err != nil {
             panic(err)
         }
-        
+
         // 打印结果，如果字段为NULL，则显示为 "NULL"
         fmt.Printf("ID: %d, Phone: %s, Email: %s\n",
             user.ID,
@@ -63,9 +59,10 @@ func main() {
 }
 
 ```
-## 使用指针  
 
-你在Go中使用指针来处理可能为NULL的数据库字段时，每次访问这些字段的值时确实需要解引用。
+## 使用指针
+
+你在 Go 中使用指针来处理可能为 NULL 的数据库字段时，每次访问这些字段的值时确实需要解引用。
 
 ```
 package main

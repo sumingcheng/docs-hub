@@ -8,21 +8,18 @@ date: 2023-02-08
 
 # JS Web Workers
 
+## 什么是 Web Workers
 
+[Worker - Web API 接口参考 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Worker)## 有哪些实际用处？
 
- 
+Worker 线程中全局对象为 `self`，代表子线程自身，这时 `this`指向`self`，其上有一些 api：
 
-## 什么是Web Workers  
-[Worker - Web API 接口参考 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Worker)## 有哪些实际用处？  
+- `self.postMessage`: worker 线程往主线程发消息，消息可以是任意类型数据，包括二进制数据
+- `self.close`: worker 线程关闭自己
+- `self.onmessage`: 指定主线程发 worker 线程消息时的回调，也可以`self.addEventListener('message',cb)`
+- `self.onerror`: 指定 worker 线程发生错误时的回调，也可以 `self.addEventListener('error',cb)`
 
-Worker线程中全局对象为 `self`，代表子线程自身，这时 `this`指向`self`，其上有一些api：
-
-* `self.postMessage`: worker线程往主线程发消息，消息可以是任意类型数据，包括二进制数据
-* `self.close`: worker线程关闭自己
-* `self.onmessage`: 指定主线程发worker线程消息时的回调，也可以`self.addEventListener('message',cb)`
-* `self.onerror`: 指定worker线程发生错误时的回调，也可以 `self.addEventListener('error',cb)`
-
-### 优点  
+### 优点
 
 1. 可以通过`Web Workers`把需要大量计算的工作交接给`worker`处理，不占用主线程。
 2. 通过`postMessage`和`onmessage`进行信息的传递和接收。
@@ -34,9 +31,9 @@ Worker线程中全局对象为 `self`，代表子线程自身，这时 `this`指
 **缺点**
 
 1. `worker` 不支持跨域请求
-2. `worker`不能访问`document`和`window`，但是可以获取`navigator`、`location(只读)`、`XMLHttpRequest`、`setTimeout`等浏览器API。也可以进行`AJAX`请求。
+2. `worker`不能访问`document`和`window`，但是可以获取`navigator`、`location(只读)`、`XMLHttpRequest`、`setTimeout`等浏览器 API。也可以进行`AJAX`请求。
 
-## 多个worker  
+## 多个 worker
 
 1. 一个`worker`可以委派多个`worker`
 

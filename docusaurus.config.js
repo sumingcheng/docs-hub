@@ -136,16 +136,16 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "LinkExchange",
             items: [
               {
-                label: "语雀",
-                href: "https://www.yuque.com/sumingcheng",
+                label: "Leviatan",
+                href: "leviatan.cn",
               },
-              {
-                label: "知乎",
-                href: "https://www.zhihu.com/people/xiaolaodi.top",
-              },
+              // {
+              //   label: "知乎",
+              //   href: "https://www.zhihu.com/people/xiaolaodi.top",
+              // },
             ],
           },
           {

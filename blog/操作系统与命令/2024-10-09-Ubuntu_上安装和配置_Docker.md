@@ -8,11 +8,7 @@ date: 2024-10-09
 
 # Ubuntu 上安装和配置 Docker
 
-
-
- 
-
-## 一、更新软件源  
+## 一、更新软件源
 
 备份现有的 `sources.list` 文件并替换为清华大学的镜像源
 
@@ -30,11 +26,15 @@ echo "已备份原始 sources.list 文件为 sources.list.bak，并写入新的 
 ​
 sudo apt-get update
 ```
-## 二、安装必要依赖  
+
+## 二、安装必要依赖
+
 ```
 sudo apt-get install -y apt-transport-https ca-certificates curl gnupg lsb-release
 ```
-## 三、添加 Docker 的 GPG 密钥和仓库  
+
+## 三、添加 Docker 的 GPG 密钥和仓库
+
 ```
 sudo install -m 0755 -d /etc/apt/keyrings
 ​
@@ -51,19 +51,23 @@ echo \
 ​
 sudo apt-get update
 ```
-## 四、安装 Docker  
+
+## 四、安装 Docker
+
 ```
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io \
 docker-buildx-plugin docker-compose-plugin
 ```
-## 五、验证安装  
+
+## 五、验证安装
+
 ```
 docker info
 ```
 
 如果安装成功，您将看到 Docker 的详细信息。
 
-## 六、配置 Docker 日志和其他选项  
+## 六、配置 Docker 日志和其他选项
 
 创建或修改 `/etc/docker/daemon.json` 文件
 
@@ -107,14 +111,17 @@ docker info
 
 确保配置已生效。
 
-## 七、安装 Docker Compose  
+## 七、安装 Docker Compose
+
 ```
 sudo wget https://github.com/docker/compose/releases/download/v2.27.2/docker-compose-linux-x86_64 \
 -O /usr/local/bin/docker-compose
 ​
 sudo chmod +x /usr/local/bin/docker-compose
 ```
-## 八、更新 Hosts 文件  
+
+## 八、更新 Hosts 文件
+
 ```
 echo -e "59.151.19.44\tmodel.vnet.com\n172.22.220.40\tmodel.vnet.com" | sudo tee -a /etc/hosts
 ```

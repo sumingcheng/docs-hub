@@ -8,20 +8,19 @@ date: 2024-09-12
 
 # Kubernetes（K8s）集群 Docker 作为容器运行时
 
+## 准备代理
 
-
- 
-
-## 准备代理  
 ```
 export HTTPS_PROXY="http://172.22.220.64:7890"
 ```
-## 版本问题  
 
-三台 Ubuntu 22.04.4 LTS x86\_64 机器上搭建 Kubernetes 集群。使用的Docker版本至少是19.03，因为这个版本支持Kubernetes所需的特性和配置。确保Docker的cgroup驱动设置为`systemd`，以与kubelet保持一致，避免资源管理上的潜在冲突。
+## 版本问题
 
-## 环境准备  
-### 设置主机名  
+三台 Ubuntu 22.04.4 LTS x86_64 机器上搭建 Kubernetes 集群。使用的 Docker 版本至少是 19.03，因为这个版本支持 Kubernetes 所需的特性和配置。确保 Docker 的 cgroup 驱动设置为`systemd`，以与 kubelet 保持一致，避免资源管理上的潜在冲突。
+
+## 环境准备
+
+### 设置主机名
 
 每台机器上设置适当的主机名并更新 `/etc/hosts` 文件以便节点间能够相互解析。
 
@@ -40,7 +39,8 @@ echo "192.168.33.110 k8s-worker1" | sudo tee -a /etc/hosts
 sudo hostnamectl set-hostname k8s-worker2
 echo "192.168.33.111 k8s-worker2" | sudo tee -a /etc/hosts
 ```
-### 禁用 Swap  
+
+### 禁用 Swap
 
 Kubernetes 要求禁用 swap。在每台机器上执行
 
@@ -49,7 +49,8 @@ sudo swapoff -a
 # 永久禁用，注释掉 /etc/fstab 中相关的 swap 行
 sudo sed -i '/ swap / s/^/#/' /etc/fstab
 ```
-### 加载必要的内核模块  
+
+### 加载必要的内核模块
 
 在每台机器上执行
 
@@ -57,7 +58,8 @@ sudo sed -i '/ swap / s/^/#/' /etc/fstab
 sudo modprobe overlay
 sudo modprobe br_netfilter
 ```
-### 设置系统参数  
+
+### 设置系统参数
 
 在每台机器上添加 Kubernetes 推荐的 sysctl 参数
 
@@ -69,8 +71,10 @@ net.ipv4.ip_forward = 1
 EOF
 sudo sysctl --system
 ```
-## 安装 Docker、kubeadm、kubelet 和 kubectl  
-### 安装 Docker  
+
+## 安装 Docker、kubeadm、kubelet 和 kubectl
+
+### 安装 Docker
 
 如果已经安装了 Docker，确认一下 Docker 是否正在运行
 
@@ -83,7 +87,8 @@ sudo systemctl status docker
 ```
 apt install docker.io
 ```
-### 添加 Kubernetes 仓库  
+
+### 添加 Kubernetes 仓库
 
 在每台机器上执行
 
@@ -93,7 +98,8 @@ sudo apt-get install -y apt-transport-https ca-certificates curl
 curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
 echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
 ```
-### 安装 kubeadm, kubelet 和 kubectl  
+
+### 安装 kubeadm, kubelet 和 kubectl
 
 **kubelet**运行在所有集群节点上的代理，负责启动和管理容器应用。
 
@@ -112,7 +118,8 @@ sudo apt-get remove -y kubelet kubeadm kubectl
 
 hold 是设置保留状态，不会自动更新
 
-## 配置 docker  
+## 配置 docker
+
 ```
 nano /etc/docker/daemon.json
 {
@@ -128,11 +135,15 @@ nano /etc/docker/daemon.json
   "storage-driver": "overlay2"
 }
 ```
-### 重启  
+
+### 重启
+
 ```
 sudo systemctl restart docker
 ```
-## 配置 kubelet  
+
+## 配置 kubelet
+
 ```
 nano /etc/systemd/system/kubelet.service.d/10-kubeadm.conf
 # Note This dropin only works with kubeadm and kubelet v1.11+
@@ -151,12 +162,15 @@ nano /var/lib/kubelet/config.yaml
 sudo chown rootroot /var/lib/kubelet/config.yaml
 sudo chmod 644 /var/lib/kubelet/config.yaml
 ```
-### 重启  
+
+### 重启
+
 ```
 sudo systemctl daemon-reload
 sudo systemctl restart kubelet
 ```
-## 初始化 Kubernetes 主节点  
+
+## 初始化 Kubernetes 主节点
 
 **查看要下载的内容**
 
@@ -201,9 +215,10 @@ Run "kubectl apply -f [podnetwork].yaml" with one of the options listed at
 ​
 Then you can join any number of worker nodes by running the following on each as root
 ​
-kubeadm init phase certs apiserver --apiserver-cert-extra-sans=172.22.220.64,kubernetes.default,kubernetes.default.svc,kubernetes.default.svc.cluster,kubernetes.default.svc.cluster.local 
+kubeadm init phase certs apiserver --apiserver-cert-extra-sans=172.22.220.64,kubernetes.default,kubernetes.default.svc,kubernetes.default.svc.cluster,kubernetes.default.svc.cluster.local
 ```
-## 配置 kubectl  
+
+## 配置 kubectl
 
 在 k8s-master 上，配置用户的 kubeconfig 文件以使用 kubectl
 
@@ -212,7 +227,8 @@ mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u)$(id -g) $HOME/.kube/config
 ```
-## 如果证书有问题，重新生成证书  
+
+## 如果证书有问题，重新生成证书
 
 手动删除现有的 apiserver 证书文件
 
@@ -223,13 +239,13 @@ rm /etc/kubernetes/pki/apiserver.*
 再次运行证书生成命令
 
 ```
-kubeadm init phase certs apiserver --apiserver-cert-extra-sans=172.22.220.64,kubernetes.default,kubernetes.default.svc,kubernetes.default.svc.cluster,kubernetes.default.svc.cluster.local 
+kubeadm init phase certs apiserver --apiserver-cert-extra-sans=172.22.220.64,kubernetes.default,kubernetes.default.svc,kubernetes.default.svc.cluster,kubernetes.default.svc.cluster.local
 ```
 
 再次重启 apiserver 容器
 
 ```
-docker ps | grep kube-apiserver | grep -v pause 
+docker ps | grep kube-apiserver | grep -v pause
 docker kill <container-id>
 ```
 
@@ -241,7 +257,7 @@ openssl x509 -in /etc/kubernetes/pki/apiserver.crt -text -noout
 
 如果新证书的内容(尤其是序列号)与旧证书不同,就说明证书已经更新成功。
 
-## 安装 Pod 网络插件  
+## 安装 Pod 网络插件
 
 可以选择一个网络插件，例如 Calico，并在 k8s-master 上执行
 
@@ -249,7 +265,8 @@ openssl x509 -in /etc/kubernetes/pki/apiserver.crt -text -noout
 kubectl apply -f https//docs.projectcalico.org/manifests/calico.yaml
 kubectl get nodes
 ```
-## 加入工作节点  
+
+## 加入工作节点
 
 在 k8s-worker1 和 k8s-worker2 上，使用之前记录的 `kubeadm join` 命令来加入集群
 
@@ -257,7 +274,8 @@ kubectl get nodes
 kubeadm join 172.22.220.646443 --token 6bqr0n.5dlu623stgokbvdd \
         --discovery-token-ca-cert-hash sha256851c48c250ee78aa569a77c935f14ee6edcebc6b004655e52ac775bcc89cf013
 ```
-## 验证集群状态  
+
+## 验证集群状态
 
 在 k8s-master 上，检查节点和 Pod 的状态
 
@@ -265,15 +283,19 @@ kubeadm join 172.22.220.646443 --token 6bqr0n.5dlu623stgokbvdd \
 kubectl get nodes
 kubectl get pods --all-namespaces
 ```
-## 监控节点变化  
+
+## 监控节点变化
+
 ```
 kubectl get nodes -w
 ```
-## 安装并配置 Helm  
+
+## 安装并配置 Helm
 
 在你的本地机器或管理机上安装 Helm。这通常涉及到下载 Helm 的二进制文件并将其配置到适当的路径。你还需要初始化 Helm 的服务端组件 Tiller（注意从 Helm v3 开始，已经移除了 Tiller）。
 
-### 对于 Helm 3，直接初始化即可  
+### 对于 Helm 3，直接初始化即可
+
 ```
 helm repo add stable https//charts.helm.sh/stable
 helm repo update
@@ -287,7 +309,8 @@ helm install stable/mysql --generate-name
 
 如果这个命令成功执行，并且能够看到 Pod 正在运行状态，则说明 Helm 已准备好用于部署应用。
 
-## 卸载 K8S 所有组件  
+## 卸载 K8S 所有组件
+
 ```
 kubeadm reset -f
 systemctl stop kubelet

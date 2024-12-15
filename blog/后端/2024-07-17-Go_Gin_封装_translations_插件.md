@@ -8,11 +8,8 @@ date: 2024-07-17
 
 # Go Gin 封装 translations 插件
 
+## translate.go
 
-
- 
-
-## translate.go  
 ```
 package util
 
@@ -77,7 +74,8 @@ func TranslateErrors(err error) string {
 }
 
 ```
-### Login.go  
+
+### Login.go
 
 直接使用封装好的 TranslateErrors 进行翻译
 

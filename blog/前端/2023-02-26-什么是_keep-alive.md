@@ -8,20 +8,15 @@ date: 2023-02-26
 
 # 什么是 keep-alive
 
-
-
- 
-
-
-
 `keep-alive` 是 Vue.js 中的一个内置组件，用于缓存组件实例。当组件被包裹在 `keep-alive` 组件中时，该组件不会被销毁，而是被缓存起来，直到缓存被清除或组件被激活重新渲染。这样可以提高组件的渲染效率，减少不必要的性能开销。
 
 `keep-alive` 组件提供了 `include` 和 `exclude` 两个属性，用于指定需要缓存的组件和需要排除的组件。同时还提供了一些生命周期钩子函数，用于在缓存组件的过程中进行一些额外的操作，例如激活缓存组件时自动更新数据。
 
 需要注意的是，`keep-alive` 组件只能缓存有状态的组件，即带有 `data` 属性的组件。同时，被缓存的组件可能会因为缓存而带来一些副作用，例如缓存的组件会保留之前的状态，如果没有及时更新可能会导致一些问题，因此需要根据具体的场景进行使用和管理。
 
-## 动态/异步组件  
-## 异步组件  
+## 动态/异步组件
+
+## 异步组件
 
 1. 异步组件会被分割成代码块文件
 2. 按需从服务器上下载组件`xx.js`
@@ -35,7 +30,8 @@ date: 2023-02-26
   const { defineAsyncCompontent } = 'Vue';
 
 ```
-## 动态组件  
+
+## 动态组件
 
 在交互中，组件的渲染是不确定的，根据交互的操作来决定渲染哪个组件
 
@@ -90,7 +86,8 @@ export default {
 </script>
 
 ```
-## keep-alive使用  
+
+## keep-alive 使用
 
 被`keep-alive`包裹的组件，组件切换时会缓存组件，保持组件的状态，避免反复渲染导致性能问题
 
@@ -99,7 +96,7 @@ export default {
 3. rDOM：Real DOM
 4. rNode：Real Node
 
-## keep-alive的原理  
+## keep-alive 的原理
 
 1. 用户操作视图，视图变化，影响组件显示变化
 2. 被`keep-alive`包裹的组件会缓存组件的`vNode`
@@ -107,11 +104,11 @@ export default {
 4. 这种更新不经过`unmounted`，再次进入也不会走`mounted`
 5. 使用`activated`代替`mounted`，使用`deactivated`代替`unmounted`
 
-## keep-alive属性  
+## keep-alive 属性
 
 正常匹配组件的`name`属性或如果没有就匹配局部注册组件名称
 
-## exclude  
+## exclude
 
 排除某个组件
 
@@ -120,7 +117,8 @@ export default {
   <component :is="currentComponent"></component>
 </keep-alive>
 ```
-## include  
+
+## include
 
 允许某个组件
 
@@ -129,7 +127,8 @@ export default {
   <component :is="currentComponent"></component>
 </keep-alive>
 ```
-## max  
+
+## max
 
 最多缓存几个组件
 
@@ -138,13 +137,16 @@ export default {
   <!-- 需要缓存的组件 -->
 </keep-alive>
 ```
-## 正则匹配  
+
+## 正则匹配
+
 ```
 <keep-alive :include="/n|c/">
     <component :is="currentComponent"></component>
 </keep-alive>
 ```
-## bug  
+
+## bug
 
 异步组件不能使用`include`，缓存了但是没办法正确显示。异步组件请使用`exclude`
 
@@ -153,7 +155,9 @@ export default {
   <component :is="currentComponent"></component>
 </keep-alive>
 ```
-## keep-alive实现  
+
+## keep-alive 实现
+
 ```
 import comp1 from './components/Comp1';
 import comp2 from './components/Comp2';

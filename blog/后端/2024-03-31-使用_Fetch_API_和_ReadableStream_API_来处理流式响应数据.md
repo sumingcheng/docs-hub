@@ -8,17 +8,13 @@ date: 2024-03-31
 
 # 使用 Fetch API 和 ReadableStream API 来处理流式响应数据
 
-
-
- 
-
-## 使用 Fetch API 和 ReadableStream API 来处理流式响应数据  
+## 使用 Fetch API 和 ReadableStream API 来处理流式响应数据
 
 在开发时，我们常常需要处理大量的数据，这些数据可能是文件，也可能是网络请求的响应。在这种情况下，使用流（stream）可以有效地处理这些数据，避免一次性加载所有数据，从而减少内存的使用并提高应用的性能。
 
 在这篇文章中，我将介绍如何使用 Fetch API 和 ReadableStream API 来处理流式响应数据。我将会提供具体的代码示例来展示这些概念。
 
-## Fetch API 和 ReadableStream  
+## Fetch API 和 ReadableStream
 
 Fetch API 是浏览器提供的一个现代的、强大的 HTTP 请求工具。与旧的 XMLHttpRequest API 相比，Fetch API 提供了更简洁的 API 和更强大的功能，包括流式响应。
 
@@ -52,7 +48,7 @@ fetch('https://example.com/data')
 
 这样，你就可以逐块地处理数据，而不需要一次性加载所有数据。个人觉得有点像迭代器。
 
-## 处理文本数据  
+## 处理文本数据
 
 上述示例展示了如何逐块地读取数据，但这些数据是二进制的，如果你想处理文本数据，需要对其进行解码。
 
@@ -88,7 +84,7 @@ fetch('https://example.com/text')
 
 在这个示例中，我使用 `TextDecoder` 对象来解码数据。`TextDecoder` 是一个可以将二进制数据解码为字符串的工具，它的 `decode()` 方法可以接受一个 `ArrayBuffer` 或者 `TypedArray` 并返回一个字符串。
 
-## 处理 JSON 数据  
+## 处理 JSON 数据
 
 有时，你可能需要处理的是 JSON 格式的数据。在这种情况下，你需要首先将所有数据读取完成，然后将其解码为字符串，最后解析为 JavaScript 对象。
 

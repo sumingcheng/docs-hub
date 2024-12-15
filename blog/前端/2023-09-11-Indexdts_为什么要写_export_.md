@@ -1,18 +1,12 @@
 ---
 slug: indexdts-为什么要写-export-
-title: Indexdts 为什么要写 export 
+title: Indexdts 为什么要写 export
 authors: [sumingcheng]
 tags: [frontend]
 date: 2023-09-11
 ---
 
 # Index.d.ts 为什么要写 export {}
-
-
-
- 
-
-
 
 在 TypeScript 中，当你在一个 `.ts` 或 `.d.ts` 文件中使用 `export` 关键字，该文件会被视为一个模块。相反地，如果文件中没有 `export` 或 `import` 语句，那么它会被视为一个全局脚本，其中的所有声明都会被加入到全局命名空间。
 

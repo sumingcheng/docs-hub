@@ -8,12 +8,6 @@ date: 2024-06-27
 
 # Express 中使用 Winston 记录日志
 
-
-
- 
-
-
-
 **首先，你需要在你的 Node.js 项目中安装 Winston 和 winston-daily-rotate-file（**实现日志滚动**）**
 
 ```
@@ -21,7 +15,9 @@ npm install winston
 npm install winston-daily-rotate-file
 
 ```
-## 示例：编写一个 logger 实例导出使用  
+
+## 示例：编写一个 logger 实例导出使用
+
 ```
 import winston from 'winston';
 import DailyRotateFile from 'winston-daily-rotate-file';
@@ -76,7 +72,9 @@ export const logger = winston.createLogger({
 });
 
 ```
-## 编写中间件  
+
+## 编写中间件
+
 ```
 export const logMiddleware = (req, res, next) => {
   const start = Date.now();
@@ -90,7 +88,9 @@ export const logMiddleware = (req, res, next) => {
 };
 
 ```
-## 注册中间件  
+
+## 注册中间件
+
 ```
 const app = express();
 app.use(cors());
@@ -99,6 +99,8 @@ app.use(express.static('dist'));
 app.use(logMiddleware); // 这里
 
 ```
-## 效果  
+
+## 效果
+
 ![ca9b705e4e51a672c2938357f93fd824](../image/ca9b705e4e51a672c2938357f93fd824.jpg)## 项目地址  
 [https://github.com/winstonjs/winston](https://github.com/winstonjs/winston)

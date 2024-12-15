@@ -8,15 +8,12 @@ date: 2024-03-11
 
 # 批量 clone GitHub 仓库
 
-
-
- 
-
-### 获取仓库列表，保存在当前目录下  
+### 获取仓库列表，保存在当前目录下
 
 `curl https://api.github.com/users/替换为你的用户名/repos?per_page=100 > repos.json`
 
-### 编写 python 脚本  
+### 编写 python 脚本
+
 ```
 import json
 import subprocess

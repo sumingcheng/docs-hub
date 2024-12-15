@@ -8,15 +8,13 @@ date: 2024-10-11
 
 # Windows pip 配置国内源
 
+## 查看当前 pip 位置
 
-
- 
-
-## 查看当前 pip 位置  
 ```
 pip config -v list
 ```
-![9d4a61ae89ba84e0048c931888668c08](../image/9d4a61ae89ba84e0048c931888668c08.jpg)## 配置文件说明  
+
+![9d4a61ae89ba84e0048c931888668c08](../image/9d4a61ae89ba84e0048c931888668c08.jpg)## 配置文件说明
 
 **全局配置**
 
@@ -39,7 +37,8 @@ C:\Users\SMC\AppData\Roaming\pip\pip.ini
 C:\Users\SMC\.conda\envs\vchatbi\pip.ini
 这是特定于 `vchatbi` 虚拟环境的配置，只在这个虚拟环境中有效。
 ```
-## 编辑配置文件  
+
+## 编辑配置文件
 
 你可以选择编辑上述任一配置文件来设置 pip 源。根据你的需要，选择合适的文件进行编辑
 
@@ -55,7 +54,8 @@ C:\Users\SMC\.conda\envs\vchatbi\pip.ini
 [global]
 index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 ```
-## 常用源  
+
+## 常用源
 
 **清华大学 Tuna 镜像源**
 

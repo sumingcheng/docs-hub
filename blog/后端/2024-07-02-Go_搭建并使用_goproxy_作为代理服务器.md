@@ -8,11 +8,7 @@ date: 2024-07-02
 
 # Go 搭建并使用 goproxy 作为代理服务器
 
-
-
- 
-
-## 安装 goproxy  
+## 安装 goproxy
 
 仓库地址：[https://github.com/goproxyio/goproxy](https://github.com/goproxyio/goproxy)
 
@@ -30,7 +26,8 @@ services:
     volumes:
       - ./cacheDir:/ext
 ```
-## 配置代理  
+
+## 配置代理
 
 如果要测试的话先清除缓存
 
@@ -38,7 +35,7 @@ services:
 go clean -modcache
 ```
 
-设置为自己搭建的代理，我这里的测试环境的windows。注意使用`export`是替换该环境变量之前的值，而不是添加新值到现有的列表中
+设置为自己搭建的代理，我这里的测试环境的 windows。注意使用`export`是替换该环境变量之前的值，而不是添加新值到现有的列表中
 
 ```
 export GOPROXY=http://172.22.220.64:8081
@@ -55,14 +52,14 @@ go env GOPROXY
 ```
 go get -v github.com/sirupsen/logrus
 ```
-### 测试  
+
+### 测试
+
 ![36dd244a94607dce1a9e004e60e89a2e](../image/36dd244a94607dce1a9e004e60e89a2e.jpg)![76da0346edcede665a737c847c6473a2](../image/76da0346edcede665a737c847c6473a2.jpg)![0cb74ada0bc74a2d10bd4d9941276636](../image/0cb74ada0bc74a2d10bd4d9941276636.jpg)
 
 成功~
 
-  
-  
-### 使用场景  
+### 使用场景
 
 **企业内部**：企业可以搭建内部的 `goproxy` 服务器，用来提供企业内部使用的私有模块，同时也可以缓存公共模块，减少对外部网络的依赖。
 

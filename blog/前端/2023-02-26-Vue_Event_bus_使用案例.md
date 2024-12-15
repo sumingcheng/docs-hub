@@ -8,18 +8,12 @@ date: 2023-02-26
 
 # Vue Event bus 使用案例
 
-
-
- 
-
-
-
 假设我们有两个组件：一个是父组件 `Parent`，一个是子组件 `Child`。我们希望在 `Child` 中触发一个事件，然后在 `Parent` 中监听这个事件并进行处理。这时我们可以使用 Event bus 来实现：
 
 首先在 `main.js` 中创建一个全局的 Event bus：
 
 ```
-Vue.prototype.$eventBus = new Vue() 
+Vue.prototype.$eventBus = new Vue()
 
 ```
 

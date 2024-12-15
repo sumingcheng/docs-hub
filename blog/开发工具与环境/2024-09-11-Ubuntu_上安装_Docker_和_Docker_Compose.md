@@ -8,11 +8,7 @@ date: 2024-09-11
 
 # Ubuntu 上安装 Docker 和 Docker Compose
 
-
-
- 
-
-## 安装 Docker  
+## 安装 Docker
 
 **apt 直接装**
 
@@ -58,7 +54,8 @@ sudo apt install docker-ce
 sudo systemctl status docker
 sudo docker run hello-world
 ```
-## 安装 Docker Compose  
+
+## 安装 Docker Compose
 
 **下载 Docker Compose** 访问 Docker Compose 的 GitHub 发布页面 查找最新版本的 Docker Compose。使用 `curl` 下载适用于 Linux 的二进制文件。
 
@@ -79,7 +76,8 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```
 docker-compose --version
 ```
-### 配置 Docker 无需 sudo  
+
+### 配置 Docker 无需 sudo
 
 默认情况下，运行 Docker 命令需要 `sudo`。如果您想让普通用户也能运行 Docker 命令而无需使用 `sudo`，可以将用户添加到 Docker 组
 

@@ -8,13 +8,7 @@ date: 2023-07-28
 
 # 使用 Husky 和 Commitlint 构建 Git 提交规范
 
-
-
- 
-
-
-
-**安装，这里注意使用`"husky": "^4.3.8"`版本，高版本需要额外的配置，使用高版本一定要去参考GitHub上的说明！** 
+**安装，这里注意使用`"husky": "^4.3.8"`版本，高版本需要额外的配置，使用高版本一定要去参考 GitHub 上的说明！**
 
 ```
 npm install --save-dev @commitlint/{cli,config-conventional} husky

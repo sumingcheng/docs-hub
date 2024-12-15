@@ -8,12 +8,9 @@ date: 2024-06-23
 
 # Linux 安装 MinIO
 
+## 官网地址
 
-
- 
-
-## 官网地址  
-[https://min.io/download?license=agpl&platform=docker](https://min.io/download?license=agpl&platform=docker)## Docker 安装  
+[https://min.io/download?license=agpl&platform=docker](https://min.io/download?license=agpl&platform=docker)## Docker 安装
 
 创建一个 docker-compose.yml
 

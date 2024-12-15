@@ -8,11 +8,8 @@ date: 2024-11-11
 
 # package.json 三种类型的依赖
 
+## package.json
 
-
- 
-
-## package.json  
 ```
 {
   "dependencies" {
@@ -33,7 +30,8 @@ date: 2024-11-11
   }
 }
 ```
-## dependencies  
+
+## dependencies
 
 `dependencies` 中列出了项目运行时必需的包。换句话说，这些库是在应用运行时必须存在的。
 
@@ -51,7 +49,7 @@ date: 2024-11-11
 
 当你运行 `npm install` 时，`dependencies` 中列出的所有库都会被安装到项目中。
 
-## devDependencies  
+## devDependencies
 
 `devDependencies` 中列出了项目在开发阶段需要的工具和库。这些包只会在开发环境中使用，并且不会在生产环境中被包含。
 
@@ -74,7 +72,7 @@ date: 2024-11-11
 
 这些库的主要作用是为了帮助你在开发过程中构建和优化代码。例如，你使用 Webpack 打包代码，Babel 将 ES6 转译为 ES5，ESLint 确保代码符合规范。而这些工具在生产环境中不需要，因此它们只会被列在 `devDependencies` 中。
 
-## peerDependencies  
+## peerDependencies
 
 `peerDependencies` 用来指定该库所依赖的外部库的版本范围，但并不直接安装这些库，而是要求使用该库的项目自己安装这些依赖。
 

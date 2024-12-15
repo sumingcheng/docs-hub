@@ -8,15 +8,9 @@ date: 2024-07-17
 
 # 如何上传镜像到 Docker Hub
 
-
-
- 
-
-
-
 **创建 Docker Hub 账户**：如果还没有 Docker Hub 账户，首先访问 Docker Hub 注册一个账户
 
-[https://hub.docker.com/](https://hub.docker.com/)## 进入终端  
+[https://hub.docker.com/](https://hub.docker.com/)## 进入终端
 
 **登录 Docker Hub**： 在本地终端使用以下命令登录 Docker Hub
 

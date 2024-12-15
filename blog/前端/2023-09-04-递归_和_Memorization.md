@@ -8,12 +8,6 @@ date: 2023-09-04
 
 # 递归 和 Memorization
 
-
-
- 
-
-
-
 为什么要在递归中使用记忆化：
 
 1. **避免重复计算**：许多递归问题的子问题是重复的，这意味着在递归过程中会多次计算相同的子问题。通过存储这些子问题的结果并在需要时检索它们，可以避免这种重复计算，从而节省时间。
@@ -22,7 +16,8 @@ date: 2023-09-04
 
 下面是一个简单的例子：斐波那契数列。原始的递归解决方案会有很多重复的计算，但使用记忆化可以避免这些重复。
 
-### 1. 不使用记忆化的递归方法：  
+### 1. 不使用记忆化的递归方法：
+
 ```
 function fibonacci(n) {
     if (n <= 1) return n;
@@ -33,7 +28,7 @@ function fibonacci(n) {
 
 这个方法的问题是，对于较大的 n，它会进行大量的重复计算。
 
-### 2. 使用记忆化的递归方法：  
+### 2. 使用记忆化的递归方法：
 
 为了实现记忆化，我们需要一个数据结构（通常是一个数组或对象）来存储已经计算过的子问题的解。
 
@@ -41,13 +36,13 @@ function fibonacci(n) {
 function fibonacciWithMemo(n, memo = {}) {
     // 如果已经计算过这个值，直接从 memo 中返回
     if (n in memo) return memo[n];
-    
+
     // 基础情况
     if (n <= 1) return n;
 
     // 递归计算并将结果存储到 memo 中
     memo[n] = fibonacciWithMemo(n - 1, memo) + fibonacciWithMemo(n - 2, memo);
-    
+
     return memo[n];
 }
 

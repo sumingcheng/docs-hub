@@ -8,11 +8,7 @@ date: 2024-09-25
 
 # FastGPT4.7 + chatglm3-6b + m3e 本地部署
 
-
-
- 
-
-## 安装 Docker 和 docker-compose  
+## 安装 Docker 和 docker-compose
 
 Windows 可以使用 wsl
 
@@ -27,7 +23,8 @@ chmod +x /usr/local/bin/docker-compose
 docker -v
 docker-compose -v
 ```
-## 安装并启动  
+
+## 安装并启动
 
 docker-compose.yml 和 config.json 这两个文件很重要，安装后不要删掉~
 
@@ -48,17 +45,16 @@ sleep 10
 # 重启一次oneapi(由于OneAPI的默认Key有点问题，不重启的话会提示找不到渠道，临时手动重启一次解决，等待作者修复)
 docker restart oneapi
 ```
+
 ![5b6581830daeef63ab9688aa590e002a](../image/5b6581830daeef63ab9688aa590e002a.jpg)
 
-安装成功后可以看到红框里的容器，m3e后续再说
+安装成功后可以看到红框里的容器，m3e 后续再说
 
-  
-  
-### 服务说明  
+### 服务说明
 
-OneAPI：提供标准的API格式，后续M3E和GLM都要对接到这里面
+OneAPI：提供标准的 API 格式，后续 M3E 和 GLM 都要对接到这里面
 
-FastGPT：NextJS做的，提供前端和后端的服务
+FastGPT：NextJS 做的，提供前端和后端的服务
 
 mongo：聊天记录、历史对话等数据
 
@@ -68,12 +64,13 @@ MySQL：\_
 
 M3E：向量化模型
 
-## 运行 chatglm3-6b  
+## 运行 chatglm3-6b
+
 [https://github.com/THUDM/ChatGLM3](https://github.com/THUDM/ChatGLM3)
 
-克隆项目后，我们安装依赖，记得装CUDA驱动。
+克隆项目后，我们安装依赖，记得装 CUDA 驱动。
 
-我们需要的就是openai\_api\_demo里面的[https://github.com/THUDM/ChatGLM3/blob/main/openai\_api\_demo/api\_server.py](https://github.com/THUDM/ChatGLM3/blob/main/openai\_api\_demo/api\_server.py)
+我们需要的就是 openai_api_demo 里面的[https://github.com/THUDM/ChatGLM3/blob/main/openai_api_demo/api_server.py](https://github.com/THUDM/ChatGLM3/blob/main/openai_api_demo/api_server.py)
 
 这里需要注意的是，你可以选择提前下载好模型，或者是运行的时候再下载，提前下载可能会快很多~
 
@@ -81,11 +78,9 @@ glm3-6b，这个比较好运行，网上教程非常多，只要跑起来就可�
 
 ![ed8272ae3599f0d00c32bc9b6f989a08](../image/ed8272ae3599f0d00c32bc9b6f989a08.jpg)
 
-注意是GLM3的不要 下载错了
+注意是 GLM3 的不要 下载错了
 
-  
-  
-### api\_server.py  
+### api_server.py
 
 这里给出来，修改了一下前面的路径，因为我已经提前下载好了模型
 
@@ -611,22 +606,25 @@ if __name__ == "__main__":
     uvicorn.run(app, host='0.0.0.0', port=8888, workers=1)
 
 ```
-### 运行成功后  
-![85e97e5d6213b8e74cd7faa2622a355b](../image/85e97e5d6213b8e74cd7faa2622a355b.jpg)### 安装 M3E  
+
+### 运行成功后
+
+![85e97e5d6213b8e74cd7faa2622a355b](../image/85e97e5d6213b8e74cd7faa2622a355b.jpg)### 安装 M3E
 
 可以参考官方给出的镜像，这个自己搞容易出问题，直接使用镜像最方便，[https://doc.fastai.site/docs/development/custom-models/m3e/](https://doc.fastai.site/docs/development/custom-models/m3e/)
 
-## 配置 OneAPI  
+## 配置 OneAPI
 
-重点来了，OneAPI 目前这个地方有个坑，你参考这篇文章的时候，[https://doc.fastai.site/docs/development/custom-models/m3e/#接入-one-api](https://doc.fastai.site/docs/development/custom-models/m3e/#接入-one-api)，记得Base URL一定要填写具体的IP地址。
+重点来了，OneAPI 目前这个地方有个坑，你参考这篇文章的时候，[https://doc.fastai.site/docs/development/custom-models/m3e/#接入-one-api](https://doc.fastai.site/docs/development/custom-models/m3e/#接入-one-api)，记得 Base URL 一定要填写具体的 IP 地址。
 
-### 我的M3E在WSL里面  
-![2090aa22ad0e2333c3349df4bcff350e](../image/2090aa22ad0e2333c3349df4bcff350e.jpg)### 我的ChatGLM API 在本机本地运行  
-![c04de4dba58351b4174778516b263eb1](../image/c04de4dba58351b4174778516b263eb1.jpg)### 测试  
+### 我的 M3E 在 WSL 里面
+
+![2090aa22ad0e2333c3349df4bcff350e](../image/2090aa22ad0e2333c3349df4bcff350e.jpg)### 我的 ChatGLM API 在本机本地运行  
+![c04de4dba58351b4174778516b263eb1](../image/c04de4dba58351b4174778516b263eb1.jpg)### 测试
 
 如果响应时间特别长，就是有问题
 
-![ed0d8bf11e9e4b189ad5dbcde10b5bb7](../image/ed0d8bf11e9e4b189ad5dbcde10b5bb7.jpg)### 增加 config.json 配置  
+![ed0d8bf11e9e4b189ad5dbcde10b5bb7](../image/ed0d8bf11e9e4b189ad5dbcde10b5bb7.jpg)### 增加 config.json 配置
 
 这里我直接给出我增加的内容，配置文件说明请看 [https://doc.fastai.site/docs/development/configuration/](https://doc.fastai.site/docs/development/configuration/)
 
@@ -778,17 +776,18 @@ if __name__ == "__main__":
   }
 }
 ```
-### 常见问题  
 
-* 使用`WSL`最好电脑内存大点，`WSL`这玩意很吃内存
-* 能用`docker`就用`docker`，很多都是因为配置的问题出错
-* 显存不够可以量化，不行就用`API`
+### 常见问题
 
-### 参考链接  
+- 使用`WSL`最好电脑内存大点，`WSL`这玩意很吃内存
+- 能用`docker`就用`docker`，很多都是因为配置的问题出错
+- 显存不够可以量化，不行就用`API`
+
+### 参考链接
 
 [https://doc.fastai.site/docs/development/docker/](https://doc.fastai.site/docs/development/docker/)
 
-[https://github.com/THUDM/ChatGLM3/tree/main/openai\_api\_demo](https://github.com/THUDM/ChatGLM3/tree/main/openai\_api\_demo)
+[https://github.com/THUDM/ChatGLM3/tree/main/openai_api_demo](https://github.com/THUDM/ChatGLM3/tree/main/openai_api_demo)
 
 [https://huggingface.co/THUDM/chatglm3-6b](https://huggingface.co/THUDM/chatglm3-6b)
 

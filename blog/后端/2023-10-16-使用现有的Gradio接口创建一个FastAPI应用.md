@@ -6,13 +6,7 @@ tags: [backend]
 date: 2023-10-16
 ---
 
-# 使用现有的Gradio接口创建一个FastAPI应用
-
-
-
- 
-
-
+# 使用现有的 Gradio 接口创建一个 FastAPI 应用
 
 **确保已经安装了**
 
@@ -20,7 +14,7 @@ date: 2023-10-16
 pip install fastapi gradio uvicorn
 ```
 
-**创建你的Gradio和FastAPI应用**
+**创建你的 Gradio 和 FastAPI 应用**
 
 ```
 import gradio as gr

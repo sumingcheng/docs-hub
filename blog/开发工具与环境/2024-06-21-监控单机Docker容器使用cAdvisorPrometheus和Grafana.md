@@ -6,13 +6,10 @@ tags: [dev-tools]
 date: 2024-06-21
 ---
 
-# 监控单机Docker容器，使用cAdvisor、Prometheus和Grafana
+# 监控单机 Docker 容器，使用 cAdvisor、Prometheus 和 Grafana
 
+## docker-compose.yml
 
-
- 
-
-## docker-compose.yml  
 ```
 services:
   prometheus:
@@ -86,7 +83,9 @@ networks:
     driver: bridge
 
 ```
-## prometheus.yml  
+
+## prometheus.yml
+
 ```
 scrape_configs:
   - job_name: 'prometheus'
@@ -98,15 +97,13 @@ scrape_configs:
       - targets: ['cadvisor:8080'] # 使用 Docker Compose 服务名和内部端口
 
 ```
-## grafana 配置  
+
+## grafana 配置
 
 添加数据源：prometheus
 
 设置 prometheus 的 Connection 为 [http://prometheus:9090](http://prometheus:9090) 保存
 
-## 面板使用  
-
-  
-
+## 面板使用
 
 ![a99b4cb38396d462a5825c43f5c55e8d](../image/a99b4cb38396d462a5825c43f5c55e8d.jpg)

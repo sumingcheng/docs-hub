@@ -8,11 +8,7 @@ date: 2024-08-08
 
 # Linux 安装使用 FileBrowser
 
-
-
- 
-
-### 安装 FileBrowser  
+### 安装 FileBrowser
 
 Docker 安装 FileBrowser，首先创建`docker-compose.yml` 的文件
 
@@ -34,16 +30,17 @@ services:
 ```
 docker-compose up -d
 ```
-### 访问和配置 FileBrowser  
+
+### 访问和配置 FileBrowser
 
 浏览器访问 `http://<您的IP或域名>:8080` 来使用 FileBrowser。
 
-## 首次登录  
+## 首次登录
 
-* **用户名**: admin
-* **密码**: admin
+- **用户名**: admin
+- **密码**: admin
 
-### 高级功能  
+### 高级功能
 
 FileBrowser 支持一些高级功能，例如设置磁盘配额、限制访问权限和启用 HTTPS
 

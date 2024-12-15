@@ -8,20 +8,19 @@ date: 2024-03-28
 
 # H5 使用 NoSleep.js 阻止手机自动休眠
 
-
-
- 
-
-
 ```
 npm install nosleep.js
 ```
-[https://github.com/richtr/NoSleep.js/](https://github.com/richtr/NoSleep.js/)### 在展示的组件内加上以下内容  
+
+[https://github.com/richtr/NoSleep.js/](https://github.com/richtr/NoSleep.js/)### 在展示的组件内加上以下内容
+
 ```
 import NoSleep from 'nosleep.js';
 
 ```
-### 在组件内部使用  
+
+### 在组件内部使用
+
 ```
 // 创建 NoSleep 实例
 var noSleep = new NoSleep();
