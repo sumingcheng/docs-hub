@@ -34,13 +34,16 @@ import {
 import styles from "./index.module.scss"
 
 import { SiTypescript } from 'react-icons/si'
+import { useIsMobile } from '../utils/deviceUtils'
 
 // CategoryCard 组件
 export default function Categories() {
+  const isMobileView = useIsMobile()
+
   return (
-    <div className={styles.categories}>
+    <div className={`${styles.categories} ${isMobileView ? styles.mobileCategories : ''}`}>
       {categoriesData.map((category, idx) => (
-        <div key={idx} className={styles.categoryCard}>
+        <div key={idx} className={`${styles.categoryCard} ${isMobileView ? styles.mobileCategoryCard : ''}`}>
           <h3 className={styles.categoryTitle} data-cn={category.title}>
             {category.enTitle}
           </h3>
@@ -52,7 +55,7 @@ export default function Categories() {
               >
                 <div className={styles.itemCard}>
                   <div className={styles.itemIcon}>
-                    {typeof item.icon === 'function' ? item.icon() : item.icon}
+                    {item.icon}
                   </div>
                   <span className={styles.itemName}>{item.name}</span>
                 </div>
@@ -108,7 +111,7 @@ const categoriesData = [
       { name: 'CSS', icon: <RiCss3Fill style={{ color: '#1572B6' }} />, path: '/docs-hub/Frontend/CSS/CSS-选择器-权重-匹配规则' },
       { name: 'DOM', icon: <RiWindowFill style={{ color: '#FFB800' }} />, path: '/docs-hub/Frontend/DOM/DOM初识-JS对象-XML-幻灯片案例展示' },
       { name: 'BOM', icon: <RiWindowFill style={{ color: '#FF8C00' }} />, path: '/docs-hub/Frontend/BOM/深入理解BOM' },
-      { name: 'Electron', icon: <RiComputerLine style={{ color: '#9FEAF9' }} />, path: '/docs-hub/Frontend/Electron/初识-基础' },
+      { name: 'Electron', icon: <RiComputerLine style={{ color: '#9FEAF9' }} />, path: '/docs-hub/Frontend/Electron/初��-基础' },
       { name: 'Quasar', icon: <FaAtom style={{ color: '#1976D2' }} />, path: '/docs-hub/Frontend/Quasar/Quasar项目搭建' },
     ]
   },

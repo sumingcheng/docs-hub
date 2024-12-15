@@ -18,8 +18,8 @@ $font-body: 'Noto Sans SC', sans-serif;
   &::before {
     content: 'Sumingcheng';
     position: absolute;
-    right: 5%;
-    top: 50%;
+    right: -2%;
+    top: 40%;
     transform: translateY(-50%);
     font-size: 100px;
     font-weight: 900;
@@ -106,10 +106,13 @@ $font-body: 'Noto Sans SC', sans-serif;
   flex-direction: column;
   gap: 1.5rem;
   padding: 1rem;
+}
 
-  @media screen and (max-width: 768px) {
-    grid-template-columns: 1fr;
-  }
+// 移动端分类列表样式
+.mobileCategories {
+  padding: 0.5rem;
+  margin: 0;
+  width: 100%;
 }
 
 // 分类卡片
@@ -121,10 +124,20 @@ $font-body: 'Noto Sans SC', sans-serif;
   transition: $transition-normal;
   width: 100%;
   border: 2px solid var(--ifm-color-emphasis-200);
+}
 
-  &:hover {
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-    border-color: var(--ifm-color-primary);
+// 移动端分类卡片样式
+.mobileCategoryCard {
+  margin: 0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 100vw;
+  margin-left: -1rem;
+  margin-right: -1rem;
+
+  // 移除左右边距，确保完全占满
+  @media screen and (max-width: 768px) {
+    width: calc(100% + 2rem);
   }
 }
 
@@ -159,7 +172,13 @@ $font-body: 'Noto Sans SC', sans-serif;
   gap: 0.8rem;
 
   @media screen and (max-width: 768px) {
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.6rem;
+  }
+
+  @media screen and (max-width: 480px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
   }
 }
 
@@ -178,7 +197,7 @@ $font-body: 'Noto Sans SC', sans-serif;
   border-radius: 8px;
   background: var(--ifm-background-surface-color);
   transition: $transition-fast;
-  border: 1px solid var(--ifm-color-emphasis-200);
+  border: 1.5px solid var(--ifm-color-emphasis-200);
   height: 100%;
 
   &:hover {
@@ -195,6 +214,19 @@ $font-body: 'Noto Sans SC', sans-serif;
     &:hover {
       background: var(--ifm-color-emphasis-200);
       border-color: var(--ifm-color-primary);
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 0.8rem;
+
+    .itemIcon {
+      font-size: 1.2rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .itemName {
+      font-size: 0.8rem;
     }
   }
 }
