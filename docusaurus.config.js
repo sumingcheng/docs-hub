@@ -59,10 +59,10 @@ const config = {
         blog: {
           path: 'blog',
           routeBasePath: 'blog',
-          include: ['**/*.{md,mdx}'], // 包含所有子目录
-          blogSidebarCount: "ALL",     // 显示所有文章
-          blogSidebarTitle: '所有文章', // 侧边栏标题
-          sortPosts: 'descending',     // 按日期降序排列
+          include: ['**/*.{md,mdx}'],
+          blogSidebarCount: "ALL",
+          blogSidebarTitle: '所有文章',
+          sortPosts: 'descending',
           showReadingTime: true,
           readingTime: ({ content, frontMatter, defaultReadingTime }) =>
             defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
@@ -70,13 +70,10 @@ const config = {
             type: ["rss", "atom"],
             xslt: true,
           },
-          // 请更改为你的仓库地址
-          // 删除此行将移除"编辑此���"链接
           editUrl: "https://github.com/sumingcheng/docs-hub",
-          // 博客最佳实践的相关选项
           onInlineTags: "warn",
           onInlineAuthors: "warn",
-          onUntruncatedBlogPosts: "ignore", // 忽略未截断的博客文章
+          onUntruncatedBlogPosts: "ignore"
         },
         theme: {
           customCss: [
