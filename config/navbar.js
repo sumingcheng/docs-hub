@@ -6,6 +6,7 @@ const navbar = {
     src: "img/smc.jpg",
   },
   items: [
+    { to: "/blog", label: "Blog", position: "right" },
     // Backend Dropdown
     {
       type: "dropdown",
@@ -222,7 +223,6 @@ const navbar = {
         },
       ],
     },
-    { to: "/blog", label: "Blog", position: "right" },
     {
       href: "https://github.com/sumingcheng",
       position: "right",

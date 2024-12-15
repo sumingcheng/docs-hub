@@ -23,7 +23,7 @@ function HomepageHeader() {
           技术知识分享与学习笔记汇总 📝
         </p>
         <div className={styles.buttons}>
-          <NeonButton to="/docs-hub/Other/Notes/如何编写技术文章">
+          <NeonButton to="/docs-hub/blog">
             开始阅读文档 📚
           </NeonButton>
         </div>
