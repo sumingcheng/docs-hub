@@ -111,7 +111,7 @@ const categoriesData = [
       { name: 'CSS', icon: <RiCss3Fill style={{ color: '#1572B6' }} />, path: '/docs-hub/Frontend/CSS/CSS-选择器-权重-匹配规则' },
       { name: 'DOM', icon: <RiWindowFill style={{ color: '#FFB800' }} />, path: '/docs-hub/Frontend/DOM/DOM初识-JS对象-XML-幻灯片案例展示' },
       { name: 'BOM', icon: <RiWindowFill style={{ color: '#FF8C00' }} />, path: '/docs-hub/Frontend/BOM/深入理解BOM' },
-      { name: 'Electron', icon: <RiComputerLine style={{ color: '#9FEAF9' }} />, path: '/docs-hub/Frontend/Electron/初��-基础' },
+      { name: 'Electron', icon: <RiComputerLine style={{ color: '#9FEAF9' }} />, path: '/docs-hub/Frontend/Electron/初识-基础' },
       { name: 'Quasar', icon: <FaAtom style={{ color: '#1976D2' }} />, path: '/docs-hub/Frontend/Quasar/Quasar项目搭建' },
     ]
   },

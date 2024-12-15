@@ -140,7 +140,7 @@ const config = {
             items: [
               {
                 label: "Leviatan",
-                href: "leviatan.cn",
+                href: "https://leviatan.cn",
               },
               // {
               //   label: "知乎",
