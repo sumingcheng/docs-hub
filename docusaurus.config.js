@@ -178,9 +178,9 @@ const config = {
         copyright: `Copyright \u00A9 2020-${new Date().getFullYear()} Sumingcheng. All Rights Reserved.`,
       },
       algolia: {
-        apiKey: "068c054ed587b76fc986351a3af508e0",
-        indexName: "sumingcheng",
-        appId: "NDVC80EYRA",
+        apiKey: "bf04ca982f837db058533013bca8fdf6",
+        indexName: "sumingchengio",
+        appId: "392UN2TOHD",
         searchPagePath: "search",
         contextualSearch: true,
         searchParameters: {
