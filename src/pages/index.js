@@ -22,6 +22,9 @@ function HomepageHeader() {
         <p className="hero__subtitle">
           技术知识分享与学习笔记汇总 📝
         </p>
+        <p style={{ fontSize: '14px' }}>
+        归档了2024年之前发布在语雀、知乎、简书、掘金的技术文章
+        </p>
         <div className={styles.buttons}>
           <NeonButton to="/docs-hub/blog">
             开始阅读文档 📚
