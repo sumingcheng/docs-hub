@@ -6,7 +6,7 @@ name: Deploy to GitHub Pages
 # 部署操作
 # 1. 完成一系列更改后
 # 2. git tag v1.0.0
-# 3. git push origin v1.0.0  # 这会触发部署
+# 3. git push origin v1.0.0  # 这会触发部署 注意版本要带v
 on:
   push:
     tags:
@@ -21,6 +21,9 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
       - uses: actions/setup-node@v3
         with:
           node-version: 18
@@ -38,4 +41,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
+          user_name: github-actions[bot]
+          user_email: github-actions[bot]@users.noreply.github.com
           commit_message: 'Deploy: ${{ github.ref }}'
