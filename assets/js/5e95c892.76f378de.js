@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknote_book=self.webpackChunknote_book||[]).push([["63432"],{71359:function(e,n,r){r.r(n),r.d(n,{default:function(){return k}});var o=r(85893);r(67294);var s=r(67026),t=r(79741),u=r(84681),c=r(18790),a=r(1568);function k(e){return(0,o.jsx)(t.FG,{className:(0,s.Z)(u.k.wrapper.docsPages),children:(0,o.jsx)(a.Z,{children:(0,c.H)(e.route.routes)})})}}}]);
